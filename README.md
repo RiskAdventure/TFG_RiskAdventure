@@ -1,6 +1,8 @@
 # TFG Risk Adventure
 
+
 Documentación de flujo de trabajo remoto con GIT 
+
 
 ## Organización
 
@@ -28,3 +30,4 @@ Agregar remotos
 
 Eliminar remotos
 'git remote remove TFG_RiskAdventure' 
+
