@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap Example</title>
+    <title>Eventos</title>
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
