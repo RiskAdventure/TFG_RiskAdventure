@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap Example</title>
+    <title>Home Risk Adventure</title>
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -80,10 +80,10 @@
     
         <!-- Texto bajo carrusel -->
         <div id="texto">
-          En Risk Adevntura, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
-          ofreciendo un servicio y una experiencia única, experimentando las emociones, la adrenalina, la diversión,
-          con los mejores técnivos...
-          Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA".
+          En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
+          ofreciendo un servicio y unas experiencias únicas, experimentando las emociones, la adrenalina, la diversión,
+          con los mejores técnicos...
+          Por eso, somos los únicos que garantizamos una "EXPERIENCIA ÚNICA".
         </div>
         <!-- Separador efecto bolas -->
         <div id="bolitas">
