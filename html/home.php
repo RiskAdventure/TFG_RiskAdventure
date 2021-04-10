@@ -56,16 +56,16 @@
       <div class="item">
         <img src="../imagenes/mountains-276995__480.jpg" alt="Chicago" >
         <div class="carousel-caption">
-        <h3>EXPERIENCIAS ÚNICAS</h3>
-          <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+        <h3>EXPERIENCIAS SEGURAS</h3>
+          <p>Riesgo en tu aventura y máxima seguridad para ti...Disfruta!</p>
         </div>
       </div>
     
       <div class="item">
         <img src="../imagenes/man-384178__480.webp" alt="New York" >
         <div class="carousel-caption">
-        <h3>EXPERIENCIAS ÚNICAS</h3>
-          <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+        <h3>EXPERIENCIAS DE CALIDAD</h3>
+          <p>Vive una experiencia de aventura única, nunca habrá otra igual...</p>
         </div>
       </div>
   
