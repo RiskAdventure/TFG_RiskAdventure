@@ -13,7 +13,7 @@ Documentación de flujo de trabajo remoto con GIT
 
 ## Fork del repositorio
 
-El primer paso es hacer "Fork" del repositorio.
+El primer paso es hacer "Fork" del repositorio. https://github.com/RiskAdventure/TFG_RiskAdventure.git
 
 ## Clonar el repositorio
 
@@ -27,7 +27,7 @@ Dentro de la carpeta que genera, comprobar la URL del repositorio:
 
 Antes de realizar modificaciones agregar la URL del repositorio original del proyecto:
 
-`$ git remote add upstream https://github.com/User/RepoOriginal(Forkeado)`
+`$ git remote add upstream https://github.com/RiskAdventure/TFG_RiskAdventure.git`
 
 Comprobar
 
@@ -43,7 +43,7 @@ Antes de empezar a trabajar, obtener los últimos cambios del Repo Original:
 
 Para crear una rama usar la opción "checkout" de git:
 
-`$ git checkout -b feature-nombre-rama`
+`$ git checkout -b modificaciones-user`
 
 ## Hacer cambios
 
@@ -55,7 +55,7 @@ git commit -m "Lo que quieras"
 
 Después de realizar el commit hacer el push hacia nuestro repositorio indicando la rama que hemos creado.
 
-`$ git push origin feature-nombre-rama`
+`$ git push origin modificaciones-user`
 
 ## Hacer un Pull Request
 
