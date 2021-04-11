@@ -70,6 +70,3 @@ Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama cor
 
 
 
-XXXXXXXXXX
-
-
