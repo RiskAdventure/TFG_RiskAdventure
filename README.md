@@ -45,6 +45,10 @@ Para crear una rama usar la opción "checkout" de git:
 
 `$ git checkout -b modificaciones-user`
 
+La rama de Pilar es modificaciones-pilu
+La rama de Raúl es modificaciones-raul
+La rama de Lili es modificacionesl
+
 ## Hacer cambios
 
 Realizar todos los cambios que se desea hacer al proyecto.
