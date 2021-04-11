@@ -111,7 +111,6 @@
           <div id="bola22" class="bola"></div>
           <div id="bola23" class="bola"></div>
           <div id="bola24" class="bola"></div>
-          <div id="bola24" class="bola"></div>
           <div id="bola25" class="bola"></div>
           <div id="bola26" class="bola"></div>
         </div>
