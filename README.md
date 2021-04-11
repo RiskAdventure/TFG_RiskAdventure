@@ -69,6 +69,6 @@ Si todo está bien, enviar con el botón "Send Pull Request".
 Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
 
 ## Extensión a instlar en VSC para ver cambios de GIT
-Yo ya lo he hecho de nuevo
+
 Git Lens
 
