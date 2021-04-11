@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <header>
-        <img src="../imagenes/logo.jpeg" id="logo"/>
+        <img src="../imagenes/logo.png" id="logo"/>
         <div id="carrito"><i class="fa fa-shopping-cart" ></i></div>
         <div id="login"><i class="fas fa-user"></i></div>
         <div id="search"><i class="fas fa-search" ></i></div>
