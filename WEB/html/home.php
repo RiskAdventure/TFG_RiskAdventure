@@ -54,7 +54,7 @@
               <img src="../imagenes/mountains-276995__480.jpg" alt="Chicago" >
               <div class="carousel-caption">
                 <h3>EXPERIENCIAS SEGURAS</h3>
-                  <p>Riesgo en tu aventura y máxima seguridad para ti...Disfruta!</p>
+                  <p>Riesgo en tu aventura y máxima seguridad para ti...Disfruta todo lo que puedas!</p>
               </div>
             </div>
           
