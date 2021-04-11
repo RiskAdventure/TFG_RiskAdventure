@@ -49,9 +49,10 @@ Para crear una rama usar la opción "checkout" de git:
 
 Realizar todos los cambios que se desea hacer al proyecto.
 
-Agregar los archivos y hacer un commit
-git add -A
-git commit -m "Lo que quieras"
+Agregar los archivos y hacer un commit:
+
+`git add -A`
+`git commit -m "Lo que quieras"`
 
 Después de realizar el commit hacer el push hacia nuestro repositorio indicando la rama que hemos creado.
 
@@ -69,5 +70,3 @@ Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama cor
 
 
 
-
-Quiero quitar esas X 
