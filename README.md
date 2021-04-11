@@ -2,31 +2,67 @@
 
 Documentación de flujo de trabajo remoto con GIT 
 
+# Cómo colaborar en un proyecto en GitHub
 
-## Organización
+*   Fork del repositorio
+*   Clonar el repositorio
+*   Actualizar la rama master
+*   Crear una rama
+*   Hacer los cambios
+*   Hacer un Pull Request
 
-Se recomienda crear una organización que sea la propietaria del repostitorio principal. A partir de dicho repositorio los miembros o colaboradores podrán hacer un fork hacia sus cuentas personales.
+## Fork del repositorio
 
-### Pasos para crear una organización - Ya creada
+El primer paso es hacer "Fork" del repositorio.
 
-1. Click en tu foto de perfil (Esquina superior derecha)
-2. Click en Settings
-3. Click en Organizaciones (Menú izquierdo)
-4. Click en Nueva Organización.
-5. Elegir plan y rellenar datos. 
+## Clonar el repositorio
 
-## Creación de Fork
+Después de tener el repositorio en nuestra cuenta, seleccionar la dirección del repositorio "SSH o HTTP" y clonar:
 
-Para crear un Fork hay que iniciar sesión en GitHub y luego ingresar a la landing page de Risk Adventure de Git de la que queremos sacar el Fork.
+`$ git clone https://github.com/User/NombreRepo.git`
 
-## Como trabajar con 2 o más remotos
+Dentro de la carpeta que genera, comprobar la URL del repositorio:
 
-Listar remotos
-'git remote -v'
+`$ git remote -v`
 
-Agregar remotos
-'git remote add TFG_RiskAdventure https://github.com/RiskAdventure/TFG_RiskAdventure.git'
+Antes de realizar modificaciones agregar la URL del repositorio original del proyecto:
 
-Eliminar remotos
-'git remote remove TFG_RiskAdventure' 
+`$ git remote add upstream https://github.com/User/RepoOriginal(Forkeado)`
 
+Comprobar
+
+`$ git remote -v`
+
+## Actualizar la rama Master
+
+Antes de empezar a trabajar, obtener los últimos cambios del Repo Original:
+
+`$ git pull -r upstream master`
+
+## Crear una Rama
+
+Para crear una rama usar la opción "checkout" de git:
+
+`$ git checkout -b feature-nombre-rama`
+
+## Hacer cambios
+
+Realizar todos los cambios que se desea hacer al proyecto.
+
+Agregar los archivos y hacer un commit
+git add -A
+git commit -m "Lo que quieras"
+
+Después de realizar el commit hacer el push hacia nuestro repositorio indicando la rama que hemos creado.
+
+`$ git push origin feature-nombre-rama`
+
+## Hacer un Pull Request
+
+Hacer click en "Compare & Pull Request"
+
+Escribir cambios del Pull Request.
+
+Si todo está bien, enviar con el botón "Send Pull Request".
+
+Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
