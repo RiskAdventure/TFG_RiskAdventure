@@ -11,12 +11,12 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/homes.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/home.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
     <div class="container">
       <header>
-        <img src="../imagenes/logo.jpeg" id="logo"/>
+        <img src="../imagenes/logo.png" id="logo"/>
         <div id="carrito"><i class="fa fa-shopping-cart" ></i></div>
         <div id="login"><i class="fas fa-user"></i></div>
         <div id="search"><i class="fas fa-search" ></i></div>

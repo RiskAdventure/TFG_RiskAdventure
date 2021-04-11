@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <header>
-        <img src="../imagenes/logo.jpeg" id="logo"/>
+        <img src="../imagenes/logo.png" id="logo"/>
         <div id="carrito"><i class="fa fa-shopping-cart" ></i></div>
         <div id="login"><i class="fas fa-user"></i></div>
         <div id="search"><i class="fas fa-search" ></i></div>
@@ -31,52 +31,7 @@
         </ul>
       </header>
       <section>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-
-            <div class="item active">
-              <img src="../imagenes/aircraft-1499171__480.webp" alt="Los Angeles" >
-              <div class="carousel-caption">
-                <h3>EXPERIENCIAS ÚNICAS</h3>
-                <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="../imagenes/mountains-276995__480.jpg" alt="Chicago" >
-              <div class="carousel-caption">
-              <h3>EXPERIENCIAS ÚNICAS</h3>
-                <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
-              </div>
-            </div>
-          
-            <div class="item">
-              <img src="../imagenes/man-384178__480.webp" alt="New York" >
-              <div class="carousel-caption">
-              <h3>EXPERIENCIAS ÚNICAS</h3>
-                <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+        
     
         <!-- Texto bajo carrusel -->
         <div id="texto">
@@ -110,7 +65,6 @@
           <div id="bola21" class="bola"></div>
           <div id="bola22" class="bola"></div>
           <div id="bola23" class="bola"></div>
-          <div id="bola24" class="bola"></div>
           <div id="bola24" class="bola"></div>
           <div id="bola25" class="bola"></div>
           <div id="bola26" class="bola"></div>
