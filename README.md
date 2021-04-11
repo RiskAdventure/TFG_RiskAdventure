@@ -67,4 +67,3 @@ Si todo está bien, enviar con el botón "Send Pull Request".
 
 Esperar a que el duelo del repositorio lo revise, acepte y mezcle en la rama correspondiente.
 
-Lidia ya ha configurado su GIT 
