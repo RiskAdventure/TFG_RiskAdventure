@@ -1,127 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home Risk Adventure</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="Raúl,Lili,Pilu">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Risk Adventure</title><!-- título-->
+    <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
+    <meta name="keywords" content=""><!-- palabras clave-->
+    <meta name="description" content=""><!-- descripción-->
+    <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/home.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
+
+    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
+     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
+      de las media queries @-->
+
     <div class="container">
-      <header>
-        <img src="../imagenes/logo.png" id="logo"/>
-        <div id="carrito"><i class="fa fa-shopping-cart" ></i></div>
-        <div id="login"><i class="fas fa-user"></i></div>
-        <div id="search"><i class="fas fa-search" ></i></div>
-        <ul>
-          <li ><a id="home" href="home.php">HOME</a></li>
-          <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-          <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-          <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-          <li ><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-          <li ><a id="blog" href="blog.php">BLOG</a></li>
-          <li ><a id="contacto" href="contacto.php">CONTACTO</a></li>
-        </ul>
-      </header>
-      <section>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-
-            <div class="item active">
-              <img src="../imagenes/aircraft-1499171__480.webp" alt="Los Angeles" >
-              <div class="carousel-caption">
-                <h3>EXPERIENCIAS ÚNICAS</h3>
-                  <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                                                      <!-- HEADER----COMUN-->
+        <!-- iconos-->
+        <header>
+          <div class="row">
+              <div id="iconos" class="col-md-12 col-xs-12 ">
+                <i class="fa fa-shopping-cart" id="carrito"></i>
+                <i class="fas fa-user" id="login"></i>
+                <i class="fas fa-search" id="buscar"></i>
               </div>
+          </div>
+          <div class="row">
+          <!-- logo-->
+            <div class="col-md-4 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"/> </div>
+            <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+            <nav class="col-md-8 col-xs-12 " id="menu">
+                <ul>
+                  <li ><a id="home" href="home.php">HOME</a></li>
+                  <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
+                  <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                  <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
+                  <li ><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
+                  <li ><a id="blog" href="blog.php">BLOG</a></li>
+                  <li ><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                </ul>
+            </nav>
+          </div>
+        </header>                                                 
+                                                       <!-- SECTION-->
+        <!-- carrusel-->
+        <section class="row" >
+          <div class="col-md-12 " id="carrusel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="../imagenes/carrusel_avion.webp" alt="Los Angeles" >
+                  <div class="carousel-caption">
+                    <h3>EXPERIENCIAS ÚNICAS</h3>
+                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="../imagenes/carrusel_montañas.jpg" alt="Chicago" >
+                  <div class="carousel-caption">
+                  <h3>EXPERIENCIAS ÚNICAS</h3>
+                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="../imagenes/carrusel_moto.webp" alt="New York" >
+                  <div class="carousel-caption">
+                  <h3>EXPERIENCIAS ÚNICAS</h3>
+                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+                </a>
+              </div> 
             </div>
-
-            <div class="item">
-              <img src="../imagenes/mountains-276995__480.jpg" alt="Chicago" >
-              <div class="carousel-caption">
-                <h3>EXPERIENCIAS SEGURAS</h3>
-                  <p>Riesgo en tu aventura y máxima seguridad para ti...Disfruta todo lo que puedas!</p>
-              </div>
-            </div>
-          
-            <div class="item">
-              <img src="../imagenes/man-384178__480.webp" alt="New York" >
-              <div class="carousel-caption">
-                <h3>EXPERIENCIAS DE CALIDAD</h3>
-                  <p>Vive una experiencia de aventura única, nunca habrá otra igual...</p>
+          </div>  
+        </section>
+                                        <!-- linea y circulo lateral derecho--COMÚN-->
+        <section id="forma">
+          <div id="linea"></div>
+          <div id="circulo1"></div>
+          <div id="circulo2"></div>
+        </section>
+        <!-- texto bajo carrusel-->
+        <section class="row">
+            
+          <div id="texto" class="col-md-12  ">
+            <div>En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
+                ofreciendo un servicio y una experiencia única, experimentando las emociones, la adrenalina, la diversión,
+                con los mejores equipos técnicos...
+                Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA". 
             </div>
           </div>
-        </div>
+        </section>
+                                                <!-- efecto bolitas--- COMÚN-->
+        <section class="row">
+          <div class="col-md-12 col-xs-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section>  
+        <!-- tarjetas circulares con sus botones,texto y boton central-->  
+        <!-- imágenes circulares-->  
+        <section class="row"  >
+          <div class="col-md-12" id="circulos">
+             <a href="#"><div  id="circ1" class="circulitos"></div></a>
+             <a href="#"><div  id="circ2" class="circulitos"></div></a>
+             <a href="#"><div  id="circ3" class="circulitos"></div></a>
+             <a href="#"><div  id="circ4" class="circulitos"></div></a>
+          </div>
+        </section>
+        <!-- botones bajo imágenes-->
+        <section class="row">
+          <div class="col-md-12" id="botones">
+            <a href="#"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
+            <a href="#"><div class="boton" id="boton2"> GRUPOS</div></a>
+            <a href="#"><div class="boton" id="boton3"> FAMILIAS</div></a>
+            <a href="#"><div  class="boton" id="boton4"> PAREJAS</div></a>
+          </div>
+        </section>
+        <!-- texto bajo imágenes-->
+        <section class="row">
+            <div class="col-md-12 " id="texto2">
+               <div>
+                 Encontrarás todo lo que necesitas para una experiencia única e inigualable, 
+                diferentes packs individual en grupo y para todas las edades... Deslízate hasta nuestro especial
+                PACKS & GRUPOS y encontrarás muchas más opciones... PAQUETES A MEDIDA, FINES DE SEMANA... 
+              </div>
+            </div>
+        </section>
+        <!-- botón central imágenes-->
+        <section class="row" >
+            <div class="col-md-12 " id="boton_packs" > 
+              <a href="#"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+            </div>
+        </section>    
+        <!-- efecto bolitas----COMÚN-->             
+        <section class="row">
+          <div class="col-md-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section> 
+        <!-- parte central listos,texto y botones ver más y contacto-->
+        <section class="row" >
+        <!-- imagen listos paracaidas-->
+            <div class="col-md-8 " id="listos" > 
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    
-        <!-- Texto bajo carrusel -->
-        <div id="texto">
-          En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
-          ofreciendo un servicio y unas experiencias únicas, experimentando las emociones, la adrenalina, la diversión,
-          con los mejores técnicos...
-          Por eso, somos los únicos que garantizamos una "EXPERIENCIA ÚNICA".
-        </div>
-        <!-- Separador efecto bolas -->
-        <div id="bolitas">
-          <div id="bola1" class="bola"></div>
-          <div id="bola2" class="bola"></div>
-          <div id="bola3" class="bola"></div>
-          <div id="bola4" class="bola"></div>
-          <div id="bola5" class="bola"></div>
-          <div id="bola6" class="bola"></div>
-          <div id="bola7" class="bola"></div>
-          <div id="bola8" class="bola"></div>
-          <div id="bola9" class="bola"></div>
-          <div id="bola10" class="bola"></div>
-          <div id="bola11" class="bola"></div>
-          <div id="bola12" class="bola"></div>
-          <div id="bola13" class="bola"></div>
-          <div id="bola14" class="bola"></div>
-          <div id="bola15" class="bola"></div>
-          <div id="bola16" class="bola"></div>
-          <div id="bola17" class="bola"></div>
-          <div id="bola18" class="bola"></div>
-          <div id="bola19" class="bola"></div>
-          <div id="bola20" class="bola"></div>
-          <div id="bola21" class="bola"></div>
-          <div id="bola22" class="bola"></div>
-          <div id="bola23" class="bola"></div>
-          <div id="bola24" class="bola"></div>
-          <div id="bola25" class="bola"></div>
-          <div id="bola26" class="bola"></div>
-        </div>
-        <!-- Linea y circulo separador derecho -->
-        <div id="linea"></div>
-        <div id="circulo"></div>
-      </section>  
-      <footer>
-      
-      
-      </footer>
+            </div>
+            <!-- texto estamos listos-->
+            <div class="col-md-4 col-xs-12 col-xm-12 " id="boton_packs" > 
+                <div id="listo">Estamos listos para tu evento</div>
+                <div id="texto3">Contamos con todas las medidas de seguridad, sanitarias,
+                    sociales y legales para que tu evento pueda celebrarse.
+                    Mejoramos las políticas de cancelación y te facilitamos
+                    alternativas efectivas para tu evento presencial. Lo importante
+                    es que no dejes de comunicar ni celebrar con tu equipo...
+                    !Lo merecéis!
+                </div>
+            </div>
+        </section> 
+        <!-- botones ver más y contacto-->
+        <section class="row" >
+            <div class="col-md-12 " id="boton_listo" > 
+              <a href="#"><div  class="boton_pack" id="ver"> VER MÁS</div></a>
+              <a href="#"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
+            </div>
+        </section>   
+        <!-- efecto bolitas----COMÚN-->
+        <section class="row">
+          <div class="col-md-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section> 
+                                                             <!-- FOOTER-----COMÚN-->
+        <footer class="row" >
+            <!-- Llogo risk adventure negativo-->
+            <div class="col-md-8 col-xs-8"  id="adventure">
+               <img src="../imagenes/footer_logo.png" alt="adventure">
+            </div>
+            <!-- sección de contáctanos-->
+            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
+            <div class="col-md-4 col-xs-4 " id="contacto_footer">
+            <div id="dire">
+                <p class="texto_contacto">Dirección :</p>
+                <p>123 Avenida de Bolonia, Madrid</p>
+              </div>
+              <div id="email">
+                <p class="texto_contacto">Email :</p>
+                <p>info@riskadventure.es</p>
+              </div>
+              <div>
+                <p class="texto_contacto">Teléfono :</p>
+                <p>(+34)677 899 900</p>
+              </div>
+            </div>
+          <!-- imágenes publicitarias-->  
+          <div class="col-md-12 col-xs-12" id="publi">
+              <a href="#"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
+              <a href="#"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
+              <a href="#"><img src="../imagenes/footer_escapada rural.jpg" id="escapada"/></a>
+              <a href="#"><img src="../imagenes/footer_la esportiva 1.jpg" id="esportiva"/></a>
+              <a href="#"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
+              <a href="#"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
+          </div>
+          <!-- iconos redes sociales y copyright-->
+          <div class="col-md-12 col-xs-12" id="redes">
+              <p>Síguenos en:</p>
+              <a href="#"><i class="fab fa-facebook-f" id="face"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <p>2020 © Copyright</p>
+          </div>
+          <!-- efecto bolitas---COMÚN-->  
+          <div class="col-md-12 col-xs-12" id="bolitas_footer">
+            <div id="bola1" class="bola_footer"></div>
+            <div id="bola2" class="bola_footer"></div>
+            <div id="bola3" class="bola_footer"></div>
+            <div id="bola4" class="bola_footer"></div>
+            <div id="bola5" class="bola_footer"></div>
+            <div id="bola6" class="bola_footer"></div>
+            <div id="bola7" class="bola_footer"></div>
+            <div id="bola8" class="bola_footer"></div>
+            <div id="bola9" class="bola_footer"></div>
+            <div id="bola10" class="bola_footer"></div>
+            <div id="bola11" class="bola_footer"></div>
+            <div id="bola12" class="bola_footer"></div>
+            <div id="bola13" class="bola_footer"></div>
+            <div id="bola14" class="bola_footer"></div>
+            <div id="bola15" class="bola_footer"></div>
+            <div id="bola16" class="bola_footer"></div>
+            <div id="bola17" class="bola_footer"></div>
+            <div id="bola18" class="bola_footer"></div>
+            <div id="bola19" class="bola_footer"></div>
+            <div id="bola20" class="bola_footer"></div>
+            <div id="bola21" class="bola_footer"></div>
+            <div id="bola22" class="bola_footer"></div>
+            <div id="bola23" class="bola_footer"></div>
+            <div id="bola24" class="bola_footer"></div>
+            <div id="bola24" class="bola_footer"></div>
+            <div id="bola25" class="bola_footer"></div>
+            <div id="bola26" class="bola_footer"></div>
+          </div>
+          <!--enlaces a aviso legal, política de privacidad y ayuda--> 
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="#">Aviso legal</a> | <a href="#">Politica de privacidad</a> | <a href="#"> Ayuda</a></div>
+        </footer>
       <script type="text/javascript" src="../js/home.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
   </body>
