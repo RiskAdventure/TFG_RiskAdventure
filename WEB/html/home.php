@@ -104,7 +104,7 @@
             
           <div id="texto" class="col-md-12  ">
             <div>En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
-                ofreciendo un servicio y una experiencia única, experimentando las emociones, la adrenalina, la diversión,
+                ofreciendo un servicio y una calidad excelente, experimentando las emociones, la adrenalina, la diversión,
                 con los mejores equipos técnicos...
                 Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA". 
             </div>
@@ -155,10 +155,10 @@
         <!-- botones bajo imágenes-->
         <section class="row">
           <div class="col-md-12" id="botones">
-            <a href="#"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
-            <a href="#"><div class="boton" id="boton2"> GRUPOS</div></a>
-            <a href="#"><div class="boton" id="boton3"> FAMILIAS</div></a>
-            <a href="#"><div  class="boton" id="boton4"> PAREJAS</div></a>
+            <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
+            <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
+            <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
+            <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
         </section>
         <!-- texto bajo imágenes-->
@@ -174,7 +174,7 @@
         <!-- botón central imágenes-->
         <section class="row" >
             <div class="col-md-12 " id="boton_packs" > 
-              <a href="#"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+              <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
             </div>
         </section>    
         <!-- efecto bolitas----COMÚN-->             
@@ -292,8 +292,8 @@
           <div class="col-md-12 col-xs-12" id="publi">
               <a href="#"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
               <a href="#"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
-              <a href="#"><img src="../imagenes/footer_escapada rural.jpg" id="escapada"/></a>
-              <a href="#"><img src="../imagenes/footer_la esportiva 1.jpg" id="esportiva"/></a>
+              <a href="#"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
+              <a href="#"><img src="../imagenes/footer_la_esportiva_1.jpg" id="esportiva"/></a>
               <a href="#"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
               <a href="#"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
@@ -337,7 +337,7 @@
             <div id="bola26" class="bola_footer"></div>
           </div>
           <!--enlaces a aviso legal, política de privacidad y ayuda--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="#">Aviso legal</a> | <a href="#">Politica de privacidad</a> | <a href="#"> Ayuda</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php">Aviso legal</a> | <a href="politica_privacidad.php">Politica de privacidad</a> | <a href="ayuda.php"> Ayuda</a></div>
         </footer>
       <script type="text/javascript" src="../js/home.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
