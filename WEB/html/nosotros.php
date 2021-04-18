@@ -46,12 +46,24 @@
                 </ul>
             </nav>
           </div>
-        </header>                                                 
+        </header>
+        <!-- texto inicio-->
+        <section class="row">
+          <div id=textonosotros class="col-md-12">
+          <div>Quiénes Somos</div>
+        </div>
+          <div id="texto" class="col-sm-12">
+            <div> Risk Adventure, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar ofreciendo un servicio y una experiencia
+única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos técnicos...<br>
+RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esaaventura decidimos que cualquier aventurero
+necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales ofrecer una experiencia de calidad,
+única para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP.
+Somos los únicos que te garantizamos una "EXPERIENCIA ÚNICA"
+            </div>
+          </div>
+        </section>                                             
                                                        <!-- SECTION-->
-        
-
-        
-                                                             <!-- FOOTER-----COMÚN-->
+                                                     <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Llogo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
