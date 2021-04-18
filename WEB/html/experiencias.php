@@ -48,8 +48,42 @@
           </div>
         </header>                                                 
                                                        <!-- SECTION-->
-        
-       
+        <hr>
+        <!-- tarjetas circulares con sus botones,texto y boton central-->  
+        <!-- imágenes circulares-->  
+        <section class="row"  >
+          <div class="col-md-12" id="circulos">
+             <a href="#"><div  id="circ1" class="circulitos"></div></a>
+             <a href="#"><div  id="circ2" class="circulitos"></div></a>
+             <a href="#"><div  id="circ3" class="circulitos"></div></a>
+             <a href="#"><div  id="circ4" class="circulitos"></div></a>
+          </div>
+        </section>
+        <!-- botones bajo imágenes-->
+        <section class="row">
+          <div class="col-md-12" id="botones">
+            <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
+            <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
+            <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
+            <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
+          </div>
+        </section>
+        <!-- texto bajo imágenes-->
+        <section class="row">
+            <div class="col-md-12 " id="texto2">
+               <div>
+                 Encontrarás todo lo que necesitas para una experiencia única e inigualable, 
+                diferentes packs individual en grupo y para todas las edades... Deslízate hasta nuestro especial
+                PACKS & GRUPOS y encontrarás muchas más opciones... PAQUETES A MEDIDA, FINES DE SEMANA... 
+              </div>
+            </div>
+        </section>
+        <!-- botón central imágenes-->
+        <section class="row" >
+            <div class="col-md-12 " id="boton_packs" > 
+              <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+            </div>
+        </section>    
                                                              <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Llogo risk adventure negativo-->

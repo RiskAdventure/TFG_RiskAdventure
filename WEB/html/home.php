@@ -292,8 +292,8 @@
           <div class="col-md-12 col-xs-12" id="publi">
               <a href="#"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
               <a href="#"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
-              <a href="#"><img src="../imagenes/footer_escapada rural.jpg" id="escapada"/></a>
-              <a href="#"><img src="../imagenes/footer_la esportiva 1.jpg" id="esportiva"/></a>
+              <a href="#"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
+              <a href="#"><img src="../imagenes/footer_la_esportiva_1.jpg" id="esportiva"/></a>
               <a href="#"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
               <a href="#"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
