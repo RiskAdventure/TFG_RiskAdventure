@@ -76,8 +76,8 @@ ul{
     box-shadow: none;
     font-size: 100%;
     
-}
-li {
+    }
+    li {
     background-image: linear-gradient(#BA9E38,#BA9E38);
     background-position: 0% 100%;
     background-repeat: no-repeat;
