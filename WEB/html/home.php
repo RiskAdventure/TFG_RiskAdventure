@@ -104,7 +104,7 @@
             
           <div id="texto" class="col-md-12  ">
             <div>En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
-                ofreciendo un servicio y una experiencia única, experimentando las emociones, la adrenalina, la diversión,
+                ofreciendo un servicio y una calidad excelente, experimentando las emociones, la adrenalina, la diversión,
                 con los mejores equipos técnicos...
                 Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA". 
             </div>
@@ -155,10 +155,10 @@
         <!-- botones bajo imágenes-->
         <section class="row">
           <div class="col-md-12" id="botones">
-            <a href="#"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
-            <a href="#"><div class="boton" id="boton2"> GRUPOS</div></a>
-            <a href="#"><div class="boton" id="boton3"> FAMILIAS</div></a>
-            <a href="#"><div  class="boton" id="boton4"> PAREJAS</div></a>
+            <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
+            <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
+            <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
+            <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
         </section>
         <!-- texto bajo imágenes-->
@@ -174,7 +174,7 @@
         <!-- botón central imágenes-->
         <section class="row" >
             <div class="col-md-12 " id="boton_packs" > 
-              <a href="#"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+              <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
             </div>
         </section>    
         <!-- efecto bolitas----COMÚN-->             
