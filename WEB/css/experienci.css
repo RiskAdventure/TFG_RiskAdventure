@@ -496,40 +496,7 @@ a #restaurante {
         padding-bottom: 0px;
         bottom: 0px !important;
     } 
-	                                    /*eliminamos linea derecha-------COMÚN*/
-    #forma {
-        width: 0px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        /* height: 96vh; */
-    }
-    #linea {
-        width: 0px;
-        background-color: #BA9E38;
-        height: 0px;
-        position: absolute;
-        margin-top: -0px;
-        margin-left: 0px;
-    }
-    #circulo1 {
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border: 0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
-    #circulo2 {
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border: 0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
+
 	                                                /*FOOTER -----COMÚN*/
     #email p {
         margin: 0px;
