@@ -369,18 +369,7 @@ a #restaurante {
 #redes{
     text-align: center;
 }
-/*menos separación superior e inferior en el efecto bolitas*/
-.bola_footer{
-    background-color: #BA9E38;
-    border-radius: 100%;
-    margin-right: 0.8%;
-    margin-top: 1%;
-    display: inline-block;
-}
-#bolitas_footer{
-    text-align: center;
-    margin-bottom: 1vw;
-}
+
 /*enlaces finales de acceso a recursos privacidad, legal ayuda*/
 #privacidad{
     margin: auto;
