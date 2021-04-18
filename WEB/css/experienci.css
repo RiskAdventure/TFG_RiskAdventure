@@ -138,127 +138,6 @@ li:hover{
     width: 38vw;
     text-align:center;
 }
-                                            /*EFECTO BOLAS--------COMÚN*/
-.bola{
-    background-color: #BA9E38;
-    border-radius: 100%;
-    margin-right: 0.8%;
-    margin-top: 4%;
-    display: inline-block;
-}
-#bolitas{
-    text-align: center;
-    margin-bottom: 3vw;
-}
-#bola1{
-    width: 7px;
-    height: 7px;
-}
-#bola2{
-    width: 8px;
-    height: 8px;
-}
-#bola3{
-    width: 9px;
-    height: 9px;
-}
-#bola4{
-    width: 10px;
-    height: 10px;
-}
-#bola5{
-    width: 11px;
-    height: 11px;
-}
-#bola6{
-    width: 12px;
-    height: 12px;
-}
-#bola7{
-    width: 13px;
-    height: 13px;
-}
-#bola8{
-    width: 14px;
-    height: 14px;
-}
-#bola9{
-    width: 15px;
-    height: 15px;
-
-}
-#bola10{
-    width: 16px;
-    height: 16px;
-}
-#bola11{
-    width: 17px;
-    height: 17px;
-}
-#bola12{
-    width: 18px;
-    height: 18px;
-}
-#bola13{
-    width: 19px;
-    height: 19px;
-}
-#bola14{
-    width: 20px;
-    height: 20px;
-}
-#bola15{
-    width: 19px;
-    height: 19px;
-}
-#bola16{
-    width: 18px;
-    height: 18px;
-}
-#bola17{
-    width: 17px;
-    height: 17px;
-}
-#bola18{
-    width: 16px;
-    height: 16px;
-}
-#bola19{
-    width: 15px;
-    height: 15px;
-}
-#bola20{
-    width: 14px;
-    height: 14px;
-}
-#bola21{
-    width: 13px;
-    height: 13px;
-}
-#bola22{
-    width: 12px;
-    height: 12px;
-}
-#bola23{
-    width: 11px;
-    height: 11px;
-}
-#bola24{
-    width: 10px;
-    height: 10px;
-}
-#bola25{
-    width: 9px;
-    height: 9px;
-}
-#bola26{
-    width: 8px;
-    height: 8px;
-}
-#bola27{
-    width: 7px;
-    height: 7px;
-}
                                                     /*FOOTER-------------COMÚN*/
 footer{
     background-color: rgb(69, 83, 88) !important;
@@ -369,18 +248,7 @@ a #restaurante {
 #redes{
     text-align: center;
 }
-/*menos separación superior e inferior en el efecto bolitas*/
-.bola_footer{
-    background-color: #BA9E38;
-    border-radius: 100%;
-    margin-right: 0.8%;
-    margin-top: 1%;
-    display: inline-block;
-}
-#bolitas_footer{
-    text-align: center;
-    margin-bottom: 1vw;
-}
+
 /*enlaces finales de acceso a recursos privacidad, legal ayuda*/
 #privacidad{
     margin: auto;
@@ -442,34 +310,7 @@ a #restaurante {
     li{
         margin-left: 6px !important;
     }
-	                                     /*ELIMINAMOS LINEA DERECHA-----COMÚN*/
-    #linea{
-        width: 0px;
-        background-color: #BA9E38;
-        height: 0px;
-        position:absolute;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-    }
-    #circulo1{
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border:0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
-    #circulo2{
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border:0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
+
                                                 /*FOOTER------COMÚN-----*/
     #texto_footer{
         text-align: right;
@@ -496,40 +337,7 @@ a #restaurante {
         padding-bottom: 0px;
         bottom: 0px !important;
     } 
-	                                    /*eliminamos linea derecha-------COMÚN*/
-    #forma {
-        width: 0px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        /* height: 96vh; */
-    }
-    #linea {
-        width: 0px;
-        background-color: #BA9E38;
-        height: 0px;
-        position: absolute;
-        margin-top: -0px;
-        margin-left: 0px;
-    }
-    #circulo1 {
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border: 0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
-    #circulo2 {
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border: 0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
+
 	                                                /*FOOTER -----COMÚN*/
     #email p {
         margin: 0px;
