@@ -140,6 +140,17 @@ li:hover{
     width: 38vw;
     text-align:center;
 }
+
+#textonosotros div{
+    margin: auto;
+    margin-bottom: 3%;
+    width: 38vw;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2vw;
+
+}
                                             /*EFECTO BOLAS--------COMÚN*/
 .bola{
     background-color: #BA9E38;
