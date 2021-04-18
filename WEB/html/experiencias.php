@@ -48,112 +48,42 @@
           </div>
         </header>                                                 
                                                        <!-- SECTION-->
-        
-                                        <!-- linea y circulo lateral derecho--COMÚN-->
-        <section id="forma">
-          <div id="linea"></div>
-          <div id="circulo1"></div>
-          <div id="circulo2"></div>
+        <hr>
+        <!-- tarjetas circulares con sus botones,texto y boton central-->  
+        <!-- imágenes circulares-->  
+        <section class="row"  >
+          <div class="col-md-12" id="circulos">
+             <a href="#"><div  id="circ1" class="circulitos"></div></a>
+             <a href="#"><div  id="circ2" class="circulitos"></div></a>
+             <a href="#"><div  id="circ3" class="circulitos"></div></a>
+             <a href="#"><div  id="circ4" class="circulitos"></div></a>
+          </div>
         </section>
-        
-                                                <!-- efecto bolitas--- COMÚN-->
+        <!-- botones bajo imágenes-->
         <section class="row">
-          <div class="col-md-12 col-xs-12" id="bolitas">
-            <div id="bola1" class="bola"></div>
-            <div id="bola2" class="bola"></div>
-            <div id="bola3" class="bola"></div>
-            <div id="bola4" class="bola"></div>
-            <div id="bola5" class="bola"></div>
-            <div id="bola6" class="bola"></div>
-            <div id="bola7" class="bola"></div>
-            <div id="bola8" class="bola"></div>
-            <div id="bola9" class="bola"></div>
-            <div id="bola10" class="bola"></div>
-            <div id="bola11" class="bola"></div>
-            <div id="bola12" class="bola"></div>
-            <div id="bola13" class="bola"></div>
-            <div id="bola14" class="bola"></div>
-            <div id="bola15" class="bola"></div>
-            <div id="bola16" class="bola"></div>
-            <div id="bola17" class="bola"></div>
-            <div id="bola18" class="bola"></div>
-            <div id="bola19" class="bola"></div>
-            <div id="bola20" class="bola"></div>
-            <div id="bola21" class="bola"></div>
-            <div id="bola22" class="bola"></div>
-            <div id="bola23" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola25" class="bola"></div>
-            <div id="bola26" class="bola"></div>
+          <div class="col-md-12" id="botones">
+            <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
+            <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
+            <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
+            <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
-        </section>  
-         
-        <!-- efecto bolitas----COMÚN-->             
+        </section>
+        <!-- texto bajo imágenes-->
         <section class="row">
-          <div class="col-md-12" id="bolitas">
-            <div id="bola1" class="bola"></div>
-            <div id="bola2" class="bola"></div>
-            <div id="bola3" class="bola"></div>
-            <div id="bola4" class="bola"></div>
-            <div id="bola5" class="bola"></div>
-            <div id="bola6" class="bola"></div>
-            <div id="bola7" class="bola"></div>
-            <div id="bola8" class="bola"></div>
-            <div id="bola9" class="bola"></div>
-            <div id="bola10" class="bola"></div>
-            <div id="bola11" class="bola"></div>
-            <div id="bola12" class="bola"></div>
-            <div id="bola13" class="bola"></div>
-            <div id="bola14" class="bola"></div>
-            <div id="bola15" class="bola"></div>
-            <div id="bola16" class="bola"></div>
-            <div id="bola17" class="bola"></div>
-            <div id="bola18" class="bola"></div>
-            <div id="bola19" class="bola"></div>
-            <div id="bola20" class="bola"></div>
-            <div id="bola21" class="bola"></div>
-            <div id="bola22" class="bola"></div>
-            <div id="bola23" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola25" class="bola"></div>
-            <div id="bola26" class="bola"></div>
-          </div>
-        </section> 
-          
-        <!-- efecto bolitas----COMÚN-->
-        <section class="row">
-          <div class="col-md-12" id="bolitas">
-            <div id="bola1" class="bola"></div>
-            <div id="bola2" class="bola"></div>
-            <div id="bola3" class="bola"></div>
-            <div id="bola4" class="bola"></div>
-            <div id="bola5" class="bola"></div>
-            <div id="bola6" class="bola"></div>
-            <div id="bola7" class="bola"></div>
-            <div id="bola8" class="bola"></div>
-            <div id="bola9" class="bola"></div>
-            <div id="bola10" class="bola"></div>
-            <div id="bola11" class="bola"></div>
-            <div id="bola12" class="bola"></div>
-            <div id="bola13" class="bola"></div>
-            <div id="bola14" class="bola"></div>
-            <div id="bola15" class="bola"></div>
-            <div id="bola16" class="bola"></div>
-            <div id="bola17" class="bola"></div>
-            <div id="bola18" class="bola"></div>
-            <div id="bola19" class="bola"></div>
-            <div id="bola20" class="bola"></div>
-            <div id="bola21" class="bola"></div>
-            <div id="bola22" class="bola"></div>
-            <div id="bola23" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola25" class="bola"></div>
-            <div id="bola26" class="bola"></div>
-          </div>
-        </section> 
+            <div class="col-md-12 " id="texto2">
+               <div>
+                 Encontrarás todo lo que necesitas para una experiencia única e inigualable, 
+                diferentes packs individual en grupo y para todas las edades... Deslízate hasta nuestro especial
+                PACKS & GRUPOS y encontrarás muchas más opciones... PAQUETES A MEDIDA, FINES DE SEMANA... 
+              </div>
+            </div>
+        </section>
+        <!-- botón central imágenes-->
+        <section class="row" >
+            <div class="col-md-12 " id="boton_packs" > 
+              <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
+            </div>
+        </section>    
                                                              <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Llogo risk adventure negativo-->
@@ -194,38 +124,9 @@
               <a href="#"><i class="fab fa-twitter"></i></a>
               <p>2020 © Copyright</p>
           </div>
-          <!-- efecto bolitas---COMÚN-->  
-          <div class="col-md-12 col-xs-12" id="bolitas_footer">
-            <div id="bola1" class="bola_footer"></div>
-            <div id="bola2" class="bola_footer"></div>
-            <div id="bola3" class="bola_footer"></div>
-            <div id="bola4" class="bola_footer"></div>
-            <div id="bola5" class="bola_footer"></div>
-            <div id="bola6" class="bola_footer"></div>
-            <div id="bola7" class="bola_footer"></div>
-            <div id="bola8" class="bola_footer"></div>
-            <div id="bola9" class="bola_footer"></div>
-            <div id="bola10" class="bola_footer"></div>
-            <div id="bola11" class="bola_footer"></div>
-            <div id="bola12" class="bola_footer"></div>
-            <div id="bola13" class="bola_footer"></div>
-            <div id="bola14" class="bola_footer"></div>
-            <div id="bola15" class="bola_footer"></div>
-            <div id="bola16" class="bola_footer"></div>
-            <div id="bola17" class="bola_footer"></div>
-            <div id="bola18" class="bola_footer"></div>
-            <div id="bola19" class="bola_footer"></div>
-            <div id="bola20" class="bola_footer"></div>
-            <div id="bola21" class="bola_footer"></div>
-            <div id="bola22" class="bola_footer"></div>
-            <div id="bola23" class="bola_footer"></div>
-            <div id="bola24" class="bola_footer"></div>
-            <div id="bola24" class="bola_footer"></div>
-            <div id="bola25" class="bola_footer"></div>
-            <div id="bola26" class="bola_footer"></div>
-          </div>
+          
           <!--enlaces a aviso legal, política de privacidad y ayuda--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="#">Aviso legal</a> | <a href="#">Politica de privacidad</a> | <a href="#"> Ayuda</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php">Aviso legal</a> | <a href="politica_privacidad.php">Politica de privacidad</a> | <a href="ayuda.php"> Ayuda</a></div>
         </footer>
       <script type="text/javascript" src="../js/experiencias.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
