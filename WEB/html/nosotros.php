@@ -47,6 +47,7 @@
             </nav>
           </div>
         </header>
+        <!-- texto inicio-->
         <section class="row">
             
           <div id="texto" class="col-md-12  ">
@@ -56,7 +57,7 @@
                 Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA". 
             </div>
           </div>
-        </section>                                              
+        </section>                                             
                                                        <!-- SECTION-->
                                                      <!-- FOOTER-----COMÚN-->
         <footer class="row" >
