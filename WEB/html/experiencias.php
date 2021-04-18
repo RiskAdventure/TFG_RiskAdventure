@@ -50,11 +50,10 @@
                                                        <!-- SECTION-->
         <hr>
                                                        <!-- EXPERIENCIAS TIERRA AGUA AIRE-->
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 borde1"> <p>uno</p> </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 borde1"> <p>dos</p> </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 borde1"> <p>tres</p> </div>
+        <div class="container">
+            <div class="row">
 
+            </div>
         </div>
                                                              <!-- FOOTER-----COMÚN-->
         <footer class="row" >
