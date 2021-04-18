@@ -46,12 +46,19 @@
                 </ul>
             </nav>
           </div>
-        </header>                                                 
+        </header>
+        <section class="row">
+            
+          <div id="texto" class="col-md-12  ">
+            <div>En Risk Adventure, desde nuestros orígenes hemos tenido una obsesión, sorprender y emocionar
+                ofreciendo un servicio y una calidad excelente, experimentando las emociones, la adrenalina, la diversión,
+                con los mejores equipos técnicos...
+                Somos los únicos que garantizamos una "EXPERIENCIA ÚNICA". 
+            </div>
+          </div>
+        </section>                                              
                                                        <!-- SECTION-->
-        
-
-        
-                                                             <!-- FOOTER-----COMÚN-->
+                                                     <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Llogo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
