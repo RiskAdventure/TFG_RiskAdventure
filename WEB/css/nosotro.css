@@ -137,12 +137,12 @@ li:hover{
 #texto div{
     margin: auto;
     margin-bottom: 3%;
-    width: 38vw;
+    width: 58vw;
     text-align:center;
 }
 
-#textonosotros div{
-    margin: auto;
+#textonosotros{
+    margin-left: 25%;
     margin-bottom: 3%;
     width: 38vw;
     text-align:center;
@@ -150,6 +150,59 @@ li:hover{
     font-weight: 700;
     font-size: 1.2vw;
 
+}
+/*parte central--tarjetitas imágenes redondas--nosotros*/
+#circulos  {
+    display: inline;
+}
+.circulitos{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    border: 4px solid #ba9e38 ;
+    margin-bottom: 1vw;
+    margin-right: 4vw;
+    
+}
+#circ1{
+    background: url(../imagenes/nosotros_surf.jpg) no-repeat  center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+
+}
+#circ2{
+    background: url(../imagenes/home_packs_grupos.jpg) no-repeat  center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+   text-align: center;  
+}
+#circ3{
+    background: url(../imagenes/home_packs_familias.jpg) no-repeat  center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   text-align: center;
+}
+#nombres1{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    width: 20vw;
+    text-align:center;
+}
+
+.descripcion{
+    margin: auto;
+    margin-bottom: 3%;
+    width: 58vw;
+    text-align:center;
+    
 }
                                             /*EFECTO BOLAS--------COMÚN*/
 .bola{
