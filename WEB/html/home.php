@@ -293,7 +293,7 @@
               <a href="#"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
               <a href="#"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
               <a href="#"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
-              <a href="#"><img src="../imagenes/footer_la_esportiva_1.jpg" id="esportiva"/></a>
+              <a href="#"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"/></a>
               <a href="#"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
               <a href="#"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
