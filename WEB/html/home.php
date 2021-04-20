@@ -23,18 +23,18 @@
                                                       <!-- HEADER----COMUN-->
         <!-- iconos-->
         <header>
-          <div class="row">
+          <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-                <i class="fa fa-shopping-cart" id="carrito"></i>
-                <i class="fas fa-user" id="login"></i>
-                <i class="fas fa-search" id="buscar"></i>
+                <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
-          <div class="row">
+          <div class="row" id="logo_menu">
           <!-- logo-->
-            <div class="col-md-4 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"/> </div>
+            <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo" alt="logo risk adventure" title="logo risk adventure"/> </div>
             <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-            <nav class="col-md-8 col-xs-12 " id="menu">
+            <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                 <ul>
                   <li ><a id="home" href="home.php">HOME</a></li>
                   <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
@@ -49,7 +49,7 @@
         </header>                                                 
                                                        <!-- SECTION-->
         <!-- carrusel-->
-        <section class="row" >
+        <section class="row" id="carru" >
           <div class="col-md-12 " id="carrusel">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -60,21 +60,21 @@
               </ol>
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="../imagenes/carrusel_avion.webp" alt="Los Angeles" >
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg" alt="imagen avion carrusel" title="imagen avion carrusel" ></a>
                   <div class="carousel-caption">
                     <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="../imagenes/carrusel_montañas.jpg" alt="Chicago" >
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg" alt="imagen montañas carrusel" title="imagen montañas carrusel" ></a>
                   <div class="carousel-caption">
                   <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="../imagenes/carrusel_moto.webp" alt="New York" >
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg" alt="imagen carrusel motociclismo" title="imagen carrusel motociclismo" ></a>
                   <div class="carousel-caption">
                   <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
@@ -93,12 +93,7 @@
             </div>
           </div>  
         </section>
-                                        <!-- linea y circulo lateral derecho--COMÚN-->
-        <section id="forma">
-          <div id="linea"></div>
-          <div id="circulo1"></div>
-          <div id="circulo2"></div>
-        </section>
+       
         <!-- texto bajo carrusel-->
         <section class="row">
             
@@ -111,6 +106,7 @@
           </div>
         </section>
                                                 <!-- efecto bolitas--- COMÚN-->
+        <hr>
         <section class="row">
           <div class="col-md-12 col-xs-12" id="bolitas">
             <div id="bola1" class="bola"></div>
@@ -143,24 +139,27 @@
           </div>
         </section>  
         <!-- tarjetas circulares con sus botones,texto y boton central-->  
-        <!-- imágenes circulares-->  
+        <!-- imágenes circulares y botones-->  
         <section class="row"  >
-          <div class="col-md-12" id="circulos">
-             <a href="#"><div  id="circ1" class="circulitos"></div></a>
-             <a href="#"><div  id="circ2" class="circulitos"></div></a>
-             <a href="#"><div  id="circ3" class="circulitos"></div></a>
-             <a href="#"><div  id="circ4" class="circulitos"></div></a>
+          <div class="col-md-3" id="circ1">
+             <img src="../imagenes/home_packs_despedida.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+             <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
           </div>
-        </section>
-        <!-- botones bajo imágenes-->
-        <section class="row">
-          <div class="col-md-12" id="botones">
-            <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
-            <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
-            <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
-            <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
+          <div class="col-md-3" id="circ2">
+             <img src="../imagenes/home_packs_grupos .jpg" alt="imagen aventura grupos" title="imagen aventura grupos"></img>
+             <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
           </div>
+          <div class="col-md-3" id="circ3">
+             <img src="../imagenes/home_packs_familias.jpg" alt="imagen aventura familias" title="imagen aventura familias"></img>
+             <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
+          </div>
+          <div class="col-md-3" id="circ4">
+             <img src="../imagenes/home_packs_parejas.jpg" alt="imagen aventura parejas" title="imagen aventura parejas"></img>
+             <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
+          </div>
+          
         </section>
+                
         <!-- texto bajo imágenes-->
         <section class="row">
             <div class="col-md-12 " id="texto2">
@@ -177,7 +176,8 @@
               <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
             </div>
         </section>    
-        <!-- efecto bolitas----COMÚN-->             
+        <!-- efecto bolitas----COMÚN-->   
+        <hr>          
         <section class="row">
           <div class="col-md-12" id="bolitas">
             <div id="bola1" class="bola"></div>
@@ -212,11 +212,11 @@
         <!-- parte central listos,texto y botones ver más y contacto-->
         <section class="row" >
         <!-- imagen listos paracaidas-->
-            <div class="col-md-8 " id="listos" > 
-
+            <div class="col-md-7 col-xs-12 col-xm-12  " id="listos" > 
+              <img src="../imagenes/home_contacto_paracaidas.jpg" alt="imagen paracaidismo eventos empresa" title="imagen paracaidismo eventos empresa">
             </div>
             <!-- texto estamos listos-->
-            <div class="col-md-4 col-xs-12 col-xm-12 " id="boton_packs" > 
+            <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs" > 
                 <div id="listo">Estamos listos para tu evento</div>
                 <div id="texto3">Contamos con todas las medidas de seguridad, sanitarias,
                     sociales y legales para que tu evento pueda celebrarse.
@@ -230,11 +230,12 @@
         <!-- botones ver más y contacto-->
         <section class="row" >
             <div class="col-md-12 " id="boton_listo" > 
-              <a href="#"><div  class="boton_pack" id="ver"> VER MÁS</div></a>
-              <a href="#"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
+              <a href="eventos.php"><div  class="boton_pack" id="ver"> VER MÁS</div></a>
+              <a href="contacto.php"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
             </div>
         </section>   
         <!-- efecto bolitas----COMÚN-->
+        <hr>
         <section class="row">
           <div class="col-md-12" id="bolitas">
             <div id="bola1" class="bola"></div>
@@ -270,7 +271,7 @@
         <footer class="row" >
             <!-- Llogo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
-               <img src="../imagenes/footer_logo.png" alt="adventure">
+               <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
             </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
@@ -290,22 +291,23 @@
             </div>
           <!-- imágenes publicitarias-->  
           <div class="col-md-12 col-xs-12" id="publi">
-              <a href="#"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
-              <a href="#"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
-              <a href="#"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
-              <a href="#"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"/></a>
-              <a href="#"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
-              <a href="#"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
+              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill" title="logo oneill"/></a>
+              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia" alt="logo columbia" title="logo columbia"/></a>
+              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada" alt="logo la escapada" title="logo la escapada"/></a>
+              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva" alt="logo la esportiva" title="logo la esportiva"/></a>
+              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon" alt="logo decathlon" title=" logo decathlon"/></a>
+              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante" alt="logo bardir restaurante" title="logo bardis restaurante"/></a>
           </div>
           <!-- iconos redes sociales y copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
               <p>Síguenos en:</p>
-              <a href="#"><i class="fab fa-facebook-f" id="face"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-whatsapp"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram" title="instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
+              <a href="#"><i class="fab fa-twitter" title="twitter"></i></a>
               <p>2020 © Copyright</p>
           </div>
+          <hr>
           <!-- efecto bolitas---COMÚN-->  
           <div class="col-md-12 col-xs-12" id="bolitas_footer">
             <div id="bola1" class="bola_footer"></div>

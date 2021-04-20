@@ -5,6 +5,24 @@
 }
                                                     /*HEADER*/
 /*iconos del header*/
+header{
+    position:-webkit-sticky;
+    position: sticky;
+    border-bottom: 1px solid #ba9e3857;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.98);
+    top: 0;
+    width: 100%;
+    margin-bottom: 2vw;
+}
+#logo_menu{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#icon{
+    margin-right: 0px;
+    margin-left: 0px;
+}
 #iconos i{
     border: none;
     box-shadow: none;
@@ -14,7 +32,7 @@
     padding: 0.5vw;
     border-radius: 50%;
     
-    background-color: rgb(224, 224, 224);
+    background-color: #e6ebf0;
 }
 #iconos{
     text-align: right;
@@ -31,17 +49,21 @@
 }
 #buscar:hover{
     cursor: pointer;
-    color: #BA9E38;
+    background-color: #BA9E38;
+    color: white;
 }
 #carrito:hover{
     cursor: pointer;
-    color: #BA9E38;
+    background-color: #BA9E38;
+    color: white;
 }
-/*logo del header*/
+
 #login:hover{
     cursor: pointer;
-    color: #BA9E38;
+    background-color: #BA9E38;
+    color: white;
 }
+/*logo del header*/
 #logo{
     width: 100%;
     height: 100%;
@@ -61,12 +83,16 @@ a{
     color: rgb(66, 66, 66);
     transition: 0.3s;
 }
+#logo_menu{
+    width: 80vw;
+}
 a:hover{
     color: rgb(66, 66, 66);
 }
 ul{
     list-style: none;
     width: 100%;
+    padding: 0px;
     
 }
 #menu{
@@ -74,17 +100,18 @@ ul{
     background-color: white;
     border: none;
     box-shadow: none;
-    font-size: 100%;
+    font-size: 0.95vw;
+    padding: 0px;
     
     }
-    li {
+li {
     background-image: linear-gradient(#BA9E38,#BA9E38);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
     display: inline;
-    margin-left: 1.5vw;
+    margin-left: 1.3vw;
     padding-bottom: 4px;
 }
 li:hover, li:focus {
@@ -102,11 +129,16 @@ li:hover{
     cursor: pointer;
 } 
                                                         /*SECTION*/  
-/*carrusel*/                                                
+/*carrusel*/ 
+#carru{
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}                                               
 .item img {
     width: 100%;
-    height: 40vh;
-    max-height: 40vh;
+    height: 37vh;
+    max-height: 37vh;
 }
 #carrusel{
     border: none;
@@ -115,44 +147,29 @@ li:hover{
     margin-bottom: 2%;
     padding: 0px  !important;
 }
-                                        /*LINEA DERECHA Y CÍRCULOS-------COMÚN*/
-#forma{
-    width: 25px;    
-    position:absolute;
-    top: 130px;
-    right: 3vw;    
+.carousel-caption{
+    margin-bottom: 6vw !important;
+   margin-left: 22vw !important;
+   margin-right: 0px !important;
+   color: #ffffff;
+   font-size: 1.4vw;
+   padding: 0px;
 }
-#linea{
-    width: 6px;
-    background-color: #BA9E38;
-    height: 200vh;
-    position:absolute;
-    margin-top: 2.90vh;
-    margin-left: 9px;
+.carousel-caption h3{
+    font-size: 2vw !important;
 }
-#circulo1{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border:4px solid #BA9E38;
-    position: absolute;
-}
-#circulo2{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border:4px solid #BA9E38;
-    position: absolute;
-    top: 202.5vh;
-}
+
 /*texto bajo el carrusel*/
 #texto div{
-    
+    font-size: 1.3vw;
     margin: auto;
     width: 38vw;
     text-align:center;
 }
                                             /*EFECTO BOLAS--------COMÚN*/
+hr{
+    display: none;
+}
 .bola{
     background-color: #BA9E38;
     border-radius: 100%;
@@ -274,82 +291,99 @@ li:hover{
     height: 7px;
 }
 /*parte central--tarjetitas imágenes redondas--packs y grupos*/
-#circulos  {
+#circ1{
+    margin: auto;
     text-align: center;
 }
-.circulitos{
-    width: 12vw;
-    height: 12vw;
-    border-radius: 50%;
-    border: 4px solid #ba9e38 ;
-    display: inline-block;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-}
-#circ1{
-    background: url(../imagenes/home_packs_despedida.jpg) no-repeat  center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   margin-left: 4vw;
-   text-align: center;
-}
 #circ2{
-    background: url(../imagenes/home_packs_grupos.jpg) no-repeat  center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-   text-align: center;  
+    margin: auto;
+    text-align: center;
 }
 #circ3{
-    background: url(../imagenes/home_packs_familias.jpg) no-repeat  center;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-   text-align: center;
+    margin: auto;
+    text-align: center;
 }
 #circ4{
-    background: url(../imagenes/home_packs_parejas.jpg) no-repeat  center;
+    margin: auto;
+    text-align: center;
+}
+
+
+#circ1 img{
+    width: 200px;
+    height: 200px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border-radius: 100%;
+   text-align: center;
+   margin-bottom: 1.5vw;
+   border: 4px solid #BA9E38;
+}
+#circ2 img{
+    width: 200px;
+    height: 200px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border-radius: 100%;
+   text-align: center;  
+   margin-bottom: 1.5vw;
+   border: 4px solid #BA9E38;
+}
+#circ3 img{
+    width: 200px;
+    height: 200px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   border-radius: 100%;
+   text-align: center;
+   margin-bottom: 1.5vw;
+   border: 4px solid #BA9E38;
+}
+#circ4 img{
+    width: 200px;
+    height: 200px;
+    background:  no-repeat  center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    text-align: center;
+   border-radius: 100%;
+   margin-bottom: 1.5vw;
+   border: 4px solid #BA9E38;
 }
 /*botones parte central,tarjetitas,packs y grupos*/
 .boton{
     width: 8vw;
     height: 2vw;
-    background-color: rgb(133, 133, 133);
+    background-color: #8095A1;
     border-radius: 7px;
     color: white;
     margin-bottom: 2vw;
-    display: inline-block;
+    margin:auto;
     text-align: center;
     padding-top: 0.4vw;
     font-size: 1vw;
+   
 }
-#boton1{
-    margin-left: 10.9vw;
-    margin-right: 8vw;
+.boton:hover{
+    
+    
+    background-color: #BA9E38;
 }
-#boton2{
-    margin-right: 8vw;
-}
-#boton3{
-    margin-right: 8.2vw;
-}
+
 #boton_packs{
     text-align: center;
 }
 .boton_pack{
     width: 12vw;
-    background-color: grey;
+    background-color: #8095A1;
     border-radius: 7px;
     color: white;
     margin-bottom: 2vw;
@@ -359,6 +393,10 @@ li:hover{
     padding-bottom: 0.4vw;
     font-size: 1vw;
 }
+.boton_pack:hover{
+    
+    background-color: #BA9E38;
+}
 /*texto bajo imágenes circulares*/
 #texto2 div{
     margin: auto;
@@ -366,22 +404,28 @@ li:hover{
     text-align:center;
     margin-top: 1.5vw;
     margin-bottom: 5vw;
+    font-size: 1.3vw;
 }
 /*Parte ver más y contáctanos----imagen*/
-#listos{
-    width: 40vw;
-    height: 20vw;
-    background: url(../imagenes/home_contacto_paracaidas.jpg) no-repeat  center;
+#listos img{
+    width: 45vw;
+    height: 25vw;
+    background:  no-repeat  center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   margin-left: 4vw;
+   margin-left: 0px !important;
    text-align: center;    
     display: inline-block;
     margin-bottom: 1vw;
-    margin-right: 8vw;
+    margin-right: 2vw !important;
 }
+#listos{
+    margin: auto !important;
+    text-align: center;
+}
+
 /*botones ver más y contacto*/
 #boton_listo{
     text-align:right;
@@ -394,7 +438,7 @@ li:hover{
 #listo{
     font-size: 4vw;
     line-height: 3.5vw;
-    margin-bottom: 1.2vw;
+    margin-bottom: 1.7vw;
 }
 #ver{
     padding: 0.6vw !important;
@@ -403,7 +447,7 @@ li:hover{
 /*texto sección contacto y ver más*/
 #texto3{
     margin-bottom: 1.3vw;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
                                                     /*FOOTER-------------COMÚN*/
 footer{
@@ -438,11 +482,11 @@ footer{
     margin-top: 0.5vw;
     border-left: 4px solid #BA9E38;
     padding-left: 2vw;
-    font-size: 0.8vw;
+    font-size: 0.92vw;
     padding-top: 1.5vw;
 }
 #contacto_footer div{
-    line-height:6px;
+    line-height:15px;
 }
 #dire{
     margin-bottom: 4.2vw;
@@ -495,6 +539,10 @@ a #restaurante {
     padding: 0px !important;
 }
 /*texto e iconos de redes sociales*/
+#redes i:hover{
+    background-color: rgb(69, 83, 88);
+    color: #BA9E38;
+}
 #redes p{
     display: inline-block;
     font-size: 1.3vw;
@@ -537,17 +585,25 @@ a #restaurante {
     padding-bottom: 4px;
     color: white !important;
     transition: 0.3s;
+    font-size: 1.2vw;
 }
-                                                            /*MEDIA QUERIES*/
+#privacidad a:hover{
+   font-weight: bolder;
+   color: #BA9E38 !important;
+}
+                         /*--------------------------MEDIA QUERIES-------------------------------*/
 /* Entre 1200px y 1630 px*/
 @media only screen and (min-width: 1200px) and ( max-width: 1630px) {
     /*menú ------------común*/
     #menu{
-        width: 53vw !important;
+        
         padding: 0px !important;
         font-size: 1vw;
         margin-bottom: 10px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #logo_menu{
+        width: 80vw !important;
     }
     #home{
         margin-left: 0px !important;
@@ -556,6 +612,50 @@ a #restaurante {
         padding: 0px  !important;
         margin-right: 0px !important;
         padding-right: 0px !important;
+    }
+    #texto3{
+        margin-bottom: 1.3vw;
+        font-size: 1.4vw;
+    }
+    #listo {
+        font-size: 4vw;
+        line-height: 3.5vw;
+        margin-bottom: 2.7vw;
+    }
+    #contact {
+        margin-left: 8vw;
+        padding: 0.6vw !important;
+        width: 10vw !important;
+    }
+    #listos img{
+        width: 43vw;
+    }
+    #contact {
+        margin-right: 3vw;
+    }
+    #contacto_footer {
+        
+        font-size: 1.2vw;
+        
+    }
+    #texto_footer {
+        text-align: right;
+        margin-right: 12px;
+        margin-top: 5vw;
+        margin-left: 32px;
+    }
+    #texto_footer p {
+        font-size: 1.2vw !important;
+    }
+}
+/* Entre 736px y 1000px */
+@media only screen and (min-width: 736px) and (max-width: 991px) {
+    #contact{
+        margin-left: 1vw;
+        padding: 0.6vw !important;
+        width: 15vw !important;
+        margin-right: 27vw !important;
+        font-size: 13px;
     }
 }
 /* De 1200 px hacia abajo */
@@ -569,12 +669,20 @@ a #restaurante {
     #menu{
         width: 100% !important;
         padding: 0px !important;
-        text-align: left;
-        font-size: 1.7vw;
+        text-align: center;
+        font-size: 1.5vw;
         margin-bottom: 10px;
         font-weight: bolder ;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    
+    #logo{
+        width: 100%;
+    }
+    #logo1{
+        width: 100%;
+    }
+    
     #home{
         margin-left: 0px !important;
     }
@@ -589,23 +697,27 @@ a #restaurante {
         margin-left: 6px !important;
     }
                                                 /*SECTION*/
-    #listos{
-        width: 50vw;
+    #listos img{
+        width: 45vw;
         height: 25vw;
-        background: url(../imagenes/home_mas&contacto_paracaidas.jpg) no-repeat  center;
+        background:  no-repeat  center;
        -webkit-background-size: cover;
        -moz-background-size: cover;
        -o-background-size: cover;
         background-size: cover;
         text-align: center;    
         display: inline-block;
-        margin-left: 20vw;
+       
+    }
+    #listos{
+        margin: auto !important;
+        text-align: center !important;
     }
     #contact{
         margin-left: 1vw;
         padding: 0.6vw !important;
         width: 15vw !important;
-        margin-right: 28vw;
+        margin-right: 4vw;
         font-size: 13px;
     }
     #ver{
@@ -618,38 +730,37 @@ a #restaurante {
         line-height: 3.5vw;
         margin-bottom: 1.2vw;
     }
+   
     #texto3{
-        width: 60vw;
+        width: 100%;
+        margin-left: 0px !important;
     }
-    #texto2{
+    #texto2 div{
         font-size: 15px;
     }
     .boton{
         width: 11.5vw;
-        background-color: rgb(133, 133, 133);
+        
         border-radius: 7px;
-        color: white;
+        
         padding-bottom: 25px;
-        display: inline-block;
+        margin-bottom: 2vw;
         text-align: center;
-        margin-right: 4vw !important ;
+        
         font-size: 13px;
     }
     #boton5{
         width: 20vw;
-        background-color: rgb(133, 133, 133);
+        
         border-radius: 7px;
-        color: white;
+       
         padding: 8px;
         display: inline-block;
         text-align: center;
         margin:auto ;
         font-size: 13px;
     }
-    #boton1{
-        margin-left: 10.6vw !important;
-        margin-right: 4.5vw !important;
-    }
+    
     #texto3{
         font-size: 15px;
         text-align: center;
@@ -661,46 +772,13 @@ a #restaurante {
         width: 60vw;
         text-align:center;
         font-size: 15px;
-    }
-    
-    #boton3{
-        margin-right: 5vw !important;
-    }
-    
+    }    
     .item img {
         width: 100%;
         height: 160px;
         max-height: 160px;
     }
-                                     /*ELIMINAMOS LINEA DERECHA-----COMÚN*/
-    #linea{
-        width: 0px;
-        background-color: #BA9E38;
-        height: 0px;
-        position:absolute;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-    }
-    #circulo1{
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border:0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
-    #circulo2{
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border:0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
-                                                /*FOOTER------COMÚN-----*/
+                                                    /*FOOTER------COMÚN-----*/
     #texto_footer{
         text-align: right;
         margin-right: 15px;
@@ -708,24 +786,48 @@ a #restaurante {
         margin-left: 40px;
     }
     #texto_footer p{
-        font-size: 10px !important;
+        font-size: 1.3vw !important;
     }
     #contacto_footer{
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
-    
 }
 /*Entre 990px y 1200 px colocamos la sección del medio*/
 @media only screen and (min-width: 990px) and ( max-width: 1200px) {
                                  /*SECTION*/
-    #listo{
-        font-size: 3vw;
-        margin-bottom: 1.2vw;
-        margin-left: 28vw; 
-        width: 100%;
-    }
+    
     #boton_packs{
         margin:auto;
+    }
+    #listo{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 3vw;
+        margin-top: 2vw;
+    }
+    #contact {
+        margin-left: 1vw;
+        padding: 0.6vw !important;
+        width: 15vw !important;
+        margin-right: 4vw;
+        font-size: 13px;
+    }
+    #circ1 img{
+        width: 170px;
+        height: 170px;
+    }
+    #circ2 img{
+        width: 170px;
+        height: 170px;
+    }
+    #circ3 img{
+        width: 170px;
+        height: 170px;
+    }
+    #circ4 img{
+        width: 170px;
+        height: 170px;
+       
     }
 }
 /* Entre 360px y 737px (tamaño pequeño para móviles) */
@@ -743,8 +845,8 @@ a #restaurante {
     /*carrusel*/
     .item img {
         width: 100%;
-        height: 80px;
-        max-height: 80px;
+        height: 90px;
+        max-height: 90px;
     } 
     .item{
         font-size: 2.5vw;
@@ -762,42 +864,131 @@ a #restaurante {
         padding-bottom: 0px;
     }
     .item h3{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
-                                    /*eliminamos linea derecha-------COMÚN*/
-    #forma {
-        width: 0px;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        /* height: 96vh; */
-    }
-    #linea {
-        width: 0px;
-        background-color: #BA9E38;
-        height: 0px;
-        position: absolute;
-        margin-top: -0px;
-        margin-left: 0px;
-    }
-    #circulo1 {
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border: 0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
-    #circulo2 {
-        width: 0px;
-        height: 0px;
-        border-radius: 0px;
-        border: 0px solid #BA9E38;
-        position: absolute;
-        top: 0px;
-        margin-left: 0px;
-    }
+                                                /*EFECTO BOLAS--------COMÚN*/
+.bola{
+    background-color: #BA9E38;
+    border-radius: 100%;
+    margin-right: 0.8%;
+    margin-top: 4%;
+    display: inline-block;
+}
+#bolitas{
+    text-align: center;
+    margin-bottom: 3vw;
+}
+#bola1{
+    width: 7px;
+    height: 7px;
+    margin-left: 4vw;
+}
+#bola2{
+    width: 7px;
+    height: 7px;
+}
+#bola3{
+    width: 7px;
+    height: 7px;
+}
+#bola4{
+    width: 7px;
+    height: 7px;
+}
+#bola5{
+    width: 7px;
+    height: 7px;
+}
+#bola6{
+    width: 7px;
+    height: 7px;
+}
+#bola7{
+    width: 7px;
+    height: 7px;
+}
+#bola8{
+    width: 7px;
+    height: 7px;
+}
+#bola9{
+    width: 7px;
+    height: 7px;
+
+}
+#bola10{
+    width: 7px;
+    height: 7px;
+}
+#bola11{
+    width: 7px;
+    height: 7px;
+}
+#bola12{
+    width: 7px;
+    height: 7px;
+}
+#bola13{
+    width: 7px;
+    height: 7px;
+}
+#bola14{
+    width: 7px;
+    height: 7px;
+}
+#bola15{
+    width: 7px;
+    height: 7px;
+}
+#bola16{
+    width: 7px;
+    height: 7px;
+}
+#bola17{
+    width: 7px;
+    height: 7px;
+}
+#bola18{
+    width: 7px;
+    height: 7px;
+}
+#bola19{
+    width: 7px;
+    height: 7px;
+}
+#bola20{
+    width: 7px;
+    height: 7px;
+}
+#bola21{
+    width: 7px;
+    height: 7px;
+}
+#bola22{
+    width: 7px;
+    height: 7px;
+}
+#bola23{
+    width: 7px;
+    height: 7px;
+}
+#bola24{
+    width: 7px;
+    height: 7px;
+}
+#bola25{
+    width: 7px;
+    height: 7px;
+}
+#bola26{
+    width: 7px;
+    height: 7px;
+}
+#bola27{
+    width: 7px;
+    height: 7px;
+}
+
                                             /*CONTINUACIÓN SECTION*/
     /*texto central*/
     #texto div {
@@ -807,31 +998,15 @@ a #restaurante {
         font-size: 12px;
     }
     /*botones centrales*/
-    #boton1 {
-        margin-left: 7.6vw !important;
-        margin-right: 4.5vw !important;
-    }
+    
     .boton {
-        width: 11.5vw;
-        background-color: rgb(133, 133, 133);
+        width: 16vw;
         border-radius: 5px;
-        color: white;
-        padding-bottom: 14px;
-        display: inline-block;
         text-align: center;
-        margin-right: 4vw !important;
-        font-size: 7px;
+        font-size: 2.5vw;
     }
     /*imágenes circulares*/
-    .circulitos {
-        width: 13vw;
-        height: 13vw;
-        border-radius: 50%;
-        border: 1px solid #ba9e38;
-        display: inline-block;
-        margin-bottom: 1vw;
-        margin-right: 4vw;
-    }
+    
     /*texto y botones centrales*/
     #texto2 {
         font-size: 12px;
@@ -873,7 +1048,7 @@ a #restaurante {
         padding: 0px !important;
     }
     #adventure img {
-        width: 136%;
+        width: 100%;
         height: 12%;
     }
     #texto_footer {
@@ -900,6 +1075,64 @@ a #restaurante {
     #dire {
         margin-bottom: 4.2vw;
     }
+}
+    /* Entre 360px y 500px (tamaño pequeño para móviles) */
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+                                                    /*EFECTO BOLAS--------COMÚN*/
+
+.bola{
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #BA9E38;
+    border-radius: 100%;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    display: inline-block;
+}
+    
+
+#bola1{
+    width: 0px !important;
+    height: 0px !important;
+    margin-left: 0px !important;
+}
+.bola_footer{
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #BA9E38;
+    border-radius: 100%;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    display: inline-block;
+}
+#bolitas_footer {
+    text-align: center;
+    margin-bottom: -8vw;
+}
+#bolitas {
+    text-align: center;
+    margin-bottom: -5vw;
+}
+
+hr{
+    display:block;
+    background-color: #BA9E38;
+}
+#contacto_footer {
+    font-size: 10px !important;
+    margin-left: 40px;
+    margin-top: 0.5vw;
+    border-left: 2px solid #BA9E38;
+    padding-left: 2vw;
+    font-size: 0.8vw;
+    padding-top: 1.5vw;
+}
+#texto_footer {
+    text-align: right;
+    margin-right: 17px;
+    margin-top: 3vw;
+    margin-left: 24px;
+}
 }
 
 
