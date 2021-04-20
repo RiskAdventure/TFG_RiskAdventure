@@ -3,8 +3,8 @@
   <head>
     <title>Home Risk Adventure</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
-    <meta name="keywords" content=""><!-- palabras clave-->
-    <meta name="description" content=""><!-- descripción-->
+    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, Ayuda,Soporte,Opiniones"><!-- palabras clave-->
+    <meta name="description" content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -58,6 +58,7 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
+              <!--Cuerpo Carrusel con imágenes-->
               <div class="carousel-inner">
                 <div class="item active">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg" alt="imagen avion carrusel" title="imagen avion carrusel" ></a>
@@ -138,6 +139,7 @@
             <div id="bola26" class="bola"></div>
           </div>
         </section>  
+                                            <!--Continuamos con el SECTION-->
         <!-- tarjetas circulares con sus botones,texto y boton central-->  
         <!-- imágenes circulares y botones-->  
         <section class="row"  >
@@ -157,9 +159,7 @@
              <img src="../imagenes/home_packs_parejas.jpg" alt="imagen aventura parejas" title="imagen aventura parejas"></img>
              <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
-          
         </section>
-                
         <!-- texto bajo imágenes-->
         <section class="row">
             <div class="col-md-12 " id="texto2">
@@ -176,7 +176,7 @@
               <a href="packs.php"><div  class="boton_pack" id="boton5"> PACKS & GRUPOS</div></a>
             </div>
         </section>    
-        <!-- efecto bolitas----COMÚN-->   
+                                          <!-- efecto bolitas----COMÚN-->   
         <hr>          
         <section class="row">
           <div class="col-md-12" id="bolitas">
@@ -209,6 +209,7 @@
             <div id="bola26" class="bola"></div>
           </div>
         </section> 
+                                                   <!--CONTINUAMOS CON EL SECTION-->
         <!-- parte central listos,texto y botones ver más y contacto-->
         <section class="row" >
         <!-- imagen listos paracaidas-->
@@ -234,7 +235,7 @@
               <a href="contacto.php"><div  class="boton_pack" id="contact"> CONTÁCTANOS</div></a>  
             </div>
         </section>   
-        <!-- efecto bolitas----COMÚN-->
+                                               <!-- efecto bolitas----COMÚN-->
         <hr>
         <section class="row">
           <div class="col-md-12" id="bolitas">
@@ -269,7 +270,7 @@
         </section> 
                                                              <!-- FOOTER-----COMÚN-->
         <footer class="row" >
-            <!-- Llogo risk adventure negativo-->
+            <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
                <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
             </div>
@@ -289,7 +290,7 @@
                 <p>(+34)677 899 900</p>
               </div>
             </div>
-          <!-- imágenes publicitarias-->  
+          <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
               <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill" title="logo oneill"/></a>
               <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia" alt="logo columbia" title="logo columbia"/></a>
@@ -298,17 +299,17 @@
               <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon" alt="logo decathlon" title=" logo decathlon"/></a>
               <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante" alt="logo bardir restaurante" title="logo bardis restaurante"/></a>
           </div>
-          <!-- iconos redes sociales y copyright-->
+          <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
               <p>Síguenos en:</p>
-              <a href="#"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram" title="instagram"></i></a>
-              <a href="#"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
-              <a href="#"><i class="fab fa-twitter" title="twitter"></i></a>
+              <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
+              <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
+              <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
+              <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
               <p>2020 © Copyright</p>
           </div>
           <hr>
-          <!-- efecto bolitas---COMÚN-->  
+                                    <!-- efecto bolitas---COMÚN-->  
           <div class="col-md-12 col-xs-12" id="bolitas_footer">
             <div id="bola1" class="bola_footer"></div>
             <div id="bola2" class="bola_footer"></div>
