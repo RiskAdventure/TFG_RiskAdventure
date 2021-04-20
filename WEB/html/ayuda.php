@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../css/ayuda.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
-
     <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
      nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
       de las media queries @-->
