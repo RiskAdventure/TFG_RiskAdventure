@@ -14,6 +14,5 @@
     <link rel="stylesheet" href="../css/aviso_legal.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
-   
   </body>
 </html>
