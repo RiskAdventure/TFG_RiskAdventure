@@ -3,7 +3,6 @@
   width: 80vw;
   background-size: contain;
 }
-
                                                         /*HEADER-----COMÚN*/
 /*iconos del header*/
 header {
@@ -113,160 +112,12 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
-#contacto {
-  background-image: linear-gradient(#ba9e38, #ba9e38);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 2px;
-  transition: background-size 0.3s;
+#privacidad #ayuda {
+    font-weight: bolder;
+    color: #ba9e38 !important;
 }
 li:hover {
   cursor: pointer;
-}
-                                              /*SECTION*/
-#div1_1{
-  background-color: #ba9e38;
-}
-#div1_2{
-  background-color: #927c2c;
-}
-#div2_1{
-  background-color: #64551e;
-}
-#div2_2{
-  background-color: #443914;
-}
-.parte_central article{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-
-
-
-
-                           /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
-hr {
-  display: none;
-}
-.bola {
-  background-color: #ba9e38;
-  border-radius: 100%;
-  margin-right: 0.8%;
-  margin-top: 4%;
-  display: inline-block;
-}
-#bolitas {
-  text-align: center;
-  margin-bottom: 3vw;
-}
-#bola1 {
-  width: 7px;
-  height: 7px;
-}
-#bola2 {
-  width: 8px;
-  height: 8px;
-}
-#bola3 {
-  width: 9px;
-  height: 9px;
-}
-#bola4 {
-  width: 10px;
-  height: 10px;
-}
-#bola5 {
-  width: 11px;
-  height: 11px;
-}
-#bola6 {
-  width: 12px;
-  height: 12px;
-}
-#bola7 {
-  width: 13px;
-  height: 13px;
-}
-#bola8 {
-  width: 14px;
-  height: 14px;
-}
-#bola9 {
-  width: 15px;
-  height: 15px;
-}
-#bola10 {
-  width: 16px;
-  height: 16px;
-}
-#bola11 {
-  width: 17px;
-  height: 17px;
-}
-#bola12 {
-  width: 18px;
-  height: 18px;
-}
-#bola13 {
-  width: 19px;
-  height: 19px;
-}
-#bola14 {
-  width: 20px;
-  height: 20px;
-}
-#bola15 {
-  width: 19px;
-  height: 19px;
-}
-#bola16 {
-  width: 18px;
-  height: 18px;
-}
-#bola17 {
-  width: 17px;
-  height: 17px;
-}
-#bola18 {
-  width: 16px;
-  height: 16px;
-}
-#bola19 {
-  width: 15px;
-  height: 15px;
-}
-#bola20 {
-  width: 14px;
-  height: 14px;
-}
-#bola21 {
-  width: 13px;
-  height: 13px;
-}
-#bola22 {
-  width: 12px;
-  height: 12px;
-}
-#bola23 {
-  width: 11px;
-  height: 11px;
-}
-#bola24 {
-  width: 10px;
-  height: 10px;
-}
-#bola25 {
-  width: 9px;
-  height: 9px;
-}
-#bola26 {
-  width: 8px;
-  height: 8px;
-}
-#bola27 {
-  width: 7px;
-  height: 7px;
 }
 
                                                 /*FOOTER-------------COMÚN*/
@@ -357,18 +208,6 @@ a #restaurante {
   height: 6vw;
   margin-right: 1vw;
   padding: 0px !important;
-}
-/*menos separación superior e inferior en el efecto bolitas*/
-.bola_footer {
-  background-color: #ba9e38;
-  border-radius: 100%;
-  margin-right: 0.8%;
-  margin-top: 1%;
-  display: inline-block;
-}
-#bolitas_footer {
-  text-align: center;
-  margin-bottom: 1vw;
 }
 /*texto e iconos de redes sociales*/
 #redes i:hover {
@@ -515,127 +354,6 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
-                                        /*EFECTO BOLAS--------COMÚN*/
-  .bola {
-    background-color: #ba9e38;
-    border-radius: 100%;
-    margin-right: 0.8%;
-    margin-top: 4%;
-    display: inline-block;
-  }
-  #bolitas {
-    text-align: center;
-    margin-bottom: 3vw;
-  }
-  #bola1 {
-    width: 7px;
-    height: 7px;
-    margin-left: 4vw;
-  }
-  #bola2 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola3 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola4 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola5 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola6 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola7 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola8 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola9 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola10 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola11 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola12 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola13 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola14 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola15 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola16 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola17 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola18 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola19 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola20 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola21 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola22 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola23 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola24 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola25 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola26 {
-    width: 7px;
-    height: 7px;
-  }
-  #bola27 {
-    width: 7px;
-    height: 7px;
-  }
                                              /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
@@ -685,39 +403,7 @@ a #restaurante {
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 500px) {
-                                     /*EFECTO BOLAS--------COMÚN*/
-  .bola {
-    width: 0px !important;
-    height: 0px !important;
-    background-color: #ba9e38;
-    border-radius: 100%;
-    margin-right: 0px !important;
-    margin-top: 0px !important;
-    display: inline-block;
-  }
-  #bola1 {
-    width: 0px !important;
-    height: 0px !important;
-    margin-left: 0px !important;
-  }
-  .bola_footer {
-    width: 0px !important;
-    height: 0px !important;
-    background-color: #ba9e38;
-    border-radius: 100%;
-    margin-right: 0px !important;
-    margin-top: 0px !important;
-    display: inline-block;
-  }
-  #bolitas_footer {
-    text-align: center;
-    margin-bottom: -8vw;
-  }
-  #bolitas {
-    text-align: center;
-    margin-bottom: -5vw;
-  }
-                                /*FOOTER------COMÚN*/
+                                        /*FOOTER------COMÚN*/
   hr {
     display: block;
     background-color: #ba9e38;

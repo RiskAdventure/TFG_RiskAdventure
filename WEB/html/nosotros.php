@@ -3,38 +3,37 @@
   <head>
     <title>Nosotros Risk Adventure</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
-    <meta name="keywords" content=""><!-- palabras clave-->
-    <meta name="description" content=""><!-- descripción-->
+    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, Ayuda,Soporte,Opiniones"><!-- palabras clave-->
+    <meta name="description" content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/nosotro.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/nosotros.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
     <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
      nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
       de las media queries @-->
-
     <div class="container">
-                                                      <!-- HEADER----COMUN-->
+                                                  <!-- HEADER----COMUN-->
         <!-- iconos-->
         <header>
-          <div class="row">
+          <div class="row" id="icon">
               <div id="iconos" class="col-md-12 col-xs-12 ">
-                <i class="fa fa-shopping-cart" id="carrito"></i>
-                <i class="fas fa-user" id="login"></i>
-                <i class="fas fa-search" id="buscar"></i>
+                <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
-          <div class="row">
+          <div class="row" id="logo_menu">
           <!-- logo-->
-            <div class="col-md-4 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"/> </div>
+            <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo" alt="logo risk adventure" title="logo risk adventure"/> </div>
             <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-            <nav class="col-md-8 col-xs-12 " id="menu">
+            <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                 <ul>
                   <li ><a id="home" href="home.php">HOME</a></li>
                   <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
@@ -46,46 +45,14 @@
                 </ul>
             </nav>
           </div>
-        </header>
-        <!-- texto inicio-->
-        <section class="row justify-content-center">
-          <div id=textonosotros class="col-md-12">
-          <div>Quiénes Somos</div>
-        </div>
-          <div id="texto" class="col-md-12">
-            <div> Risk Adventure, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar ofreciendo un servicio y una experiencia
-              única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos técnicos...<br>
-              RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esaaventura decidimos que cualquier aventurero
-              necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales ofrecer una experiencia de calidad,
-              única para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP. Somos los únicos que te garantizamos una "EXPERIENCIA ÚNICA"
-            </div>
-          </div>
-        </section>
-        <section class="row"  >
-          <div class="col-md-12" id="circulos">
-             <div  id="circ1" class="circulitos">RAUL</div>
-             <div class="descripcion">
-             <p>Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. Con gran
-               experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía.
-               </p></div>
-             <div  id="circ2" class="circulitos"></div>
-             <div class="col-md-2" id="nombres2">LIDIA</div>
-             <p>Guía de Alta Montaña con la credencial de la UIAGM, cumple los más altos estándares de técnicas y conocimientos de la montaña.
-                Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo en todas las competiciones de alta montaña en España y Resto del Mundo... 
-                No perdona su café mañanero, un buen entrenamiento...ni un buen concierto de Rock.</p>
-             <div  id="circ3" class="circulitos"></div>
-             <div class="col-md-2 " id="nombres3">PILAR</div>
-             <p>Licenciada por la FADA con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos... Ha estado más tiempo en el cielo
-               que en la tierra... Se encarga de la coordinación de los deportes aéreos de riesgo a Nivel Nacional colaborando con el escuadrón de Zapadores Paracaidistas del Ejercito Español para sus formaciones. 
-               Cree que no hay mejor momento que el estar con la familia y amigos,... y si es posible, al lado de las nubes.
-          </div>
-        </section>                                            
-                                                       <!-- SECTION-->
-                                                     <!-- FOOTER-----COMÚN-->
-        <footer class="row" >
-            <!-- Llogo risk adventure negativo-->
+        </header>               
+                                                   <!-- SECTION-->
+                             
+                                                             <!-- FOOTER-----COMÚN-->
+                                                             <footer class="row" >
+            <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
-               <img src="../imagenes/footer_logo.png" alt="adventure">
+               <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
             </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
@@ -103,27 +70,29 @@
                 <p>(+34)677 899 900</p>
               </div>
             </div>
-          <!-- imágenes publicitarias-->  
+          <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
-              <a href="#"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
-              <a href="#"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
-              <a href="#"><img src="../imagenes/footer_escapada rural.jpg" id="escapada"/></a>
-              <a href="#"><img src="../imagenes/footer_la esportiva 1.jpg" id="esportiva"/></a>
-              <a href="#"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
-              <a href="#"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
+              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill" title="logo oneill"/></a>
+              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia" alt="logo columbia" title="logo columbia"/></a>
+              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada" alt="logo la escapada" title="logo la escapada"/></a>
+              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva" alt="logo la esportiva" title="logo la esportiva"/></a>
+              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon" alt="logo decathlon" title=" logo decathlon"/></a>
+              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante" alt="logo bardir restaurante" title="logo bardis restaurante"/></a>
           </div>
-          <!-- iconos redes sociales y copyright-->
+          <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
               <p>Síguenos en:</p>
-              <a href="#"><i class="fab fa-facebook-f" id="face"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-whatsapp"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
+              <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
+              <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
+              <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
               <p>2020 © Copyright</p>
           </div>
+          <hr>
+                                    <!-- efecto bolitas---COMÚN-->  
           
           <!--enlaces a aviso legal, política de privacidad y ayuda--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php">Aviso legal</a> | <a href="politica_privacidad.php">Politica de privacidad</a> | <a href="ayuda.php"> Ayuda</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Politica de privacidad</a> | <a href="ayuda.php" id="ayuda"> Ayuda</a></div>
         </footer>
       <script type="text/javascript" src="../js/nosotros.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
