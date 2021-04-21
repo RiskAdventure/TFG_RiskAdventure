@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/contactto.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
@@ -47,7 +47,163 @@
           </div>
         </header>                                        
                                                        <!-- SECTION-->
-        
+
+        <!--Envianos tu consulta:texto y botones-->
+        <section class="parte_central">
+          <article class="row" >
+            <div class="col-md-6 col-xs-6  " id="div1_1">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+            <div class="col-md-6 col-xs-6  " id="div1_2">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>
+          <article class="row">
+            <div class="col-md-6 col-xs-6  " id="div2_1">
+              <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+            <div class="col-md-6 col-xs-6  " id="div2_2">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>
+        </section>
+                                                <!-- efecto bolitas--- COMÚN-->
+        <hr>
+        <section class="row">
+          <div class="col-md-12 col-xs-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section> 
+        <!--Ayuda y soporte:formulario e imagen-->
+        <section class="parte_central">
+          <article class="row" >
+            <div class="col-md-8 col-xs-6  " id="div1_1">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+            <div class="col-md-10 col-xs-6  " id="div1_2">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>
+          <article class="row">
+            <div class="col-md-12 col-xs-6  " id="div2_1">
+              <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+            <div class="col-md-8 col-xs-6  " id="div2_2">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>
+        </section>
+                                                <!-- efecto bolitas--- COMÚN-->
+        <hr>
+        <section class="row">
+          <div class="col-md-12 col-xs-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section>  
+        <!--Opinión de nuestros clientes:imagen,estrellas y parrafo-->
+        <section class="parte_central">
+          <article class="row" >
+            <div class="col-md-6 col-xs-12  " id="div1_1">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+            <div class="col-md-6 col-xs-12  " id="div1_2">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>
+          <article class="row">
+            <div class="col-md-6 col-xs-12  " id="div2_1">
+              <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+            <div class="col-md-6 col-xs-12  " id="div2_2">
+                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>
+        </section>
+        <!-- efecto bolitas--- COMÚN-->
+        <hr>
+        <section class="row">
+          <div class="col-md-12 col-xs-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section>   
         
                                                              <!-- FOOTER-----COMÚN-->
                                                              <footer class="row" >
@@ -91,7 +247,37 @@
           </div>
           <hr>
                                     <!-- efecto bolitas---COMÚN-->  
-          
+                                    <hr>
+                                    <!-- efecto bolitas---COMÚN-->  
+          <div class="col-md-12 col-xs-12" id="bolitas_footer">
+            <div id="bola1" class="bola_footer"></div>
+            <div id="bola2" class="bola_footer"></div>
+            <div id="bola3" class="bola_footer"></div>
+            <div id="bola4" class="bola_footer"></div>
+            <div id="bola5" class="bola_footer"></div>
+            <div id="bola6" class="bola_footer"></div>
+            <div id="bola7" class="bola_footer"></div>
+            <div id="bola8" class="bola_footer"></div>
+            <div id="bola9" class="bola_footer"></div>
+            <div id="bola10" class="bola_footer"></div>
+            <div id="bola11" class="bola_footer"></div>
+            <div id="bola12" class="bola_footer"></div>
+            <div id="bola13" class="bola_footer"></div>
+            <div id="bola14" class="bola_footer"></div>
+            <div id="bola15" class="bola_footer"></div>
+            <div id="bola16" class="bola_footer"></div>
+            <div id="bola17" class="bola_footer"></div>
+            <div id="bola18" class="bola_footer"></div>
+            <div id="bola19" class="bola_footer"></div>
+            <div id="bola20" class="bola_footer"></div>
+            <div id="bola21" class="bola_footer"></div>
+            <div id="bola22" class="bola_footer"></div>
+            <div id="bola23" class="bola_footer"></div>
+            <div id="bola24" class="bola_footer"></div>
+            <div id="bola24" class="bola_footer"></div>
+            <div id="bola25" class="bola_footer"></div>
+            <div id="bola26" class="bola_footer"></div>
+          </div>
           <!--enlaces a aviso legal, política de privacidad y ayuda--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Politica de privacidad</a> | <a href="ayuda.php" id="ayuda"> Ayuda</a></div>
         </footer>
