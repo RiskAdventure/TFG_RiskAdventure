@@ -144,19 +144,19 @@
         <!-- imágenes circulares y botones-->  
         <section class="row"  >
           <div class="col-md-3" id="circ1">
-             <img src="../imagenes/home_packs_despedida.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+             <img src="../imagenes/home_packs_despedida2.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
              <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
           </div>
           <div class="col-md-3" id="circ2">
-             <img src="../imagenes/home_packs_grupos .jpg" alt="imagen aventura grupos" title="imagen aventura grupos"></img>
+             <img src="../imagenes/home_packs_grupos1.jpg" alt="imagen aventura grupos" title="imagen aventura grupos"></img>
              <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
           </div>
           <div class="col-md-3" id="circ3">
-             <img src="../imagenes/home_packs_familias.jpg" alt="imagen aventura familias" title="imagen aventura familias"></img>
+             <img src="../imagenes/home_packs_familias1.jpg" alt="imagen aventura familias" title="imagen aventura familias"></img>
              <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
           </div>
           <div class="col-md-3" id="circ4">
-             <img src="../imagenes/home_packs_parejas.jpg" alt="imagen aventura parejas" title="imagen aventura parejas"></img>
+             <img src="../imagenes/home_packs_parejas1.jpg" alt="imagen aventura parejas" title="imagen aventura parejas"></img>
              <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
         </section>
