@@ -81,7 +81,7 @@
           <div class="col-md-4" id="descripcion1">
           Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
           Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
-          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo.
           </div>
           </section>
           <section class="row"  >
