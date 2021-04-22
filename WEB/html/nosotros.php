@@ -63,24 +63,38 @@
           </div>
         </section>
         <section class="row"  >
-          <div class="col-md-12" id="circulos">
-             <div  id="circ1" class="circulitos">RAUL</div>
-             <div class="descripcion">
-             <p>Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. Con gran
-               experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía.
-               </p></div>
-             <div  id="circ2" class="circulitos"></div>
-             <div class="col-md-2" id="nombres2">LIDIA</div>
-             <p>Guía de Alta Montaña con la credencial de la UIAGM, cumple los más altos estándares de técnicas y conocimientos de la montaña.
-                Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo en todas las competiciones de alta montaña en España y Resto del Mundo... 
-                No perdona su café mañanero, un buen entrenamiento...ni un buen concierto de Rock.</p>
-             <div  id="circ3" class="circulitos"></div>
-             <div class="col-md-2 " id="nombres3">PILAR</div>
-             <p>Licenciada por la FADA con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos... Ha estado más tiempo en el cielo
-               que en la tierra... Se encarga de la coordinación de los deportes aéreos de riesgo a Nivel Nacional colaborando con el escuadrón de Zapadores Paracaidistas del Ejercito Español para sus formaciones. 
-               Cree que no hay mejor momento que el estar con la familia y amigos,... y si es posible, al lado de las nubes.
+          <div class="col-md-4" id="circ2">
+             <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
           </div>
-        </section>                                            
+          <div class="col-md-4" id="nombre1">RAÚL</div>
+          <div class="col-md-4" id="descripcion1">
+          Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
+          Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
+          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+          </div>
+          </section>  
+          <section class="row"  >
+          <div class="col-md-4" id="circ2">
+             <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+          </div>
+          <div class="col-md-4" id="nombre1">RAÚL</div>
+          <div class="col-md-4" id="descripcion1">
+          Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
+          Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
+          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+          </div>
+          </section>
+          <section class="row"  >
+          <div class="col-md-4" id="circ2">
+             <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+          </div>
+          <div class="col-md-4" id="nombre1">RAÚL</div>
+          <div class="col-md-4" id="descripcion1">
+          Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
+          Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
+          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+          </div>
+          </section>                               
                                                        
                                                              <!-- FOOTER-----COMÚN-->
                                                              <footer class="row" >
