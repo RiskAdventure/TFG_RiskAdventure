@@ -93,7 +93,7 @@
                                     <!-- efecto bolitas---COMÚN-->  
           
           <!--enlaces a aviso legal, política de privacidad y ayuda--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Politica de privacidad</a> | <a href="ayuda.php" id="ayuda"> Ayuda</a></div>
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="ayuda.php" id="ayuda"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/eventos.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
