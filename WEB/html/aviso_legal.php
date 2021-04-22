@@ -3,7 +3,7 @@
   <head>
     <title>Aviso Legal RA</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, Ayuda,Soporte,Opiniones"><!-- palabras clave-->
+    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, cookies,Soporte,Opiniones"><!-- palabras clave-->
     <meta name="description" content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
@@ -92,8 +92,8 @@
           <hr>
                                     <!-- efecto bolitas---COMÚN-->  
           
-          <!--enlaces a aviso legal, política de privacidad y ayuda--> 
-          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="ayuda.php" id="ayuda"> Cookies</a></div>
+          <!--enlaces a aviso legal, política de privacidad y cookies--> 
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
         </footer>
       <script type="text/javascript" src="../js/aviso_legal.js"></script> <!--Enlace externo a archivo JS-->
     </div> 

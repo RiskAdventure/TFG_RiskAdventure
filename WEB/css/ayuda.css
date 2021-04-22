@@ -112,7 +112,7 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
-#privacidad #ayuda {
+#privacidad #cookies {
     font-weight: bolder;
     color: #ba9e38 !important;
 }
@@ -235,7 +235,7 @@ a #restaurante {
   text-align: center;
 }
 
-/*enlaces finales de acceso a recursos privacidad, legal ayuda*/
+/*enlaces finales de acceso a recursos privacidad, legal cookies*/
 #privacidad {
   margin: auto;
   text-align: center;
