@@ -132,6 +132,15 @@ li:hover {
 }
 #div2_1{
   background-color: #64551e;
+  text-align: center;
+  
+
+}
+#div2_1 a div{
+  display: inline-block;
+  color: white;
+  
+  
 }
 #div2_2{
   background-color: #443914;
