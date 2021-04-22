@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/contactto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
@@ -52,19 +52,25 @@
         <section class="parte_central">
           <article class="row" >
             <div class="col-md-6 col-xs-6  " id="div1_1">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+                <p>ENVÍANOS TU CONSULTA</p>
             </div>
             <div class="col-md-6 col-xs-6  " id="div1_2">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+                <p>Disponemos de un Servicio de Atención al Cliente a través de este formulario
+                    Aquí podremos resolver las cuestiones referentes a: experiencias, presupuestos,
+                    pedidos, pagos y otras incidencias, de todos los pedidos realizados a través de nuestra
+                    web o de nuestro Servicio de Atención al Cliente.
+                </p>
             </div>
           </article>
           <article class="row">
-            <div class="col-md-6 col-xs-6  " id="div2_1">
-              <p>HOLAAAAAAAAAAAAAAAAA</p>
-            </div>
-            <div class="col-md-6 col-xs-6  " id="div2_2">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
-            </div>
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a><div>CONSULTA</div></a>
+              <a><div>CHAT on line</div></a>
+              <a><div>FORO</div></a>
+              <a><div>CONDICIONES</div></a>
+              <a><div>POLÍTICA</div></a>
+              <a><div>COOKIES</div></a>
+            </div>            
           </article>
         </section>
                                                 <!-- efecto bolitas--- COMÚN-->
