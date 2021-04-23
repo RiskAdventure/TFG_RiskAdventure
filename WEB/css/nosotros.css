@@ -455,9 +455,7 @@ hr{
   margin-bottom: 4vw;
   font-size: 130%;
   font-weight: 800;
-  padding-top: 3%;
-  text-align: center;
-   
+
 }
 .descripcion {
   margin-top: 4vw;
@@ -466,8 +464,6 @@ hr{
   text-align: center;
   font-size: 130%;
 }
-
-
                                                 /*FOOTER-------------COMÚN*/
 footer {
   background-color: rgb(69, 83, 88) !important;
