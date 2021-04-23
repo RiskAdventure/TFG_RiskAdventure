@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/contactto.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
@@ -117,15 +117,24 @@
             </div>
           </article>
           <article class="row">
-            <div class="col-md-5 col-xs-12  " id="div4_1">
-              <form method="POST" action="consulta.php">
-                <input type="text" placeholder="Nombre" class="camposdorados"/><br><br>
-                <input type="email" placeholder="E-mail" class="camposdorados"/><br><br>
-                <input type="text" placeholder="Asunto" class="camposdorados"/><br><br>
+            <div class="col-md-5 col-xs-12  " id="div4_1" >
+              <form method="POST" action="controllerConsulta.php">
+                <input type="text" placeholder="Nombre" name="nombre" class="camposdorados"/><br><br>
+                <input type="email" placeholder="E-mail" name="email" class="camposdorados"/><br><br>
+                <input type="text" placeholder="Asunto" name="asunto" class="camposdorados"/><br><br>
+                <input type="datefmt_set_calendar"  name="fecha" hidden>
                 <textarea name="comentarios" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
-                <input type="checkbox" id="check"/>
+                <div class="squaredFour">
+                  <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check"  />
+                  <label for="squaredFour"></label>
+              </div>
+                  <!-- Squared FOUR -->
+  
+
+
+  
                 <span>Acepto la<a href="politica_privacidad.php"> Política de privacidad</a></span>
-                <input type="submit" id="enviar" value="enviar"/>
+                <input type="submit" id="enviar" value="ENVIAR"/>
               </form>
             </div>
             <div class="col-md-7 col-xs-12  " id="div4_2">
