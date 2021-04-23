@@ -62,42 +62,108 @@
             </div>
           </div>
         </section>
+                                                 <!-- efecto bolitas--- COMÚN-->
+        <section class="row">
+          <div class="col-md-12 col-xs-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section>  
         <section class="row"  >
-          <div class="col-md-4" id="circ2">
+          <div class="col-md-4 col-xs-12" id="circ2">
              <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
           </div>
-          <div class="col-md-4" id="nombre1">RAÚL</div>
-          <div class="col-md-4" id="descripcion1">
+          <div class="col-md-4 col-xs-12 nombre">RAÚL</div>
+          <div class="col-md-4 col-xs-12 descripcion">
           Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
           Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
           Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
           </div>
           </section>  
+          <hr>
           <section class="row"  >
-          <div class="col-md-4" id="circ2">
+          <div class="col-md-4 col-xs-12" id="circ2">
              <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
           </div>
-          <div class="col-md-4" id="nombre1">RAÚL</div>
-          <div class="col-md-4" id="descripcion1">
-          Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
-          Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
-          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+          <div class="col-md-4 col-xs-12 nombre">LIDIA</div>
+          <div class="col-md-4 col-xs-12 descripcion">
+          Guía de Alta Montaña con la credencial de la UIAGM, cumple los más altos estándares de técnicas y conocimientos de la montaña.
+          Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo en todas las competiciones de alta montaña en España y Resto del Mundo...
+          No perdona su café mañanero, un buen entrenamiento...ni un buen concierto de Rock.
           </div>
           </section>
+          <hr>
           <section class="row"  >
-          <div class="col-md-4" id="circ2">
+          <div class="col-md-4 col-xs-12" id="circ2">
              <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
           </div>
-          <div class="col-md-4" id="nombre1">RAÚL</div>
-          <div class="col-md-4" id="descripcion1">
-          Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua es su medio de vida. 
-          Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de Alta Montaña de la provincia de Andalucía. 
-          Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
+          <div class="col-md-4 col-xs-12 nombre">PILAR</div>
+          <div class="col-md-4 col-xs-12 descripcion">
+          Licenciada por la FADA con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos... Ha estado más tiempo en el cielo que en la tierra...
+          Se encarga de la coordinación de los deportes aéreos de riesgo a Nivel Nacional colaborando con el escuadrón de Zapadores Paracaidistas del Ejercito Español para sus formaciones. 
+          Cree que no hay mejor momento que el estar con la familia y amigos,... y si es posible, al lado de las nubes.
           </div>
-          </section>                               
-                                                       
+          </section>
+          
+                                                    <!-- efecto bolitas--- COMÚN-->
+        <section class="row">
+          <div class="col-md-12 col-xs-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section>                                                                          
                                                              <!-- FOOTER-----COMÚN-->
-                                                             <footer class="row" >
+          <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
                <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
