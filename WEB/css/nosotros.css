@@ -129,8 +129,8 @@ li:hover {
   text-align: center;
   padding-left: 15vw;
   margin-top: 1.5vw;
-  margin-bottom: 3vw;
-  font-size: 1.5vw;
+  margin-bottom: 1vw;
+  font-size: 1.3vw;
   text-transform: uppercase;
   color: rgb(66, 66, 66);
   font-weight: 800;
@@ -142,10 +142,255 @@ li:hover {
   text-align: center;
   padding-left: 5vw;
   margin-top: 1.5vw;
-  margin-bottom: 4vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: 700;
   color: rgb(66, 66, 66);
+}
+
+
+                            /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
+.bola {
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0.8%;
+  margin-top: 4%;
+  display: inline-block;
+}
+#bolitas {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+#bola1 {
+  width: 7px;
+  height: 7px;
+}
+#bola2 {
+  width: 8px;
+  height: 8px;
+}
+#bola3 {
+  width: 9px;
+  height: 9px;
+}
+#bola4 {
+  width: 10px;
+  height: 10px;
+}
+#bola5 {
+  width: 11px;
+  height: 11px;
+}
+#bola6 {
+  width: 12px;
+  height: 12px;
+}
+#bola7 {
+  width: 13px;
+  height: 13px;
+}
+#bola8 {
+  width: 14px;
+  height: 14px;
+}
+#bola9 {
+  width: 15px;
+  height: 15px;
+}
+#bola10 {
+  width: 16px;
+  height: 16px;
+}
+#bola11 {
+  width: 17px;
+  height: 17px;
+}
+#bola12 {
+  width: 18px;
+  height: 18px;
+}
+#bola13 {
+  width: 19px;
+  height: 19px;
+}
+#bola14 {
+  width: 20px;
+  height: 20px;
+}
+#bola15 {
+  width: 19px;
+  height: 19px;
+}
+#bola16 {
+  width: 18px;
+  height: 18px;
+}
+#bola17 {
+  width: 17px;
+  height: 17px;
+}
+#bola18 {
+  width: 16px;
+  height: 16px;
+}
+#bola19 {
+  width: 15px;
+  height: 15px;
+}
+#bola20 {
+  width: 14px;
+  height: 14px;
+}
+#bola21 {
+  width: 13px;
+  height: 13px;
+}
+#bola22 {
+  width: 12px;
+  height: 12px;
+}
+#bola23 {
+  width: 11px;
+  height: 11px;
+}
+#bola24 {
+  width: 10px;
+  height: 10px;
+}
+#bola25 {
+  width: 9px;
+  height: 9px;
+}
+#bola26 {
+  width: 8px;
+  height: 8px;
+}
+#bola27 {
+  width: 7px;
+  height: 7px;
+}
+/*EFECTO BOLAS Y LINEA HR--------COMÚN*/
+
+.bola {
+background-color: #ba9e38;
+border-radius: 100%;
+margin-right: 0.8%;
+margin-top: 4%;
+display: inline-block;
+}
+#bolitas {
+text-align: center;
+margin-bottom: 3vw;
+}
+#bola1 {
+width: 7px;
+height: 7px;
+}
+#bola2 {
+width: 8px;
+height: 8px;
+}
+#bola3 {
+width: 9px;
+height: 9px;
+}
+#bola4 {
+width: 10px;
+height: 10px;
+}
+#bola5 {
+width: 11px;
+height: 11px;
+}
+#bola6 {
+width: 12px;
+height: 12px;
+}
+#bola7 {
+width: 13px;
+height: 13px;
+}
+#bola8 {
+width: 14px;
+height: 14px;
+}
+#bola9 {
+width: 15px;
+height: 15px;
+}
+#bola10 {
+width: 16px;
+height: 16px;
+}
+#bola11 {
+width: 17px;
+height: 17px;
+}
+#bola12 {
+width: 18px;
+height: 18px;
+}
+#bola13 {
+width: 19px;
+height: 19px;
+}
+#bola14 {
+width: 20px;
+height: 20px;
+}
+#bola15 {
+width: 19px;
+height: 19px;
+}
+#bola16 {
+width: 18px;
+height: 18px;
+}
+#bola17 {
+width: 17px;
+height: 17px;
+}
+#bola18 {
+width: 16px;
+height: 16px;
+}
+#bola19 {
+width: 15px;
+height: 15px;
+}
+#bola20 {
+width: 14px;
+height: 14px;
+}
+#bola21 {
+width: 13px;
+height: 13px;
+}
+#bola22 {
+width: 12px;
+height: 12px;
+}
+#bola23 {
+width: 11px;
+height: 11px;
+}
+#bola24 {
+width: 10px;
+height: 10px;
+}
+#bola25 {
+width: 9px;
+height: 9px;
+}
+#bola26 {
+width: 8px;
+height: 8px;
+}
+#bola27 {
+width: 7px;
+height: 7px;
+}
+hr{
+  display: none;
 }
                                                     /*SECTION*/
 /*texto bajo el carrusel*/
@@ -153,14 +398,17 @@ li:hover {
 #circ1 {
   margin: auto;
   text-align: center;
+  margin-bottom: 5vw;
 }
 #circ2 {
   margin: auto;
   text-align: center;
+  margin-bottom: 5vw;
 }
 #circ3 {
   margin: auto;
   text-align: center;
+  margin-bottom: 5vw;
 }
 
 #circ1 img {
@@ -201,23 +449,24 @@ li:hover {
 }
 
 /*botones parte central,tarjetitas,packs y grupos*/
-#nombre1 {
+.nombre {
   width: 2vw;
   height: 1vw;
   margin-top: 4vw;
-  margin-bottom: 2vw;
-  font-size: 1vw;
+  margin-bottom: 4vw;
+  font-size: 1.3vw;
   font-weight: 800;
   padding-top: 2vw;
 }
-#descripcion1 {
+.descripcion {
   width: 50vw;
   height: 1vw;
   margin-top: 4vw;
   padding-left: 10vw;
-  margin-bottom: 2vw;
+  padding-bottom: 10vw;
+  margin-bottom: 4vw;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.3vw;
   
 }
 
