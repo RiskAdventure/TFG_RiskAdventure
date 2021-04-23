@@ -125,12 +125,12 @@ li:hover {
 
 #textonosotros{
   margin: auto;
-  width: 62vw;
+ 
   text-align: center;
-  padding-left: 15vw;
+  
   margin-top: 1.5vw;
   margin-bottom: 1vw;
-  font-size: 1.3vw;
+  font-size: 160%;
   text-transform: uppercase;
   color: rgb(66, 66, 66);
   font-weight: 800;
@@ -138,11 +138,11 @@ li:hover {
 }
 #texto{
   margin: auto;
-  width: 72vw;
+  
   text-align: center;
-  padding-left: 5vw;
+  
   margin-top: 1.5vw;
-  font-size: 1.3vw;
+  font-size: 140%;
   font-weight: 700;
   color: rgb(66, 66, 66);
 }
