@@ -14,7 +14,7 @@ header {
   background-color: rgba(255, 255, 255, 0.98);
   top: 0;
   width: 100%;
-  margin-bottom: 2vw;
+  margin-bottom: 8vw ;
 }
 #logo_menu {
   margin-right: 0px;
@@ -124,30 +124,124 @@ li:hover {
   cursor: pointer;
 }
                                               /*SECTION*/
+/*Texto envianos tu consulta*/
 #div1_1{
-  background-color: #ba9e38;
-}
-#div1_2{
-  background-color: #927c2c;
-}
-#div2_1{
-  background-color: #64551e;
-  text-align: center;
   
-
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: rgb(66, 66, 66);
+  font-weight:bolder;
+  text-align: center;
+  letter-spacing: 0.3vw;
+  padding-top: 1vw;
 }
-#div2_1 a div{
+/*Texto descriptivo de envianos tu consulta*/
+#div1_2{
+  
+  color: rgb(66, 66, 66);
+  font-weight:lighter;
+  font-size: 1.28vw;
+  text-align: center;
+  margin-bottom: 8vw;
+  
+}
+/*Caja botones*/
+
+#div2_1{
+  
+  text-align: center;
+  margin-bottom: 2vw;
+}
+/*Botones*/
+#div2_1 div{
+  padding: 0.6vw;
+  background-color: #8095a1;  
+  margin-left: 3vw;
+  font-size: 1vw;
+  border-radius: 7px;
+  font-weight: bolder;
   display: inline-block;
   color: white;
   
+}
+#div2_1 div:hover{
+  background-color: #ba9e38;
   
 }
-#div2_2{
-  background-color: #443914;
+/*Texto ayuda y soporte*/
+#div3_1 {
+ 
+  background-color: #ba9e38;
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: rgb(66, 66, 66);
+  font-weight:bolder;
+  
+  letter-spacing: 0.3vw;
+  
+  
 }
+/*Texto introduce tus datos*/
+#div3_2{
+  background-color: #927c2c;
+  color: rgb(66, 66, 66);
+  font-weight:lighter;
+  font-size: 1vw;
+  
+  margin-bottom: 2.5vw;
+}
+#div4_1{
+  background-color: #a09987;
+}
+#div4_2{
+  background-color: #958247;
+  background: content-box;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+#div4_2 img{
+  width: 100%;
+  
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 0px !important;
+  text-align: center;
+  display: inline-block;
+    
+}
+.camposdorados{
+  width: 100%;
+  border: 5px solid #ba9e38;
+  border-radius: 8px;
+  height: 50px;
+  padding-left: 2vw;
+}
+textarea{
+  width: 100%;
+  border: 5px solid #ba9e38;
+  border-radius: 8px;
+  padding-left: 2vw;
+  resize: none;
+}
+
 .parte_central article{
   margin-left: 0px;
   margin-right: 0px;
+}
+#check{
+  width: 1.3vw;
+  height: 1.3vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px #ba9e38;
+  background-color: none !important;
 }
 
 
