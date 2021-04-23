@@ -122,8 +122,8 @@
                 <input type="text" placeholder="Nombre" name="nombre" class="camposdorados"/><br><br>
                 <input type="email" placeholder="E-mail" name="email" class="camposdorados"/><br><br>
                 <input type="text" placeholder="Asunto" name="asunto" class="camposdorados"/><br><br>
-                <input type="datefmt_set_calendar"  name="fecha" hidden>
-                <textarea name="comentarios" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
+                
+                <textarea name="comentario" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
                 <div class="squaredFour">
                   <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check"  />
                   <label for="squaredFour"></label>
