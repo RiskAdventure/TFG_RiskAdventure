@@ -108,7 +108,7 @@
           <hr>
           <section class="row"  >
           <div class="col-md-4 col-xs-12" id="circ2">
-             <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+             <img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
           </div>
           <div class="col-md-4 col-xs-12 nombre">LIDIA</div>
           <div class="col-md-4 col-xs-12 descripcion">
@@ -120,7 +120,7 @@
           <hr>
           <section class="row"  >
           <div class="col-md-4 col-xs-12" id="circ2">
-             <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+             <img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
           </div>
           <div class="col-md-4 col-xs-12 nombre">PILAR</div>
           <div class="col-md-4 col-xs-12 descripcion">
