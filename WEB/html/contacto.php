@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/contactto.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
@@ -51,11 +51,11 @@
         <!--Envianos tu consulta:texto y botones-->
         <section class="parte_central">
           <article class="row" >
-            <div class="col-md-6 col-xs-6  " id="div1_1">
+            <div class="col-md-4 col-xs-12  " id="div1_1">
                 <p>ENVÍANOS TU CONSULTA</p>
             </div>
-            <div class="col-md-6 col-xs-6  " id="div1_2">
-                <p>Disponemos de un Servicio de Atención al Cliente a través de este formulario
+            <div class="col-md-8 col-xs-12  " id="div1_2">
+                <p>Disponemos de un Servicio de Atención al Cliente a través de este formulario.
                     Aquí podremos resolver las cuestiones referentes a: experiencias, presupuestos,
                     pedidos, pagos y otras incidencias, de todos los pedidos realizados a través de nuestra
                     web o de nuestro Servicio de Atención al Cliente.
@@ -64,12 +64,12 @@
           </article>
           <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a><div>CONSULTA</div></a>
-              <a><div>CHAT on line</div></a>
-              <a><div>FORO</div></a>
-              <a><div>CONDICIONES</div></a>
-              <a><div>POLÍTICA</div></a>
-              <a><div>COOKIES</div></a>
+              <a href="#consulta" id="consulta"><div>CONSULTA</div></a>
+              <a href=""><div>CHAT on line</div></a>
+              <a href=""><div>FORO</div></a>
+              <a href=""><div>CONDICIONES</div></a>
+              <a href="politica_privacidad.php"><div>POLÍTICA</div></a>
+              <a href="cookies.php"><div>COOKIES</div></a>
             </div>            
           </article>
         </section>
@@ -106,22 +106,39 @@
             <div id="bola26" class="bola"></div>
           </div>
         </section> 
-        <!--cookies y soporte:formulario e imagen-->
+        <!--consulta y soporte:formulario e imagen-->
         <section class="parte_central">
           <article class="row" >
-            <div class="col-md-8 col-xs-6  " id="div1_1">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            <div class="col-md-5 col-xs-12  " id="div3_1">
+                <p >CONSULTA Y SOPORTE</p>
             </div>
-            <div class="col-md-10 col-xs-6  " id="div1_2">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            <div class="col-md-7 col-xs-12  " id="div3_2">
+                <p>Introduce tus datos y te remitiremos una respuesta a la mayor brevedad posible. Gracias</p>
             </div>
           </article>
           <article class="row">
-            <div class="col-md-12 col-xs-6  " id="div2_1">
-              <p>HOLAAAAAAAAAAAAAAAAA</p>
+            <div class="col-md-5 col-xs-12  " id="div4_1" >
+              <form method="POST" action="controllerConsulta.php">
+                <input type="text" placeholder="Nombre" name="nombre" class="camposdorados"/><br><br>
+                <input type="email" placeholder="E-mail" name="email" class="camposdorados"/><br><br>
+                <input type="text" placeholder="Asunto" name="asunto" class="camposdorados"/><br><br>
+                <input type="datefmt_set_calendar"  name="fecha" hidden>
+                <textarea name="comentarios" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
+                <div class="squaredFour">
+                  <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check"  />
+                  <label for="squaredFour"></label>
+              </div>
+                  <!-- Squared FOUR -->
+  
+
+
+  
+                <span>Acepto la<a href="politica_privacidad.php"> Política de privacidad</a></span>
+                <input type="submit" id="enviar" value="ENVIAR"/>
+              </form>
             </div>
-            <div class="col-md-8 col-xs-6  " id="div2_2">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            <div class="col-md-7 col-xs-12  " id="div4_2">
+                <img src="../imagenes/contacto_consulta.jpg" alt="imagen consulta y soporte" title="imagen consulta y soporte"/>
             </div>
           </article>
         </section>
