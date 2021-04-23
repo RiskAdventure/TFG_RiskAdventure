@@ -136,7 +136,7 @@
                 conocimientos de la montaña.
                 Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo
                 en todas las competiciones de alta montaña en España y Resto del Mundo...
-                No perdona su café mañanero, un buen entrenamiento...ni un buen concierto de Rock.
+                No perdona su café mañanero, un buen entrenamiento, ni un buen concierto de Rock.
             </div>
         </section>
         <hr>
