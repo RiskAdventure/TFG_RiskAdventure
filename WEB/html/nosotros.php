@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <!--juego caracteres del lengiaje-->
     <meta name="keywords"
-        content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, cookies,Soporte,Opiniones">
+        content="Multiaventura,Experiencias,Nosotros,Escalada,Quads,Alpinismo,Material,Bicicletas,Montaña, Chat, Online, cookies,">
     <!-- palabras clave-->
     <meta name="description"
-        content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos.">
+        content="Somos Especialistas en Organizar Team Building para Empresas, Escapadas, Fines de Semana en la naturaleza. Multiaventura y Opción Alojamiento, Infinidad de Actividades. Vive una EXPERIENCIA ÚNICA">
     <!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
@@ -112,8 +112,8 @@
         </section>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-                <img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
-                    title="imagen aventura despedidas"></img>
+            <a href="mailto:Rauli36@hotmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
+                    title="imagen aventura despedidas"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">RAÚL</div>
             <div class="col-md-7 col-xs-12 descripcion">
@@ -127,8 +127,8 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-                <img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
-                    title="imagen aventura despedidas"></img>
+            <a href="mailto:lidiacapita@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
+                    title="imagen aventura despedidas"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">LIDIA</div>
             <div class="col-md-7 col-xs-12 descripcion">
@@ -136,14 +136,14 @@
                 conocimientos de la montaña.
                 Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo
                 en todas las competiciones de alta montaña en España y Resto del Mundo...
-                No perdona su café mañanero, un buen entrenamiento...ni un buen concierto de Rock.
+                No perdona su café mañanero, un buen entrenamiento, ni un buen concierto de Rock.
             </div>
         </section>
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-                <img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
-                    title="imagen aventura despedidas"></img>
+            <a href="mailto:pbermejodepedro@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
+                    title="imagen aventura despedidas"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
@@ -196,62 +196,37 @@
                 <article id="3685" class="location-listing">
                     <a class="location-title" href="#">Asics</a>
                     <div class="location-image">
-                        <a href="#">
-                            <img width="300" height="169"
-                                src="../imagenes/asics.jpg"
-                                alt="asics"> </a>
+                        <a href="#"><img width="300" height="169" src="../imagenes/asics.jpg" alt="asics"> </a>
                     </div>
                 </article>
                 <article id="3688" class="location-listing">
-                    <a class="location-title" href="#">
-                        Boreal </a>
+                    <a class="location-title" href="#">Salomon </a>
                     <div class="location-image">
-                        <a href="#">
-                            <img width="300" height="169"
-                                src="../imagenes/boreal.png"
-                                alt="london"> </a>
+                        <a href="#"><img width="300" height="169" src="../imagenes/salomon.jpg" alt="Salomon"> </a>
                     </div>
                 </article>
                 <article id="3691" class="location-listing">
-                    <a class="location-title" href="#">Chiruca </a>
+                    <a class="location-title" href="#">Merrell </a>
                     <div class="location-image">
-                        <a href="#">
-                            <img width="300" height="169"
-                            src="../imagenes/chiruca.png"
-                                alt="new york"> </a>
+                        <a href="#"><img width="300" height="169" src="../imagenes/merrell.svg" alt="Merrell"> </a>
                     </div>
                 </article>
                 <article id="3694" class="location-listing">
-                    <a class="location-title" href="#">
-                        Columbia</a>
+                    <a class="location-title" href="#">The North Face</a>
                     <div class="location-image">
-                        <a href="#">
-                            <img width="300" height="169"
-                                src="../imagenes/columbia.jpg"
-                                alt="cape town"> </a>
+                        <a href="#"><img width="300" height="169" src="../imagenes/thenorthface.jpg" alt="The North Face"> </a>
                     </div>
                 </article>
                 <article id="3697" class="location-listing">
-
-                    <a class="location-title" href="#">
-                        Beijing </a>
-
+                    <a class="location-title" href="#"> Boreal </a>
                     <div class="location-image">
-                        <a href="#">
-                            <img width="300" height="169"
-                            src="../imagenes/columbia.jpg"
-                                alt="beijing"> </a>
+                    <a href="#"><img width="300" height="169" src="../imagenes/boreal.png" alt="Boreal"> </a>
                     </div>
                 </article>
                 <article id="3700" class="location-listing">
-                    <a class="location-title" href="#">
-                        Paris </a>
-
+                    <a class="location-title" href="#">La Sportiva </a>
                     <div class="location-image">
-                        <a href="#">
-                            <img width="300" height="169"
-                                src="../imagenes/columbia.jpg" alt="paris">
-                        </a>
+                        <a href="#"><img width="300" height="169" src="../imagenes/lasportiva.png" alt="La Sportiva"></a>
                     </div>
                 </article>
             </div>
