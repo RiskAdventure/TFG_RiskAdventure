@@ -233,6 +233,22 @@ li:hover {
   margin: auto !important;
   text-align: center;
 }
+#grill img {
+  width: 30vw;
+  height: 10vw;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  margin-right: 0vw !important;
+  margin-top: 4vw;
+}
+#grill {
+  margin: auto !important;
+  text-align: center;
+}
 
 
 /*botones ver más y contacto*/
@@ -252,15 +268,20 @@ li:hover {
 
 #boton_listo {
   text-align: center;
+  margin-top: 2vw;
 }
 #contact {
   margin-left: 48vw;
   padding: 0.6vw !important;
   width: 9vw !important;
 }
+#boton_incentive {
+  text-align: center;
+  margin-top: 2vw;
+}
 #boton_evento {
   text-align: center;
-  margin-bottom: 5%;
+  margin-top: 2vw;
 }
 /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
 hr {
