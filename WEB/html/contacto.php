@@ -35,7 +35,7 @@
             <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
             <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                 <ul>
-                  <li ><a id="home" href="home.php">HOME</a></li>
+                  <li ><a id="home" href="index.php">HOME</a></li>
                   <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
                   <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
                   <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
