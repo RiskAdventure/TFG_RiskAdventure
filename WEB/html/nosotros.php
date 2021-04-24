@@ -112,7 +112,7 @@
         </section>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="mailto:Rauli36@hotmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
+            <a href="mailto:raul@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
                     title="Experto Agua Raúl"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">RAÚL</div>
@@ -127,7 +127,7 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="mailto:lidiacapita@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
+            <a href="mailto:lidia@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
                     title="Experto Tierra Lidia"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">LIDIA</div>
@@ -142,7 +142,7 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="mailto:pbermejodepedro@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
+            <a href="mailto:pilar@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
                     title="Experto Aire Pilar"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
