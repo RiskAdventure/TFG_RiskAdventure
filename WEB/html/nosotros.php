@@ -47,7 +47,7 @@
                 <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
                 <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                     <ul>
-                        <li><a id="home" href="home.php">HOME</a></li>
+                        <li><a id="home" href="index.php">HOME</a></li>
                         <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
                         <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
                         <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
@@ -143,7 +143,7 @@
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="mailto:pbermejodepedro@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
-                    title="Experto Pilar Aire"></img></a>
+                    title="Experto Aire Pilar"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
