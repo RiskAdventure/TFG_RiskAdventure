@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/contactto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
@@ -65,8 +65,7 @@
           <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="#consulta" id="consulta"><div>CONSULTA</div></a>
-              <a href=""><div>CHAT on line</div></a>
-              <a href=""><div>FORO</div></a>
+              
               <a href=""><div>CONDICIONES</div></a>
               <a href="politica_privacidad.php"><div>POLÍTICA</div></a>
               <a href="cookies.php"><div>COOKIES</div></a>
@@ -178,21 +177,63 @@
         <!--Opinión de nuestros clientes:imagen,estrellas y parrafo-->
         <section class="parte_central">
           <article class="row" >
-            <div class="col-md-6 col-xs-12  " id="div1_1">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            <div class="col-md-4 col-xs-12  " id="div5_1">
+                <p>NUESTROS CLIENTES OPINAN</p>
             </div>
-            <div class="col-md-6 col-xs-12  " id="div1_2">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
+            
+            <div class="col-md-8 col-xs-12  " id="div5_3">
+              <div>
+                  <div class="icono">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                  </div>
+                  <div class="texto">
+                    <p class="texto1">Telefónica - Viajó en Empresas.</p>
+                    <p class="texto2"> Realizamos una experiencia muy vertiginosa y recomendable. Conseguimos el
+                        objetivo que buscábamos que era que nuestros empleados trabajaran en equipo y
+                        desde RISK ADVENTURE nos dieron todas las recomendaciones acertadas para
+                        conseguirlo.
+                    </p>
+                  </div>
+              </div> 
+              <div>
+                  <div class="icono">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="texto">
+                    <p class="texto1">Julia - Viajó en Familia.</p>
+                    <p class="texto2"> Los monitores son un gran equipo. Hemos vivido una experiencia única, tal y como
+                        nos dijeron. La actividad es muy divertida. Me gustaría reseñar que a veces hechas
+                        raices en los árboles por las esperas. Y esto es debido a que los niños van sin ningún
+                        adulto que les pueda ayudar. Eso entorpece el recorrido y se hace aburrido.
+                    </p>
+                  </div>
+              </div> 
+              <div>
+                  <div class="icono">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="texto">
+                    <p class="texto1">Diego - Viajó en Experiencia Trekking.</p>
+                    <p class="texto2"> No he participado directamente por problemas físicos, pero es una pasada la gente
+                        como disfruta de todas las instalaciones. No lo conocía y me ha parecido genial la
+                        experiencia que contaba la gente, salían que flipaban.
+                    </p>
+                  </div>
+              </div> 
+            
             </div>
+            
           </article>
-          <article class="row">
-            <div class="col-md-6 col-xs-12  " id="div2_1">
-              <p>HOLAAAAAAAAAAAAAAAAA</p>
-            </div>
-            <div class="col-md-6 col-xs-12  " id="div2_2">
-                <p>HOLAAAAAAAAAAAAAAAAA</p>
-            </div>
-          </article>
+          
         </section>
         <!-- efecto bolitas--- COMÚN-->
         <hr>
