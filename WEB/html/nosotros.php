@@ -69,7 +69,7 @@
                     ofreciendo un servicio y una experiencia
                     única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos
                     técnicos...<br>
-                    RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esaaventura
+                    RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esa aventura
                     decidimos que cualquier aventurero
                     necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales
                     ofrecer una experiencia de calidad,
@@ -113,7 +113,7 @@
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="mailto:Rauli36@hotmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
-                    title="imagen aventura despedidas"></img></a>
+                    title="Experto Agua Raúl"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">RAÚL</div>
             <div class="col-md-7 col-xs-12 descripcion">
@@ -128,7 +128,7 @@
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="mailto:lidiacapita@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
-                    title="imagen aventura despedidas"></img></a>
+                    title="Experto Tierra Lidia"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">LIDIA</div>
             <div class="col-md-7 col-xs-12 descripcion">
@@ -143,7 +143,7 @@
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="mailto:pbermejodepedro@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
-                    title="imagen aventura despedidas"></img></a>
+                    title="Experto Pilar Aire"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
