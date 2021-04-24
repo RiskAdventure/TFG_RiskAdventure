@@ -2,6 +2,7 @@
 .container {
   width: 80vw;
   background-size: contain;
+  color: rgb(66, 66, 66);
 }
 
                                                         /*HEADER-----COMÚN*/
@@ -11,7 +12,7 @@ header {
   position: sticky;
   border-bottom: 1px solid #ba9e3857;
   z-index: 3;
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: rgb(255, 255, 255);
   top: 0;
   width: 100%;
   margin-bottom: 8vw ;
@@ -127,7 +128,7 @@ li:hover {
 /*Texto envianos tu consulta*/
 #div1_1{
   
-  font-size: 2vw;
+  font-size: 230%;
   text-transform: uppercase;
   color: rgb(66, 66, 66);
   font-weight:bolder;
@@ -140,7 +141,7 @@ li:hover {
   
   color: rgb(66, 66, 66);
   font-weight:lighter;
-  font-size: 1.28vw;
+  font-size: 170%;
   text-align: center;
   margin-bottom: 8vw;
   
@@ -154,10 +155,10 @@ li:hover {
 }
 /*Botones*/
 #div2_1 div{
-  padding: 0.6vw;
+  padding: 1%;
   background-color: #8095a1;  
-  margin-left: 3vw;
-  font-size: 1vw;
+  margin-left: 4%;
+  font-size: 130%;
   border-radius: 7px;
   font-weight: bolder;
   display: inline-block;
@@ -168,11 +169,11 @@ li:hover {
   background-color: #ba9e38;
   
 }
-/*Texto ayuda y soporte*/
+/*Texto consulta y soporte*/
 #div3_1 {
  
   
-  font-size: 2vw;
+  font-size: 240%;
   text-transform: uppercase;
   color: rgb(66, 66, 66);
   font-weight:bolder;
@@ -186,7 +187,7 @@ li:hover {
   
   color: rgb(66, 66, 66);
   font-weight:lighter;
-  font-size: 1vw;
+  font-size: 130%;
   
   margin-bottom: 2.5vw;
 }
@@ -210,7 +211,7 @@ li:hover {
   margin-left: 0px !important;
   text-align: center;
   display: inline-block;
-    
+  margin-bottom: 4%;  
 }
 .camposdorados{
   width: 100%;
@@ -218,6 +219,7 @@ li:hover {
   border-radius: 8px;
   height: 50px;
   padding-left: 2vw;
+  margin-left: 0px !important;
 }
 .camposdorados input[type="text"]:active {
   box-shadow: none !important;
@@ -234,22 +236,14 @@ textarea{
   margin-left: 0px;
   margin-right: 0px;
 }
-#check{
-  width: 1.3vw;
-  height: 1.3vw;
-  margin-left: 1vw;
-  margin-right: 2vw;
-}
-input[type="checkbox"]:checked {
-  box-shadow: inset 0 0 1px 2px white !important ;
-  background-color: #ba9e38 !important;
-}
+
+
 span{
-  margin-left: 1vw;
+  margin-left: 1%;
 }
 span a{
   text-decoration:2px #3F4A56 underline  !important ;
-  margin-right: 6vw;
+  margin-right: 24%;
 }
 span a:hover{
   font-weight: bolder;
@@ -261,9 +255,10 @@ span a:hover{
   box-shadow: none;
   font-size: 110%;
   padding: 9px;
-  width: 7vw;
+  width: 23%;
   font-weight: bolder;
   border-radius: 7px;
+  margin-bottom: 2%;
   
 }
 #enviar:hover{
@@ -274,7 +269,7 @@ span a:hover{
   margin: 20px auto;
   position: relative;
   display: inline-block;
-  margin-right: 1vw;
+  margin-right: 4%;
 }
 
 .squaredFour label {
@@ -341,6 +336,43 @@ span a:hover{
 }
 input[type=checkbox] {
   visibility: hidden;
+}
+#div5_1{
+  font-size: 180%;
+  text-transform: uppercase;
+  color: rgb(66, 66, 66);
+  font-weight:bolder;
+  text-align: center;
+  letter-spacing: 0.2vw;
+  padding-top: 10%;
+}
+.texto1{
+  font-style: italic;
+}
+#div5_3{
+  border-left: 3px solid #ba9e38;
+  
+}
+#div5_3 div{
+  height: 30%;
+  width: auto;
+  
+}
+#div5_3 div .texto{
+  float: right;
+  width: 75%;
+  font-size: 115%;
+  text-align: justify;
+  padding-top: 1%;
+}
+#div5_3 div .icono{
+  
+  width: 25%;
+  color: #ba9e38;
+  text-align: left;
+  font-size: 170%;
+  height: 200px !important;
+  display: inline-block
 }
 
 
