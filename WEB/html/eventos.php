@@ -62,18 +62,18 @@
         <!-- parte central eventos-->
         <section class="row">
             <!-- imagen eventos team building-->
-            <div class="col-md-7 col-xs-12 col-xm-12  " id="teambuilding">
+            <div class="col-md-7 col-xs-12 col-xm-12 eventosempresa">
                 <img src="../imagenes/eventos_teambuilding.jpg" alt="team building eventos empresa"
                     title="imagen team building eventos empresa">
             </div>
-          
+
             <!-- texto team building-->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
-                <div id="building">Team Building</div>
-                <div id="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
-                  ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? <br><br>
-                  ¿Prefieres la solución antes del problema?
-                  Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
+                <div class="evento">Team Building</div>
+                <div class="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
+                    ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? <br><br>
+                    ¿Prefieres la solución antes del problema?
+                    Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
                 </div>
             </div>
         </section>
@@ -84,26 +84,58 @@
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
             </div>
-          <!-- imagen partner escapada rural-->
-            <div class="col-md-7 col-xs-12 col-xm-12  " id="teamb">
+            <!-- imagen partner escapada rural-->
+            <div class="col-md-3 col-xs-12 col-xm-12" id="teamb">
                 <img src="../imagenes/footer_escapada_rural.jpg" alt="partner escapada rural eventos empresa"
                     title="imagen escapada rural eventos empresa">
             </div>
+            <!-- imagen partner decathlon -->
+            <div class="col-md-2 col-xs-12 col-xm-12" id="decathlon">
+                <img src="../imagenes/footer_decathlon.png" alt="incentive day eventos empresa"
+                    title="imagen decathlon eventos empresa">
+            </div>
         </section>
         <section class="row">
-            <!-- imagen eventos team building-->
-            <div class="col-md-7 col-xs-12 col-xm-12  " id="listos">
-                <img src="../imagenes/eventos_teambuilding.jpg" alt="team building eventos empresa"
-                    title="imagen paracaidismo eventos empresa">
+
+            <!-- imagen eventos incentive day -->
+            <div class="col-md-7 col-xs-12 col-xm-12 eventosempresa">
+                <img src="../imagenes/eventos_incentiveday.jpg" alt="incentive day eventos empresa"
+                    title="imagen incentive day eventos empresa">
             </div>
-          
-            <!-- texto team building-->
+
+            <!-- texto incentive day -->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
-                <div id="building">Team Building</div>
-                <div id="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
-                  ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? <br><br>
-                  ¿Prefieres la solución antes del problema?
-                  Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
+                <div class="evento">Incentive Day</div>
+                <div class="texto3">La motivación de tus empleados es fundamental para que tu empresa vaya viento en
+                    popa y consigas las metas que
+                    os habéis propuesto alcanzar. Debes mantener el interés, la implicación y el compromiso de tu equipo
+                    de trabajo.
+                    Por eso te organizamos un día para poner todo esto en práctica, reforzarlo y llevarlo a cabo en el
+                    día a día en la empresa....
+                </div>
+            </div>
+        </section>
+        <!-- botones ver más y contacto-->
+        <section class="row">
+            <div class="col-md-12" id="boton_evento">
+                <a href="contacto.php">
+                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
+                </a>
+            </div>
+        </section>
+        <section class="row">
+            <!-- imagen eventos incentive day -->
+            <div class="col-md-7 col-xs-12 col-xm-12 eventosempresa">
+                <img src="../imagenes/eventos_empresa.jpg" alt="incentive day eventos empresa"
+                    title="imagen incentive day eventos empresa">
+            </div>
+
+            <!-- texto incentive day -->
+            <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
+                <div class="evento">Eventos de Empresa</div>
+                <div class="texto3">Conectamos tus necesidades con nuestras ideas, entendemos que todos somos diferentes y que existe un tipo de mensaje para cada persona.
+                   Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intrépidos, actividades de aventura y team building con la posibilidad de diseñar un evento totalmente personalizado.
+                   ¿Te atreves?.
                 </div>
             </div>
         </section>
@@ -114,10 +146,10 @@
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
             </div>
-          <!-- imagen partner escapada rural-->
-            <div class="col-md-12 col-xs-12 col-xm-12  " id="teamb">
-                <img src="../imagenes/footer_escapada_rural.jpg" alt="team building eventos empresa"
-                    title="imagen paracaidismo eventos empresa">
+            <!-- imagen partner columbia -->
+            <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
+                <img src="../imagenes/la_sportiva.jpg" alt="incentive day eventos empresa"
+                    title="imagen columbia eventos empresa">
             </div>
         </section>
         <!-- efecto bolitas----COMÚN-->
@@ -211,7 +243,8 @@
             <!--enlaces a aviso legal, política de privacidad y cookies-->
             <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso
                     Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> |
-                <a href="cookies.php" id="cookies"> Cookies</a></div>
+                <a href="cookies.php" id="cookies"> Cookies</a>
+            </div>
         </footer>
         <script type="text/javascript" src="../js/eventos.js"></script>
         <!--Enlace externo a archivo JS-->
