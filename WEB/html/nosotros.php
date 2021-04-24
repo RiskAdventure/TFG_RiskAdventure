@@ -143,7 +143,7 @@
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="mailto:pbermejodepedro@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
-                    title="Experto Pilar Aire"></img></a>
+                    title="Experto Aire Pilar"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
