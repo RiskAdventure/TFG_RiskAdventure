@@ -132,16 +132,19 @@ li:hover {
   width: 50%;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+ 
 }
 
 .card {
   margin-top: 10px;
+  padding-top: 10px;
   box-sizing: border-box;
   border-radius: 2px;
   background-clip: padding-box;
   min-height:400px;
   text-align: center;
+  background-color: rgb(69, 83, 88);
 }
 
 .card span.card-title {
@@ -149,13 +152,14 @@ li:hover {
   font-size: 24px;
   font-weight: 300;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .card .card-image img {
   border-radius: 2px 2px 0 0;
   background-clip: padding-box;
   position: relative;
-  z-index: -1;
+  z-index: 1;
   text-align: center;
 }
 
