@@ -1,9 +1,9 @@
-                                                         /*CONTAINER---COMÚN*/
+/*CONTAINER---COMÚN*/
 .container {
   width: 80vw;
   background-size: contain;
 }
-                                                        /*HEADER-----COMÚN*/
+/*HEADER-----COMÚN*/
 /*iconos del header*/
 header {
   position: -webkit-sticky;
@@ -122,8 +122,234 @@ li:focus {
 li:hover {
   cursor: pointer;
 }
+/*botones parte central,tarjetitas,packs y grupos*/
+.boton {
+  width: 8vw;
+  height: 2vw;
+  background-color: #8095a1;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 2vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 0.4vw;
+  font-size: 1vw;
+}
+.boton:hover {
+  background-color: #ba9e38;
+}
+#boton_packs {
+  text-align: center;
+}
+.boton_pack {
+  width: 12vw;
+  background-color: #8095a1;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 2vw;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.7vw;
+  padding-bottom: 0.4vw;
+  font-size: 1vw;
+}
+.boton_pack:hover {
+  background-color: #ba9e38;
+}
+/*texto bajo imágenes circulares*/
+#texto2 div {
+  margin: auto;
+  width: 62vw;
+  text-align: center;
+  margin-top: 1.5vw;
+  margin-bottom: 5vw;
+  font-size: 1.3vw;
+}
+/*Parte ver más y contáctanos----imagen*/
+#teambuilding img {
+  width: 45vw;
+  height: 25vw;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 0px !important;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 1vw;
+  margin-right: 2vw !important;
+}
+#teambuilding {
+  margin: auto !important;
+  text-align: center;
+}
+#teamb img {
+  width: 30vw;
+  height: 10vw;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 0px !important;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 1vw;
+  margin-right: 2vw !important;
+}
+#teamb {
+  margin: auto !important;
+  text-align: center;
+}
+/*botones ver más y contacto*/
 
-                                                /*FOOTER-------------COMÚN*/
+#building {
+  font-size: 150%;
+  line-height: 3.5vw;
+  margin-bottom: 2vw;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/*texto sección contacto y ver más*/
+#texto3 {
+  font-size: 130%;
+  text-align: center;
+}
+
+#boton_listo {
+  text-align: center;
+}
+#contact {
+  margin-left: 48vw;
+  padding: 0.6vw !important;
+  width: 9vw !important;
+}
+/*EFECTO BOLAS Y LINEA HR--------COMÚN*/
+hr {
+  display: none;
+}
+.bola {
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0.8%;
+  margin-top: 4%;
+  display: inline-block;
+}
+#bolitas {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+#bola1 {
+  width: 7px;
+  height: 7px;
+}
+#bola2 {
+  width: 8px;
+  height: 8px;
+}
+#bola3 {
+  width: 9px;
+  height: 9px;
+}
+#bola4 {
+  width: 10px;
+  height: 10px;
+}
+#bola5 {
+  width: 11px;
+  height: 11px;
+}
+#bola6 {
+  width: 12px;
+  height: 12px;
+}
+#bola7 {
+  width: 13px;
+  height: 13px;
+}
+#bola8 {
+  width: 14px;
+  height: 14px;
+}
+#bola9 {
+  width: 15px;
+  height: 15px;
+}
+#bola10 {
+  width: 16px;
+  height: 16px;
+}
+#bola11 {
+  width: 17px;
+  height: 17px;
+}
+#bola12 {
+  width: 18px;
+  height: 18px;
+}
+#bola13 {
+  width: 19px;
+  height: 19px;
+}
+#bola14 {
+  width: 20px;
+  height: 20px;
+}
+#bola15 {
+  width: 19px;
+  height: 19px;
+}
+#bola16 {
+  width: 18px;
+  height: 18px;
+}
+#bola17 {
+  width: 17px;
+  height: 17px;
+}
+#bola18 {
+  width: 16px;
+  height: 16px;
+}
+#bola19 {
+  width: 15px;
+  height: 15px;
+}
+#bola20 {
+  width: 14px;
+  height: 14px;
+}
+#bola21 {
+  width: 13px;
+  height: 13px;
+}
+#bola22 {
+  width: 12px;
+  height: 12px;
+}
+#bola23 {
+  width: 11px;
+  height: 11px;
+}
+#bola24 {
+  width: 10px;
+  height: 10px;
+}
+#bola25 {
+  width: 9px;
+  height: 9px;
+}
+#bola26 {
+  width: 8px;
+  height: 8px;
+}
+#bola27 {
+  width: 7px;
+  height: 7px;
+}
+
+/*FOOTER-------------COMÚN*/
 footer {
   background-color: rgb(69, 83, 88) !important;
   border: none;
@@ -254,11 +480,11 @@ a #restaurante {
   font-weight: bolder;
   color: #ba9e38 !important;
 }
-                                                        /*MEDIA QUERIES*/
+/*MEDIA QUERIES*/
 /* Entre 1200px y 1630 px*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1630px) {
-                                /*menú ------------común*/
+  /*menú ------------común*/
   #menu {
     padding: 0px !important;
     font-size: 1vw;
@@ -277,7 +503,7 @@ a #restaurante {
     margin-right: 0px !important;
     padding-right: 0px !important;
   }
-                                 /*FOOTER---COMÚN*/
+  /*FOOTER---COMÚN*/
   #contacto_footer {
     font-size: 1.2vw;
   }
@@ -295,12 +521,12 @@ a #restaurante {
 /* De 1200 px hacia abajo */
 
 @media only screen and (max-width: 1200px) {
-                         /*CONTAINER------COMÚN*/
+  /*CONTAINER------COMÚN*/
   .container {
     width: 86vw;
     background-size: contain;
   }
-                     /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
+  /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
   #menu {
     width: 100% !important;
     padding: 0px !important;
@@ -330,7 +556,7 @@ a #restaurante {
   li {
     margin-left: 6px !important;
   }
-                                        /*FOOTER------COMÚN-----*/
+  /*FOOTER------COMÚN-----*/
   #texto_footer {
     text-align: right;
     margin-right: 15px;
@@ -348,7 +574,7 @@ a #restaurante {
 /* Entre 360px y 737px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 737px) {
-                                        /*menú-NAV----COMÚN-------*/
+  /*menú-NAV----COMÚN-------*/
   #menu {
     font-size: 1.5vw;
   }
@@ -357,7 +583,7 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
-                                             /*FOOTER -----COMÚN*/
+  /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
   }
@@ -406,7 +632,7 @@ a #restaurante {
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 500px) {
-                                        /*FOOTER------COMÚN*/
+  /*FOOTER------COMÚN*/
   hr {
     display: block;
     background-color: #ba9e38;
@@ -426,4 +652,205 @@ a #restaurante {
     margin-top: 3vw;
     margin-left: 24px;
   }
+}
+/* Entre 360px y 737px (tamaño pequeño para móviles) */
+
+@media only screen and (min-width: 360px) and (max-width: 737px) {
+  /*menú-NAV----COMÚN-------*/
+#menu {
+font-size: 1.5vw;
+}
+ol {
+margin-bottom: 0px;
+padding-bottom: 0px;
+bottom: 0px !important;
+}
+          /*SECTION*/
+/*carrusel*/
+.item img {
+width: 100%;
+height: 90px;
+max-height: 90px;
+}
+.item {
+font-size: 2.5vw;
+}
+.carousel-indicators li {
+width: 6px;
+height: 6px;
+}
+.carousel-indicators .active {
+width: 6px;
+height: 6px;
+}
+.carousel-caption {
+bottom: 10px;
+padding-bottom: 0px;
+}
+.item h3 {
+font-size: 2vw;
+}
+  /*EFECTO BOLAS--------COMÚN*/
+.bola {
+background-color: #ba9e38;
+border-radius: 100%;
+margin-right: 0.8%;
+margin-top: 4%;
+display: inline-block;
+}
+#bolitas {
+text-align: center;
+margin-bottom: 3vw;
+}
+#bola1 {
+width: 7px;
+height: 7px;
+margin-left: 4vw;
+}
+#bola2 {
+width: 7px;
+height: 7px;
+}
+#bola3 {
+width: 7px;
+height: 7px;
+}
+#bola4 {
+width: 7px;
+height: 7px;
+}
+#bola5 {
+width: 7px;
+height: 7px;
+}
+#bola6 {
+width: 7px;
+height: 7px;
+}
+#bola7 {
+width: 7px;
+height: 7px;
+}
+#bola8 {
+width: 7px;
+height: 7px;
+}
+#bola9 {
+width: 7px;
+height: 7px;
+}
+#bola10 {
+width: 7px;
+height: 7px;
+}
+#bola11 {
+width: 7px;
+height: 7px;
+}
+#bola12 {
+width: 7px;
+height: 7px;
+}
+#bola13 {
+width: 7px;
+height: 7px;
+}
+#bola14 {
+width: 7px;
+height: 7px;
+}
+#bola15 {
+width: 7px;
+height: 7px;
+}
+#bola16 {
+width: 7px;
+height: 7px;
+}
+#bola17 {
+width: 7px;
+height: 7px;
+}
+#bola18 {
+width: 7px;
+height: 7px;
+}
+#bola19 {
+width: 7px;
+height: 7px;
+}
+#bola20 {
+width: 7px;
+height: 7px;
+}
+#bola21 {
+width: 7px;
+height: 7px;
+}
+#bola22 {
+width: 7px;
+height: 7px;
+}
+#bola23 {
+width: 7px;
+height: 7px;
+}
+#bola24 {
+width: 7px;
+height: 7px;
+}
+#bola25 {
+width: 7px;
+height: 7px;
+}
+#bola26 {
+width: 7px;
+height: 7px;
+}
+#bola27 {
+width: 7px;
+height: 7px;
+}
+
+      /*CONTINUACIÓN SECTION*/
+/*texto central*/
+#texto div {
+margin: auto;
+width: 60vw;
+text-align: center;
+font-size: 12px;
+}
+/*botones centrales*/
+.boton {
+width: 16vw;
+border-radius: 5px;
+text-align: center;
+font-size: 2.5vw;
+}
+/*texto y botones centrales*/
+#texto2 {
+font-size: 12px;
+}
+#boton5 {
+width: 36vw;
+}
+#texto3 {
+font-size: 12px;
+}
+#ver {
+width: 18vw !important;
+}
+#contact {
+margin-left: 1vw;
+padding: 0.6vw !important;
+width: 29vw !important;
+margin-right: 0px;
+font-size: 13px;
+width: 29vw !important;
+}
+#boton_listo {
+text-align: center;
+margin-top: 4vw;
+margin-bottom: 4vw;
+}
 }
