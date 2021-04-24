@@ -124,13 +124,13 @@
             </div>
         </section>
         <section class="row">
-            <!-- imagen eventos incentive day -->
+            <!-- imagen eventos empresa  -->
             <div class="col-md-7 col-xs-12 col-xm-12 eventosempresa">
-                <img src="../imagenes/eventos_empresa.jpg" alt="incentive day eventos empresa"
-                    title="imagen incentive day eventos empresa">
+                <img src="../imagenes/eventos_empresa.jpg" alt="eventos empresa"
+                    title="imagen eventos empresa">
             </div>
 
-            <!-- texto incentive day -->
+            <!-- texto eventos empresa  -->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Eventos de Empresa</div>
                 <div class="texto3">Conectamos tus necesidades con nuestras ideas, entendemos que todos somos diferentes y que existe un tipo de mensaje para cada persona.
@@ -146,10 +146,10 @@
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
             </div>
-            <!-- imagen partner columbia -->
+            <!-- imagen partner la sportiva -->
             <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
-                <img src="../imagenes/la_sportiva.jpg" alt="incentive day eventos empresa"
-                    title="imagen columbia eventos empresa">
+                <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa"
+                    title="imagen la sportiva eventos empresa">
             </div>
         </section>
         <!-- efecto bolitas----COMÚN-->
