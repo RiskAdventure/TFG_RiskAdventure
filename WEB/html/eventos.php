@@ -141,7 +141,7 @@
         </section>
         <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12" id="boton_listo">
+            <div class="col-md-12" id="boton_incentive">
                 <a href="contacto.php">
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
@@ -150,6 +150,11 @@
             <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
                 <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa"
                     title="imagen la sportiva eventos empresa">
+            </div>
+             <!-- imagen partner decathlon -->
+             <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
+                <img src="../imagenes/logo_grill.png" alt="incentive day eventos empresa"
+                    title="imagen decathlon eventos empresa">
             </div>
         </section>
         <!-- efecto bolitas----COMÚN-->
