@@ -42,8 +42,7 @@
             </div>
             <div class="row" id="logo_menu">
                 <!-- logo-->
-                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
-                        alt="logo risk adventure" title="logo risk adventure" /> </div>
+                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
                 <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
                 <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                     <ul>
@@ -112,7 +111,7 @@
         </section>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="mailto:Rauli36@hotmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
+            <a href="mailto:raul@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_surf.jpg" alt="imagen aventura despedidas"
                     title="Experto Agua Raúl"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">RAÚL</div>
@@ -127,7 +126,7 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="mailto:lidiacapita@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
+            <a href="mailto:lidia@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_montana.jpg" alt="imagen aventura despedidas"
                     title="Experto Tierra Lidia"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">LIDIA</div>
@@ -142,7 +141,7 @@
         <hr>
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
-            <a href="mailto:pbermejodepedro@gmail.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
+            <a href="mailto:pilar@riskadventureclub.com?Subject=Pedir%20más%20información"><img src="../imagenes/nosotros_paracaidas.jpg" alt="imagen aventura despedidas"
                     title="Experto Aire Pilar"></img></a>
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
