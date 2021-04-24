@@ -194,37 +194,37 @@
 
             <div class="grid-container">
                 <article id="3685" class="location-listing">
-                    <a class="location-title" href="#">Asics</a>
+                    <a class="location-title" href="https://www.asics.com/es/es-es/" target="_blank">Asics</a>
                     <div class="location-image">
-                        <a href="#"><img width="300" height="169" src="../imagenes/asics.jpg" alt="asics"> </a>
+                        <a href= "https://www.asics.com/es/es-es/"><img width="300" height="169" src="../imagenes/asics.jpg" alt="asics"> </a>
                     </div>
                 </article>
                 <article id="3688" class="location-listing">
-                    <a class="location-title" href="#">Salomon </a>
+                    <a class="location-title" href="https://www.salomon.com/es-es" target="_blank" >Salomon </a>
                     <div class="location-image">
                         <a href="#"><img width="300" height="169" src="../imagenes/salomon.jpg" alt="Salomon"> </a>
                     </div>
                 </article>
                 <article id="3691" class="location-listing">
-                    <a class="location-title" href="#">Merrell </a>
+                    <a class="location-title" href="https://www.merrell.com/ES/es_ES/home" target="_blank">Merrell </a>
                     <div class="location-image">
                         <a href="#"><img width="300" height="169" src="../imagenes/merrell.svg" alt="Merrell"> </a>
                     </div>
                 </article>
                 <article id="3694" class="location-listing">
-                    <a class="location-title" href="#">The North Face</a>
+                    <a class="location-title" href="https://www.thenorthface.es/" target="_blank" >The North Face</a>
                     <div class="location-image">
                         <a href="#"><img width="300" height="169" src="../imagenes/thenorthface.jpg" alt="The North Face"> </a>
                     </div>
                 </article>
                 <article id="3697" class="location-listing">
-                    <a class="location-title" href="#"> Boreal </a>
+                    <a class="location-title" href="http://www.borealoutdoor.com/es" target="_blank"> Boreal </a>
                     <div class="location-image">
                     <a href="#"><img width="300" height="169" src="../imagenes/boreal.png" alt="Boreal"> </a>
                     </div>
                 </article>
                 <article id="3700" class="location-listing">
-                    <a class="location-title" href="#">La Sportiva </a>
+                    <a class="location-title" href="https://www.lasportiva.com/es" target="_blank"">La Sportiva </a>
                     <div class="location-image">
                         <a href="#"><img width="300" height="169" src="../imagenes/lasportiva.png" alt="La Sportiva"></a>
                     </div>
