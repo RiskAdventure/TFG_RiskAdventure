@@ -71,7 +71,7 @@
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs">
                 <div class="evento">Team Building</div>
                 <div class="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
-                    ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? <br><br>
+                    ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? 
                     ¿Prefieres la solución antes del problema?
                     Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
                 </div>
@@ -114,6 +114,7 @@
                     día a día en la empresa....
                 </div>
             </div>
+            
         </section>
         <!-- botones ver más y contacto-->
         <section class="row">
@@ -121,6 +122,16 @@
                 <a href="contacto.php">
                     <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
                 </a>
+            </div>
+           <!-- imagen partner merrell-->
+           <div class="col-md-3 col-xs-12 col-xm-12" id="merrell">
+                <img src="../imagenes/merrell.svg" alt="partner merrell eventos empresa"
+                    title="imagen merrell eventos empresa">
+            </div>
+            <!-- imagen partner the north face -->
+            <div class="col-md-2 col-xs-12 col-xm-12" id="north">
+                <img src="../imagenes/thenorthface.jpg" alt="incentive day eventos empresa"
+                    title="imagen the north face eventos empresa">
             </div>
         </section>
         <section class="row">

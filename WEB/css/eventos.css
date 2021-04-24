@@ -218,6 +218,41 @@ li:hover {
   margin: auto !important;
   text-align: center;
 }
+#merrell img {
+  width: 40vw;
+  height: 17vw;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  margin-right: 0vw !important;
+  
+}
+#merrell {
+  margin: auto !important;
+  text-align: center;
+}
+#north img {
+  width: 25vw;
+  height: 9vw;
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  margin-left: 27vw;
+  margin-right: 0vw !important;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+  
+}
+#north {
+  margin: auto !important;
+  text-align: left;
+}
 #sportiva img {
   width: 30vw;
   height: 15vw;
@@ -264,6 +299,7 @@ li:hover {
 .texto3 {
   font-size: 160%;
   text-align: center;
+  font-style: italic;
 }
 
 #boton_listo {
