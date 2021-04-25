@@ -112,6 +112,31 @@ li:hover,
 li:focus {
 background-size: 100% 2px;
 }
+
+#textopolitica{
+    margin: auto;
+   
+    text-align: center;
+    
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    font-size: 160%;
+    text-transform: uppercase;
+    color: rgb(66, 66, 66);
+    font-weight: 800;
+  
+  }
+  #texto{
+    font-size: 1.3vw;
+      margin: auto;
+      text-align: center;
+    }
+
+
+
+
+
+
 #privacidad #politica_privacidad {
     font-weight: bolder;
     color: #ba9e38 !important;
