@@ -211,17 +211,6 @@ li:hover {
 
 }
 
-.card .card-action a {
-  color: #ffab40;
-  margin-right: 16px;
-  transition: color 0.3s ease;
-  text-transform: uppercase;
-}
-
-.card .card-action a:hover {
-  color: #ffd8a6;
-  text-decoration: none;
-}
 /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
 hr {
   display: none;
@@ -349,7 +338,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 
