@@ -206,8 +206,7 @@
                         <button class="btn btn-floating btn-default">3</button>
                     </p>
                 </div>
-                <div class="col-md-4 textopacks">PODRÁS AÑADIR GASTRONOMÍA, ALOJAMIENTO Y ALQUILER DE MATERIAL...SIN
-                    PREOCUPACIONES</div>
+                <div class="col-md-4 textopacks">GASTRONOMÍA, ALOJAMIENTO Y MATERIAL</div>
             </div>
         </div>
         <section class="row">
