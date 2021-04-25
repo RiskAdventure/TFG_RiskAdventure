@@ -80,7 +80,7 @@
                     <span class="card-title">Grupos</span>
                        </div>
                         <div class="card-image">
-                            <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
+                            <img class="img-responsive" src="../imagenes/grupos.png">
                         </div>
                         <div class="card-content">
                             <p>Tu decides lo que quieres hacer, nosotros ponemos el resto un experiencia para disfrutar todos en equipo, tu eliges la dificultad, el destino y las opciones.</p>
@@ -93,7 +93,7 @@
                     <span class="card-title">Familias</span>
                        </div>
                         <div class="card-image">
-                            <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
+                            <img class="img-responsive" src="../imagenes/familias.png">
                         </div>
                         <div class="card-content">
                             <p>Tu decides la dificultad y el tiempo, te recomendaremos las mejores actividades dependiendo de las edades de los componentes familiares para que todos podáis disfrutar...</p>
@@ -106,7 +106,7 @@
                     <span class="card-title">Parejas</span>
                        </div>
                         <div class="card-image">
-                            <img class="img-responsive" src="https://unsplash.it/400/300">
+                            <img class="img-responsive" src="../imagenes/parejas.png">
                         </div>
 
                         <div class="card-content">
