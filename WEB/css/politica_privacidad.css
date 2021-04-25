@@ -116,7 +116,7 @@ background-size: 100% 2px;
 #textopolitica{
     margin: auto;
    
-    text-align: center;
+    text-align: left;
     
     margin-top: 1.5vw;
     margin-bottom: 1vw;
@@ -129,13 +129,8 @@ background-size: 100% 2px;
   #texto{
     font-size: 1.3vw;
       margin: auto;
-      text-align: center;
+      text-align: left;
     }
-
-
-
-
-
 
 #privacidad #politica_privacidad {
     font-weight: bolder;

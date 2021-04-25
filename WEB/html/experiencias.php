@@ -79,7 +79,7 @@
                 </div>
                 <div id="email">
                     <p class="texto_contacto">Email :</p>
-                    <p>info@riskadventure.es</p>
+                    <p>info@riskadventureclub.com</p>
                 </div>
                 <div>
                     <p class="texto_contacto">Teléfono :</p>
