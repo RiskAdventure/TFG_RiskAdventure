@@ -139,24 +139,36 @@ li:hover {
 .card {
   width: 400px;
   margin-top: 10px;
-  padding-top: 20px;
+  padding-top: 1px;
   box-sizing: border-box;
   border-radius: 8px;
   border-color: #ba9e38;
   border-style: solid;
   background-clip: padding-box;
-  min-height:300px;
+  min-height:370px;
   text-align: center;
   background-color: rgb(69, 83, 88);
 }
 
+.card .card-color{
+  
+  background-color: #ba9e38;
+  width:auto;
+  min-height:50px;
+  text-align: center;
+  margin-bottom: 1vw;
+  border-color: white;
+  border-style: solid;
+ 
+}
+
 .card span.card-title {
-  color: #fff;
+  color: rgb(69, 83, 88);
   font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
   z-index: 1;
-
+ 
 }
 
 .card .card-image img {
@@ -190,11 +202,13 @@ li:hover {
 
 .card .card-content span.card-title {
   line-height: 48px;
+  background-color: #ba9e38;
 }
 
 .card .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px;
+
 }
 
 .card .card-action a {
@@ -207,6 +221,129 @@ li:hover {
 .card .card-action a:hover {
   color: #ffd8a6;
   text-decoration: none;
+}
+/*EFECTO BOLAS Y LINEA HR--------COMÚN*/
+hr {
+  display: none;
+}
+.bola {
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0.8%;
+  margin-top: 4%;
+  display: inline-block;
+}
+#bolitas {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+#bola1 {
+  width: 7px;
+  height: 7px;
+}
+#bola2 {
+  width: 8px;
+  height: 8px;
+}
+#bola3 {
+  width: 9px;
+  height: 9px;
+}
+#bola4 {
+  width: 10px;
+  height: 10px;
+}
+#bola5 {
+  width: 11px;
+  height: 11px;
+}
+#bola6 {
+  width: 12px;
+  height: 12px;
+}
+#bola7 {
+  width: 13px;
+  height: 13px;
+}
+#bola8 {
+  width: 14px;
+  height: 14px;
+}
+#bola9 {
+  width: 15px;
+  height: 15px;
+}
+#bola10 {
+  width: 16px;
+  height: 16px;
+}
+#bola11 {
+  width: 17px;
+  height: 17px;
+}
+#bola12 {
+  width: 18px;
+  height: 18px;
+}
+#bola13 {
+  width: 19px;
+  height: 19px;
+}
+#bola14 {
+  width: 20px;
+  height: 20px;
+}
+#bola15 {
+  width: 19px;
+  height: 19px;
+}
+#bola16 {
+  width: 18px;
+  height: 18px;
+}
+#bola17 {
+  width: 17px;
+  height: 17px;
+}
+#bola18 {
+  width: 16px;
+  height: 16px;
+}
+#bola19 {
+  width: 15px;
+  height: 15px;
+}
+#bola20 {
+  width: 14px;
+  height: 14px;
+}
+#bola21 {
+  width: 13px;
+  height: 13px;
+}
+#bola22 {
+  width: 12px;
+  height: 12px;
+}
+#bola23 {
+  width: 11px;
+  height: 11px;
+}
+#bola24 {
+  width: 10px;
+  height: 10px;
+}
+#bola25 {
+  width: 9px;
+  height: 9px;
+}
+#bola26 {
+  width: 8px;
+  height: 8px;
+}
+#bola27 {
+  width: 7px;
+  height: 7px;
 }
                                                 /*FOOTER-------------COMÚN*/
 footer {
