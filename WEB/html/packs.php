@@ -43,7 +43,8 @@
             </div>
             <div class="row" id="logo_menu">
                 <!-- logo-->
-                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
+                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
+                        alt="logo risk adventure" title="logo risk adventure" /> </div>
                 <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
                 <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                     <ul>
@@ -194,7 +195,7 @@
                     <div class="col-md-4 col-xs-12 textopacks">PAQUETES DE FIN DE SEMANA</div>
                     <div class="col-md-7 col-xs-12">
                         <a href="contacto.php">
-                            <div class="boton hidden-xs" > PÍDENOS PRESUPUESTO SIN COMPROMISO</div>
+                            <div class="boton hidden-xs" > PÍDENOS PRESUPUESTO SIN COMPROMISO.</div>
                         </a>
                     </div>
                 </div>
