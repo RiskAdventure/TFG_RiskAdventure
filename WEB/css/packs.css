@@ -211,17 +211,6 @@ li:hover {
 
 }
 
-.card .card-action a {
-  color: #ffab40;
-  margin-right: 16px;
-  transition: color 0.3s ease;
-  text-transform: uppercase;
-}
-
-.card .card-action a:hover {
-  color: #ffd8a6;
-  text-decoration: none;
-}
 /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
 hr {
   display: none;
@@ -345,6 +334,15 @@ hr {
   width: 7px;
   height: 7px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  margin-left: 2%;
+}
+
+
+
                                                 /*FOOTER-------------COMÚN*/
 footer {
   background-color: rgb(69, 83, 88) !important;
@@ -623,6 +621,13 @@ a #restaurante {
   #dire {
     margin-bottom: 4.2vw;
   }
+  #columbia{
+    padding-left: 10%;
+  }
+  #salomon{
+    padding-left: 5%;
+  }
+
 }
 
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
@@ -648,4 +653,5 @@ a #restaurante {
     margin-top: 3vw;
     margin-left: 24px;
   }
+ 
 }
