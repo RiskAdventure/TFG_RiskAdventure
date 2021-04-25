@@ -362,6 +362,7 @@ hr {
   font-size: 200%;
   color:#ba9e38;
   margin-bottom: 2vw;
+  text-decoration: underline 6px;
 }
 .textopacks{
   text-align: center;
