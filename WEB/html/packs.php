@@ -210,6 +210,37 @@
                     PREOCUPACIONES</div>
             </div>
         </div>
+        <section class="row">
+                <div class="col-md-12" id="bolitas">
+                    <div id="bola1" class="bola"></div>
+                    <div id="bola2" class="bola"></div>
+                    <div id="bola3" class="bola"></div>
+                    <div id="bola4" class="bola"></div>
+                    <div id="bola5" class="bola"></div>
+                    <div id="bola6" class="bola"></div>
+                    <div id="bola7" class="bola"></div>
+                    <div id="bola8" class="bola"></div>
+                    <div id="bola9" class="bola"></div>
+                    <div id="bola10" class="bola"></div>
+                    <div id="bola11" class="bola"></div>
+                    <div id="bola12" class="bola"></div>
+                    <div id="bola13" class="bola"></div>
+                    <div id="bola14" class="bola"></div>
+                    <div id="bola15" class="bola"></div>
+                    <div id="bola16" class="bola"></div>
+                    <div id="bola17" class="bola"></div>
+                    <div id="bola18" class="bola"></div>
+                    <div id="bola19" class="bola"></div>
+                    <div id="bola20" class="bola"></div>
+                    <div id="bola21" class="bola"></div>
+                    <div id="bola22" class="bola"></div>
+                    <div id="bola23" class="bola"></div>
+                    <div id="bola24" class="bola"></div>
+                    <div id="bola24" class="bola"></div>
+                    <div id="bola25" class="bola"></div>
+                    <div id="bola26" class="bola"></div>
+                </div>
+            </section>
         <!-- FOOTER-----COMÚN-->
         <footer class="row">
             <!-- Logo risk adventure negativo-->
