@@ -20,7 +20,7 @@
     <!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/experienciass.css" type="text/css">
+    <link rel="stylesheet" href="../css/packs.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
 <body>
@@ -105,7 +105,7 @@
                     <div class="card">
                         <div class="card-image">
                             <img class="img-responsive" src="https://unsplash.it/400/300">
-                            <span class="card-title">Famiias</span>
+                            <span class="card-title">Familias</span>
                         </div>
 
                         <div class="card-content">
