@@ -62,61 +62,90 @@
             <div class="row">
             <div class="col-sm-6">
                     <div class="card">
+                    <div class="card-color">
+                    <span class="card-title">Despedidas</span>
+                       </div>
                         <div class="card-image">
                             <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
-                            <span class="card-title">Despedidas</span>
                         </div>
-
                         <div class="card-content">
-                            <p>Nos ocupamos de que viváis una experiencia única, viviendo una gran aventura llena de momentos para recordar.
-                             Lo que sucede en RISK ADVENTURE...se queda en RISK ADVENTURE.</p>
+                            <p>Nos ocupamos de que viváis una experiencia única, viviendo una gran aventura llena de momentos para recordar. 
+                                Lo que sucede en RISK ADVENTURE...se queda en RISK ADVENTURE.</p>
                         </div>
-                       
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="card">
+                    <div class="card-color">
+                    <span class="card-title">Grupos</span>
+                       </div>
                         <div class="card-image">
-                            <img class="img-responsive" src="https://unsplash.it/400/300">
-                            <span class="card-title">Grupos</span>
+                            <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
                         </div>
-
                         <div class="card-content">
                             <p>Tu decides lo que quieres hacer, nosotros ponemos el resto un experiencia para disfrutar todos en equipo, tu eliges la dificultad, el destino y las opciones.</p>
                         </div>
-
-                      
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="card">
+                    <div class="card-color">
+                    <span class="card-title">Familias</span>
+                       </div>
                         <div class="card-image">
-                            <img class="img-responsive" src="https://unsplash.it/400/300">
-                            <span class="card-title">Familias</span>
+                            <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
                         </div>
-
                         <div class="card-content">
-                            <p>Cards for display in portfolio style material design by Google.</p>
+                            <p>Tu decides la dificultad y el tiempo, te recomendaremos las mejores actividades dependiendo de las edades de los componentes familiares para que todos podáis disfrutar...</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="card">
+                    <div class="card-color">
+                    <span class="card-title">Parejas</span>
+                       </div>
                         <div class="card-image">
                             <img class="img-responsive" src="https://unsplash.it/400/300">
-                            <span class="card-title">Parejas</span>
                         </div>
 
                         <div class="card-content">
-                            <p>Cards for display in portfolio style material design by Google.</p>
+                            <p>Los límites los ponéis vosotros. Pondréis el volumen máximo de adrenalina o quizás os merecéis un descanso...</p>
                         </div>
                     </div>
                 </div>
-
-            </div>
-
         </div>
-        <br><br><Br>
+        <section class="row">
+            <div class="col-md-12" id="bolitas">
+                <div id="bola1" class="bola"></div>
+                <div id="bola2" class="bola"></div>
+                <div id="bola3" class="bola"></div>
+                <div id="bola4" class="bola"></div>
+                <div id="bola5" class="bola"></div>
+                <div id="bola6" class="bola"></div>
+                <div id="bola7" class="bola"></div>
+                <div id="bola8" class="bola"></div>
+                <div id="bola9" class="bola"></div>
+                <div id="bola10" class="bola"></div>
+                <div id="bola11" class="bola"></div>
+                <div id="bola12" class="bola"></div>
+                <div id="bola13" class="bola"></div>
+                <div id="bola14" class="bola"></div>
+                <div id="bola15" class="bola"></div>
+                <div id="bola16" class="bola"></div>
+                <div id="bola17" class="bola"></div>
+                <div id="bola18" class="bola"></div>
+                <div id="bola19" class="bola"></div>
+                <div id="bola20" class="bola"></div>
+                <div id="bola21" class="bola"></div>
+                <div id="bola22" class="bola"></div>
+                <div id="bola23" class="bola"></div>
+                <div id="bola24" class="bola"></div>
+                <div id="bola24" class="bola"></div>
+                <div id="bola25" class="bola"></div>
+                <div id="bola26" class="bola"></div>
+            </div>
+        </section>
 
                                                              <!-- FOOTER-----COMÚN-->
                                                              <footer class="row" >
