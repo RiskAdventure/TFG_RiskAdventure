@@ -28,14 +28,20 @@
     $headers = 'From: '.$email_from."\r\n".
     'Reply-To: '.$email_from."\r\n" .
     'X-Mailer: PHP/' . phpversion();
-    mail($email_to, $email_subject, $email_message, $headers);
-    
-            
-        echo"<script type='text/javascript'>
-        alert('Sus datos de consulta se han enviado correctamente');
+    $mail=mail($email_to, $email_subject, $email_message, $headers);
         
-        </script>";
-    
-    
+        if(@!$mail){
+            echo"<script type='text/javascript'>
+                    alert('Sus datos no han podido enviarse. Porfavor inténtelo de nuevo.');
+                    window.location.href='contacto.php';
+                </script>";
+            echo 'header("Location:contacto.php")';
+        } 
+        if(@$mail){
+            echo"<script type='text/javascript'>
+                    alert('Sus datos de consulta se han enviado correctamente.');
+                    window.location.href='contacto.php';
+                </script>";
+        }   
     }
 ?>
