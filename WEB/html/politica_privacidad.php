@@ -54,8 +54,6 @@
             </div>
             <div id="texto" class="col-md-12">
                 <div> 
-                DECLARACIÓN DE PRIVACIDAD<br>
-
                     ----<br><br>
 
                     <b>SECCIÓN 1 - ¿QUÉ HACEMOS CON TU INFORMACIÓN?<br><br></b>

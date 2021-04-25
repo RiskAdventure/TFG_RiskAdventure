@@ -1,4 +1,4 @@
-                                                         /*CONTAINER---COMÚN*/
+/*CONTAINER---COMÚN*/
 .container {
   width: 80vw;
   background-size: contain;
@@ -112,6 +112,26 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
+
+#textoaviso{
+  margin: auto;
+ 
+  text-align: left;
+  
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  font-size: 160%;
+  text-transform: uppercase;
+  color: rgb(66, 66, 66);
+  font-weight: 800;
+
+}
+#texto{
+  font-size: 1.3vw;
+    margin: auto;
+    text-align: left;
+  }
+
 #privacidad #aviso_legal {
     font-weight: bolder;
     color: #ba9e38 !important;
