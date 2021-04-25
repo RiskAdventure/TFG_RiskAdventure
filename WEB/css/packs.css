@@ -339,9 +339,58 @@ hr {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
   margin-left: 2%;
+  margin-bottom: 5%;
 }
 
+.btn-floating {
+  border-radius: 80%;
+  cursor: pointer;
+  display: inline-block;
+  height: 70px;
+  line-height: 40px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  width: 70px;
+  border-style: solid;
+  border-color: #ba9e38;
+  border-width: 3px;
+  z-index: 1;
+  font-weight: 800;
+  font-size: 200%;
+  color:#ba9e38;
+  margin-bottom: 2vw;
+  text-decoration: underline 6px;
+}
+.textopacks{
+  text-align: center;
+  font-weight: 800;
+  font-size: 150%;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
 
+
+}
+.boton {
+  margin-left: 15vw;
+  background-color: #8095a1;
+  color: white;
+  text-align: center;
+  padding-top: 1vw;
+  font-size: 1vw;
+  width: 20vw;
+  height: 5vw;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5vw;
+}
+.boton:hover {
+  background-color: #ba9e38;
+}
 
                                                 /*FOOTER-------------COMÚN*/
 footer {
