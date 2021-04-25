@@ -177,36 +177,36 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-1">
+                        <div class="col-md-1 col-xs-1">
                             <!-- Create an icon wrapped by the fa-stack class -->
                             <p>
-                                <button class="btn btn-floating btn-default">1</button>
+                                <button class="btn btn-floating btn-default hidden-xs">1</button>
                             </p>
                         </div>
                         <div class="col-md-4 textopacks">PAQUETES DE UN DÍA</div>
                     </div>
                 <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-md-1 col-xs-1">
                         <!-- Create an icon wrapped by the fa-stack class -->
                         <p>
-                            <button class="btn btn-floating btn-default">2</button>
+                            <button class="btn btn-floating btn-default hidden-xs">2</button>
                         </p>
                     </div>
-                    <div class="col-md-4 textopacks">PAQUETES DE FIN DE SEMANA</div>
-                    <div class="col-md-7">
+                    <div class="col-md-4 col-xs-12 textopacks">PAQUETES DE FIN DE SEMANA</div>
+                    <div class="col-md-7 col-xs-12">
                         <a href="contacto.php">
-                            <div class="boton"> PÍDENOS PRESUPUESTO SIN COMPROMISO</div>
+                            <div class="boton hidden-xs" > PÍDENOS PRESUPUESTO SIN COMPROMISO</div>
                         </a>
                     </div>
                 </div>
             <div class="row">
-                <div class="col-md-1">
-                    <!-- Create an icon wrapped by the fa-stack class -->
+                <div class="col-md-1 d-none d-sm-block">
                     <p>
-                        <button class="btn btn-floating btn-default">3</button>
+                        <button class="btn btn-floating btn hidden-xs">3</button>
                     </p>
                 </div>
-                <div class="col-md-4 textopacks">GASTRONOMÍA, ALOJAMIENTO Y MATERIAL</div>
+                <div class="col-md-4 col-xs-12 textopacks">GASTRONOMÍA, ALOJAMIENTO Y MATERIAL</div>
+                
             </div>
         </div>
         <section class="row">
