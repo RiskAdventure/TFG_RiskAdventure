@@ -146,6 +146,25 @@
                 <div id="bola26" class="bola"></div>
             </div>
         </section>
+        <div class="child-page-listing">
+
+<div class="grid-container">
+    <article id="3685" class="location-listing">
+        <div class="location-image">
+            <a href= "#"><img width="320" height="169" src="../imagenes/la_sportiva.jpg" alt="La Sportiva"> </a>
+        </div>
+    </article>
+    <article id="3688" class="location-listing">
+        <div class="location-image" id="salomon">
+            <a href="#"><img width="300" height="169" src="../imagenes/salomon.jpg" alt="Salomon"> </a>
+        </div>
+    </article>
+    <article id="3691" class="location-listing">
+        <div class="location-image" id="columbia">
+            <a href="#"><img width="300" height="169"  src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
+        </div>
+    </article>
+</div>
 
                                                              <!-- FOOTER-----COMÚN-->
                                                              <footer class="row" >
