@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Packs Risk Adventure</title><!-- título-->
+    <title>Packs y Grupos Risk Adventure</title><!-- título-->
     <meta charset="utf-8">
     <!--juego caracteres del lengiaje-->
     <meta name="keywords"
@@ -23,14 +23,128 @@
     <link rel="stylesheet" href="../css/packs.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
-
 <body>
 
+    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
+     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
+      de las media queries @-->
+    <div class="container">
+        <!-- HEADER----COMUN-->
+        <!-- iconos-->
+        <header>
 
-        
+            <div class="row" id="icon">
+                <div id="iconos" class="col-md-12 col-xs-12 ">
+                    <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                    <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                    <i class="fas fa-search" id="buscar" title="buscar"></i>
+                </div>
+            </div>
+            <div class="row" id="icon">
+                <div id="iconos" class="col-md-12 col-xs-12 ">
+                    <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
+                    <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
+                    <i class="fas fa-search" id="buscar" title="buscar"></i>
+                </div>
+            </div>
+            <div class="row" id="logo_menu">
+                <!-- logo-->
+                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
+                        alt="logo risk adventure" title="logo risk adventure" /> </div>
+                <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+                <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
+                    <ul>
+                        <li><a id="home" href="index.php">HOME</a></li>
+                        <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
+                        <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                        <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
+                        <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
+                        <li><a id="blog" href="blog.php">BLOG</a></li>
+                        <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- SECTION-->
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
+                            <span class="card-title">Despedidas</span>
+                        </div>
+
+                        <div class="card-content">
+                            <p>Nos ocupamos de que viváis una experiencia única, viviendo una gran aventura llena de momentos para recordar.
+                             Lo que sucede en RISK ADVENTURE...se queda en RISK ADVENTURE.</p>
+                        </div>
+                        <div class="card-action">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-responsive" src="https://unsplash.it/400/300">
+                            <span class="card-title">Grupos</span>
+                        </div>
+
+                        <div class="card-content">
+                            <p>Cards for display in portfolio style material design by Google.</p>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="#" target="new_blank">Link</a>
+                            <a href="#" target="new_blank">Link</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-responsive" src="https://unsplash.it/400/300">
+                            <span class="card-title">Familias</span>
+                        </div>
+
+                        <div class="card-content">
+                            <p>Cards for display in portfolio style material design by Google.</p>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="#" target="new_blank">Link</a>
+                            <a href="#" target="new_blank">Link</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="img-responsive" src="https://unsplash.it/400/300">
+                            <span class="card-title">Parejas</span>
+                        </div>
+
+                        <div class="card-content">
+                            <p>Cards for display in portfolio style material design by Google.</p>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="#" target="new_blank">Link</a>
+                            <a href="#" target="new_blank">Link</a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br><br><Br>
+
                                                              <!-- FOOTER-----COMÚN-->
                                                              <footer class="row" >
-
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8" id="adventure">
                 <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
@@ -94,3 +208,4 @@
 </body>
 
 </html>
+        
