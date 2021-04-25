@@ -64,7 +64,7 @@
             <div class="col-sm-6">
                     <div class="card">
                         <div class="card-image">
-                            <img class="img-responsive center" src="https://unsplash.it/400/300">
+                            <img class="img-responsive" src="../imagenes/despedida_soltera.jpg">
                             <span class="card-title">Despedidas</span>
                         </div>
 
