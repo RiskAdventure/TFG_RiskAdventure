@@ -676,7 +676,13 @@ a #restaurante {
   #salomon{
     padding-left: 5%;
   }
-
+  .textopacks{
+    text-align: center;
+    font-weight: 800;
+    font-size: 150%;
+    margin-top: 1vw;
+    padding-right: 15%;
+    
 }
 
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
@@ -703,4 +709,5 @@ a #restaurante {
     margin-left: 24px;
   }
  
+}
 }
