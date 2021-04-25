@@ -24,44 +24,6 @@
     <!--Enlace externo a CSS-->
 </head>
 
-<body>
-
-    <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
-     nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
-      de las media queries @-->
-    <div class="container">
-        <!-- HEADER----COMUN-->
-        <!-- iconos-->
-        <header>
-            <div class="row" id="icon">
-                <div id="iconos" class="col-md-12 col-xs-12 ">
-                    <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
-                    <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
-                    <i class="fas fa-search" id="buscar" title="buscar"></i>
-                </div>
-            </div>
-            <div class="row" id="logo_menu">
-                <!-- logo-->
-                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
-                        alt="logo risk adventure" title="logo risk adventure" /> </div>
-                <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-                <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
-                    <ul>
-                        <li><a id="home" href="index.php">HOME</a></li>
-                        <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                        <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                        <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                        <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                        <li><a id="blog" href="blog.php">BLOG</a></li>
-                        <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- SECTION-->
-       
-  
-        <!-- EXPERIENCIAS TIERRA AGUA AIRE-->
         <div class="container">
             <div class="row">
 

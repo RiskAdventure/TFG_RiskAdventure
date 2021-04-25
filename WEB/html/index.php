@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/index.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -32,7 +33,7 @@
           </div>
           <div class="row" id="logo_menu">
           <!-- logo-->
-            <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo" alt="logo risk adventure" title="logo risk adventure"/> </div>
+            <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
             <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
             <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                 <ul>
@@ -342,7 +343,7 @@
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
         </footer>
-      <script type="text/javascript" src="../js/home.js"></script> <!--Enlace externo a archivo JS-->
+      <script type="text/javascript" src="../js/index.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
   </body>
 </html>

@@ -42,8 +42,7 @@
             </div>
             <div class="row" id="logo_menu">
                 <!-- logo-->
-                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
-                        alt="logo risk adventure" title="logo risk adventure" /> </div>
+                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
                 <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
                 <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                     <ul>
