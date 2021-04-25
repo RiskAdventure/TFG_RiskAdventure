@@ -32,14 +32,6 @@
         <!-- HEADER----COMUN-->
         <!-- iconos-->
         <header>
-
-            <div class="row" id="icon">
-                <div id="iconos" class="col-md-12 col-xs-12 ">
-                    <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
-                    <a href="login.php"><i class="fas fa-user" id="login" title="login"></i></a>
-                    <i class="fas fa-search" id="buscar" title="buscar"></i>
-                </div>
-            </div>
             <div class="row" id="icon">
                 <div id="iconos" class="col-md-12 col-xs-12 ">
                     <a href="carrito.php"><i class="fa fa-shopping-cart" id="carrito" title="carrito"></i></a>
@@ -79,8 +71,7 @@
                             <p>Nos ocupamos de que viváis una experiencia única, viviendo una gran aventura llena de momentos para recordar.
                              Lo que sucede en RISK ADVENTURE...se queda en RISK ADVENTURE.</p>
                         </div>
-                        <div class="card-action">
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -91,14 +82,10 @@
                         </div>
 
                         <div class="card-content">
-                            <p>Cards for display in portfolio style material design by Google.</p>
+                            <p>Tu decides lo que quieres hacer, nosotros ponemos el resto un experiencia para disfrutar todos en equipo, tu eliges la dificultad, el destino y las opciones.</p>
                         </div>
 
-                        <div class="card-action">
-                            <a href="#" target="new_blank">Link</a>
-                            <a href="#" target="new_blank">Link</a>
-
-                        </div>
+                      
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -111,12 +98,6 @@
                         <div class="card-content">
                             <p>Cards for display in portfolio style material design by Google.</p>
                         </div>
-
-                        <div class="card-action">
-                            <a href="#" target="new_blank">Link</a>
-                            <a href="#" target="new_blank">Link</a>
-
-                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -128,12 +109,6 @@
 
                         <div class="card-content">
                             <p>Cards for display in portfolio style material design by Google.</p>
-                        </div>
-
-                        <div class="card-action">
-                            <a href="#" target="new_blank">Link</a>
-                            <a href="#" target="new_blank">Link</a>
-
                         </div>
                     </div>
                 </div>

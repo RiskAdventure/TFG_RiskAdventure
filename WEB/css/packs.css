@@ -180,6 +180,7 @@ li:hover {
   background-clip: padding-box;
   box-sizing: border-box;
   text-align: center;
+  color: white;
 }
 
 .card .card-content p {
