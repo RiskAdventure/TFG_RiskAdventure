@@ -420,9 +420,10 @@ hr {
   width: 9vw !important;
 }
 #listo {
-  font-size: 4vw;
-  line-height: 3.5vw;
-  margin-bottom: 1.7vw;
+  text-align: center;
+  color:#3F4A56;
+  font-weight: 800;
+  font-size: 500%;
 }
 #ver {
   padding: 0.6vw !important;
