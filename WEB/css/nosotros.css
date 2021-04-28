@@ -125,26 +125,19 @@ li:hover {
 
 #textonosotros{
   margin: auto;
- 
   text-align: center;
-  
+  color:#3F4A56;
   margin-top: 1.5vw;
-  margin-bottom: 1vw;
-  font-size: 160%;
-  text-transform: uppercase;
-  color: rgb(66, 66, 66);
+  font-size: 240%;
   font-weight: 800;
 
 }
 #texto{
   margin: auto;
-  
   text-align: center;
-  
+  color:#3F4A56;
   margin-top: 1.5vw;
   font-size: 140%;
-  font-weight: 700;
-  color: rgb(66, 66, 66);
 }
 
 
@@ -453,7 +446,7 @@ hr{
 .nombre  {
   margin-top: 4vw;
   margin-bottom: 4vw;
-  font-size: 130%;
+  font-size: 180%;
   font-weight: 800;
   padding-top: 2vw;
   text-align: center;

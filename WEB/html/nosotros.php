@@ -64,7 +64,7 @@
                 <div>Quiénes Somos</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> Risk Adventure, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar
+                <div> En <b>Risk Adventure</b>, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar
                     ofreciendo un servicio y una experiencia
                     única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos
                     técnicos...<br>
@@ -73,7 +73,7 @@
                     necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales
                     ofrecer una experiencia de calidad,
                     única para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP.
-                    Somos los únicos que te garantizamos una "EXPERIENCIA ÚNICA"
+                    Somos los únicos que te garantizamos una <b>"EXPERIENCIA ÚNICA"</b>
                 </div>
             </div>
         </section>
@@ -116,10 +116,10 @@
             </div>
             <div class="col-md-2 col-xs-12 nombre">RAÚL</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                Licenciado en INEF, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua
+                <b>Licenciado en INEF</b>, apasionado de los deportes acuáticos, pudo ser Tritón anteriormente porque el agua
                 es su medio de vida.
-                Con gran experiencia en deportes de riesgo formando parte durante 12 años del equipo de salvamento de
-                Alta Montaña de la provincia de Andalucía.
+                Con gran experiencia en deportes de riesgo formando parte durante 12 años del <b>equipo de salvamento de
+                Alta Montaña</b> de la provincia de Andalucía.
                 Málaga en la sangre y Cádiz en el corazón, pero su mente no para de viajar por el mundo...
             </div>
         </section>
@@ -131,10 +131,10 @@
             </div>
             <div class="col-md-2 col-xs-12 nombre">LIDIA</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                Guía de Alta Montaña con la credencial de la UIAGM, cumple los más altos estándares de técnicas y
+                <b>Guía de Alta Montaña</b> con la credencial de la UIAGM, cumple los más altos estándares de técnicas y
                 conocimientos de la montaña.
                 Durante los últimos años ha estado revisando el material y coordinando las experiencias con más riesgo
-                en todas las competiciones de alta montaña en España y Resto del Mundo...
+                en todas las <b>competiciones de alta montaña en España y Resto del Mundo</b>...
                 No perdona su café mañanero, un buen entrenamiento, ni un buen concierto de Rock.
             </div>
         </section>
@@ -146,10 +146,10 @@
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                Licenciada por la FADA con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos...
+                <b>Licenciada por la FADA</b>con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos...
                 Ha estado más tiempo en el cielo que en la tierra...
                 Se encarga de la coordinación de los deportes aéreos de riesgo a Nivel Nacional colaborando con el
-                escuadrón de Zapadores Paracaidistas del Ejercito Español para sus formaciones.
+                escuadrón de <b>Zapadores Paracaidistas del Ejercito Español</b> para sus formaciones.
                 Cree que no hay mejor momento que el estar con la familia y amigos,... y si es posible, al lado de las
                 nubes.
             </div>
