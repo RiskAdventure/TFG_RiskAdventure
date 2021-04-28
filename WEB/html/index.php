@@ -71,15 +71,15 @@
                 <div class="item">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg"></a>
                   <div class="carousel-caption">
-                  <h3>EXPERIENCIAS ÚNICAS</h3>
-                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  <h3>EXPERIENCIAS SEGURAS</h3>
+                    <p>Te proporcionamos la mejor seguridad, 100% seguro 100% feliz...</p>
                   </div>
                 </div>
                 <div class="item">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg"></a>
                   <div class="carousel-caption">
-                  <h3>EXPERIENCIAS ÚNICAS</h3>
-                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  <h3>EXPERIENCIAS DE CALIDAD</h3>
+                    <p>No es solamente una aventura, es una experiencia de Calidad...</p>
                   </div>
                 </div>
                 <!-- Left and right controls -->
