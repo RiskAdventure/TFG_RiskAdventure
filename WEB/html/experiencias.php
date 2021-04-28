@@ -93,7 +93,7 @@
             </div>
         </section>
         <hr>
-
+        <!--PARTE CENTRAL VER MAS-->
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="tierra.php"><img src="../imagenes/mas_tierra.jpg" alt="Tierra"
@@ -169,7 +169,49 @@
             </div>
         </section>
         
+        <!--FIN PARTE CENTRAL VER MAS-->
+        <hr>
+                                                   <!--CONTINUAMOS CON EL SECTION-->
+        <!-- parte INFERIOR enlace blog-->
+        <section class="row" >
+        <!-- imagen blog-->
             
+            <!-- texto enlace a blog-->
+            <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
+                <div id="tituloblog">Confiamos en los mejores</div>
+                <div id="texto3">Las <b>experiencias outdoor</b> cuentan con más fans cada vez. 
+                    Salir de acampada, pescar, practicar senderismo o escalar son deportes de naturaleza con un <b>creciente número de aficionados</b>, 
+                    que huyen del turismo masivo, y quieren encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno rural. Este tipo 
+                    de experiencias turísticas son una gran opción de descanso y cada vez más empresas se dedican ofertarlas, 
+                    con otras muchas opciones para tener una <b>experiencia cómoda y global</b>: apuntarnos a cursos con monitores experimentados en 
+                    diversos deportes de aventura, actividades de tipo cultural, gastronómico y rural asociadas a los alojamientos de este tipo, 
+                    o tiendas especializadas en la compra de equipos y gadgets muy útiles para emprender la aventura de irnos de vacaciones outdoor 
+                    en los parajes naturales más bonitos que podamos imaginar. En nuestro BLOG te mostraremos las últimas novedades y te hablaremos de 
+                    nuestros proveedores y empresas asociadas, siempre ofreciendo CALIDAD. 
+                </div>
+            </div>
+            <section class="row" id="imagenes2" >
+                <div class="col-md-3" id="blog1">
+                    <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <p>Material adecuado de escalada</p>
+                    
+                </div>
+                <div class="col-md-3" id="blog2">
+                    <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
+                    <p>Mejor calzado de Senderismo</p>
+                </div>
+                <div class="col-md-3" id="blog3">
+                    <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
+                    <p>Selección Bicicletas de Montaña 2020</p>
+                </div>
+                <div class="col-md-3" id="blog4">
+                    <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <p>Accesorios Outdoor más vendidos</p>
+                </div>
+                
+            </section> 
+        <!--fin parte INFERIOR-->
+        
         <!-- FOOTER-----COMÚN-->
         <footer class="row">
             <!-- Logo risk adventure negativo-->
