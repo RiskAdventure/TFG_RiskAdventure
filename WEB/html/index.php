@@ -3,8 +3,8 @@
   <head>
     <title>Home Risk Adventure</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, cookies,Soporte,Opiniones"><!-- palabras clave-->
-    <meta name="description" content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos."><!-- descripción-->
+    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Team Building,Incentive Day,Fin de semana,Escalada,Quads,Alpinismo,Montaña,Outdoor"><!-- palabras clave-->
+    <meta name="description" content="Risk Adventure ofrece experiencias únicas de calidad para todos los usuarios, donde encontrarás las mejores empresas de Multiaventura"><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -62,21 +62,21 @@
               <!--Cuerpo Carrusel con imágenes-->
               <div class="carousel-inner">
                 <div class="item active">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg" alt="imagen avion carrusel" title="imagen avion carrusel" ></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg"></a>
                   <div class="carousel-caption">
                     <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg" alt="imagen montañas carrusel" title="imagen montañas carrusel" ></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg"></a>
                   <div class="carousel-caption">
                   <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg" alt="imagen carrusel motociclismo" title="imagen carrusel motociclismo" ></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg"></a>
                   <div class="carousel-caption">
                   <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
@@ -145,19 +145,19 @@
         <!-- imágenes circulares y botones-->  
         <section class="row"  >
           <div class="col-md-3" id="circ1">
-             <img src="../imagenes/home_packs_despedida2.jpg" alt="imagen aventura despedidas" title="imagen aventura despedidas"></img>
+             <img src="../imagenes/home_packs_despedida2.jpg" alt="Despedidas" title="Despedidas"></img>
              <a href="packs.php"><div class="boton" id="boton1"> DESPEDIDAS</div></a>
           </div>
           <div class="col-md-3" id="circ2">
-             <img src="../imagenes/home_packs_grupos1.jpg" alt="imagen aventura grupos" title="imagen aventura grupos"></img>
+             <img src="../imagenes/home_packs_grupos1.jpg" alt="Grupos" title="Grupos"></img>
              <a href="packs.php"><div class="boton" id="boton2"> GRUPOS</div></a>
           </div>
           <div class="col-md-3" id="circ3">
-             <img src="../imagenes/home_packs_familias1.jpg" alt="imagen aventura familias" title="imagen aventura familias"></img>
+             <img src="../imagenes/home_packs_familias1.jpg" alt="Familias" title="Familias"></img>
              <a href="packs.php"><div class="boton" id="boton3"> FAMILIAS</div></a>
           </div>
           <div class="col-md-3" id="circ4">
-             <img src="../imagenes/home_packs_parejas1.jpg" alt="imagen aventura parejas" title="imagen aventura parejas"></img>
+             <img src="../imagenes/home_packs_parejas1.jpg" alt="Parejas" title="Parejas"></img>
              <a href="packs.php"><div  class="boton" id="boton4"> PAREJAS</div></a>
           </div>
         </section>
@@ -215,7 +215,7 @@
         <section class="row" >
         <!-- imagen listos paracaidas-->
             <div class="col-md-7 col-xs-12 col-xm-12  " id="listos" > 
-              <img src="../imagenes/home_contacto_paracaidas.jpg" alt="imagen paracaidismo eventos empresa" title="imagen paracaidismo eventos empresa">
+              <img src="../imagenes/home_contacto_paracaidas.jpg" alt="Parapente" title="Eventos empresa">
             </div>
             <!-- texto estamos listos-->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs" > 
@@ -273,7 +273,7 @@
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
-               <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
+               <img src="../imagenes/footer_logo.png">
             </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
@@ -293,12 +293,12 @@
             </div>
           <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
-              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill" title="logo oneill"/></a>
-              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia" alt="logo columbia" title="logo columbia"/></a>
-              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada" alt="logo la escapada" title="logo la escapada"/></a>
-              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva" alt="logo la esportiva" title="logo la esportiva"/></a>
-              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon" alt="logo decathlon" title=" logo decathlon"/></a>
-              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante" alt="logo bardir restaurante" title="logo bardis restaurante"/></a>
+              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
+              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
+              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
+              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"/></a>
+              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
+              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
           <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">

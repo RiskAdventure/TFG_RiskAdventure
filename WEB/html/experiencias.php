@@ -59,7 +59,30 @@
         </header>
         <!-- SECTION-->
        
-  
+        <section class="row"  >
+          <div class="col-md-3" id="exp1">
+             <img src="../imagenes/exp_tierra.jpg" alt="Experiencias tierra" title="Tierra"></img>
+             <a href="tierra.php"><div class="boton" id="boton1"> TIERRA</div></a>
+          </div>
+          <div class="col-md-3" id="exp2">
+             <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
+             <a href="agua.php"><div class="boton" id="boton2"> AGUA</div></a>
+          </div>
+          <div class="col-md-3" id="exp3">
+             <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
+             <a href="aire.php"><div class="boton" id="boton3"> AIRE</div></a>
+          </div>
+        </section>
+        <!-- texto bajo imágenes-->
+        <section class="row">
+            <div class="col-md-12 " id="texto2">
+               <div>
+                 Encontrarás todo lo que necesitas para una experiencia única e inigualable, 
+                diferentes packs individual en grupo y para todas las edades... Deslízate hasta nuestro especial
+                PACKS & GRUPOS y encontrarás muchas más opciones... PAQUETES A MEDIDA, FINES DE SEMANA... 
+              </div>
+            </div>
+        </section>
         
             
         <!-- FOOTER-----COMÚN-->
