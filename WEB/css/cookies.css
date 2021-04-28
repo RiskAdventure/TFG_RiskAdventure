@@ -1,5 +1,5 @@
-                                                         /*CONTAINER---COMÚN*/
-.container {
+  /*CONTAINER---COMÚN*/
+  .container {
   width: 80vw;
   background-size: contain;
 }
@@ -112,12 +112,59 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
+
+#textopolitica{
+    margin: auto;
+    
+    text-align: left;
+    
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    font-size: 160%;
+    text-transform: uppercase;
+    color: rgb(66, 66, 66);
+    font-weight: 800;
+  
+}
+#texto{
+    font-size: 1.3vw;
+      margin: auto;
+      text-align: left;
+}
+
 #privacidad #cookies {
     font-weight: bolder;
     color: #ba9e38 !important;
 }
 li:hover {
   cursor: pointer;
+}
+
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #eeeeee;
+}
+#infobox3 p {
+    line-height:58px;
+    font-size:12px;
+    text-align:center;
+}
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
 }
 
                                                 /*FOOTER-------------COMÚN*/
@@ -274,7 +321,7 @@ a #restaurante {
     margin-right: 0px !important;
     padding-right: 0px !important;
   }
-                                 /*FOOTER---COMÚN*/
+                                  /*FOOTER---COMÚN*/
   #contacto_footer {
     font-size: 1.2vw;
   }
@@ -292,12 +339,12 @@ a #restaurante {
 /* De 1200 px hacia abajo */
 
 @media only screen and (max-width: 1200px) {
-                         /*CONTAINER------COMÚN*/
+                          /*CONTAINER------COMÚN*/
   .container {
     width: 86vw;
     background-size: contain;
   }
-                     /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
+                      /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
   #menu {
     width: 100% !important;
     padding: 0px !important;
@@ -354,7 +401,7 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
-                                             /*FOOTER -----COMÚN*/
+                                              /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
   }

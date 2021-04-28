@@ -47,10 +47,48 @@
           </div>
         </header>                                        
                                                        <!-- SECTION-->
+
         
+
+        <?php
+        define('WP_USE_THEMES', false);
+        require_once($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-blog-header.php');
+        query_posts('showposts=7');
+
+        echo '<ul>';
+
+        while (have_posts ()): the_post();
+        echo "<li><a href='" . get_permalink($post->ID) . "'>";
+        the_title();
+        echo '</a></li>';
+        endwhile;
+
+        echo '</ul>';
+        ?>
+
+
+        <?php
+        global $post;
+
+        $last_posts = get_posts(array('posts_per_page' => 3));
+
+        foreach ( $last_posts as $post ) :
+        setup_postdata( $post );?>
+
+        <div class="last-posts-wrap">
+        <?php the_post_thumbnail();?>
+        <h3><?php the_title();?></h3>
+        <p><?php the_excerpt();?></p>
+        </div>
+
+        <?php endforeach;
+        wp_reset_postdata();
+        ?>
+
+
         
-                                                             <!-- FOOTER-----COMÚN-->
-                                                             <footer class="row" >
+            <!-- FOOTER-----COMÚN-->
+            <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure">
                <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
