@@ -303,8 +303,8 @@
           <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
               <p>Síguenos en:</p>
-              <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
-              <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
+              <a href="https://m.facebook.com/adventurerisk/"><img src="../imagenes/risk_facebook.png"><!--<i class="fab fa-facebook-f" id="face" title="facebook"></i>--></a>
+              <a href="https://www.instagram.com/riskadventure/"><img src="../imagenes/risk_instagram.png"><!--<i class="fab fa-instagram" title="instagram"></i>--></a>
               <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
               <p>2020 © Copyright</p>
