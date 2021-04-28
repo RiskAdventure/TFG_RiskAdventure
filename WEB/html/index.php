@@ -215,7 +215,7 @@
         <section class="row" >
         <!-- imagen listos paracaidas-->
             <div class="col-md-7 col-xs-12 col-xm-12  " id="listos" > 
-              <img src="../imagenes/home_contacto_paracaidas.jpg" alt="imagen paracaidismo eventos empresa" title="imagen paracaidismo eventos empresa">
+              <img src="../imagenes/home_contacto_paracaidas.jpg" alt="Parapente" title="Eventos empresa">
             </div>
             <!-- texto estamos listos-->
             <div class="col-md-5 col-xs-12 col-xm-12 " id="boton_packs" > 
