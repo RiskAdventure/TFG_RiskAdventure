@@ -62,21 +62,21 @@
               <!--Cuerpo Carrusel con imágenes-->
               <div class="carousel-inner">
                 <div class="item active">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg" alt="imagen avion carrusel" title="imagen avion carrusel" ></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg"></a>
                   <div class="carousel-caption">
                     <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg" alt="imagen montañas carrusel" title="imagen montañas carrusel" ></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg"></a>
                   <div class="carousel-caption">
                   <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg" alt="imagen carrusel motociclismo" title="imagen carrusel motociclismo" ></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg"></a>
                   <div class="carousel-caption">
                   <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
