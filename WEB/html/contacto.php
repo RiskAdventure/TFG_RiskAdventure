@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/contactto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
   </head>
   <body>
 
@@ -66,7 +66,7 @@
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="#consulta" id="consulta"><div>CONSULTA</div></a>
               
-              <a href=""><div>CONDICIONES</div></a>
+              <a href="https://cutt.ly/UvIKPOG"><div>CHAT on-line</div></a>
               <a href="politica_privacidad.php"><div>POLÍTICA</div></a>
               <a href="cookies.php"><div>COOKIES</div></a>
             </div>            
