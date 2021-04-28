@@ -20,7 +20,7 @@
     <!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/experiencia.css" type="text/css">
+    <link rel="stylesheet" href="../css/experiencias.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
 <body>
@@ -180,33 +180,33 @@
             <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
                 <div id="tituloblog">Confiamos en los mejores</div>
                 <div id="texto3">Las <b>experiencias outdoor</b> cuentan con más fans cada vez. 
-                    Salir de acampada, pescar, practicar senderismo o escalar son deportes de naturaleza con un <b>creciente número de aficionados</b>, 
-                    que huyen del turismo masivo, y quieren encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno rural. Este tipo 
-                    de experiencias turísticas son una gran opción de descanso y cada vez más empresas se dedican ofertarlas, 
-                    con otras muchas opciones para tener una <b>experiencia cómoda y global</b>: apuntarnos a cursos con monitores experimentados en 
-                    diversos deportes de aventura, actividades de tipo cultural, gastronómico y rural asociadas a los alojamientos de este tipo, 
-                    o tiendas especializadas en la compra de equipos y gadgets muy útiles para emprender la aventura de irnos de vacaciones outdoor 
-                    en los parajes naturales más bonitos que podamos imaginar. En nuestro BLOG te mostraremos las últimas novedades y te hablaremos de 
-                    nuestros proveedores y empresas asociadas, siempre ofreciendo CALIDAD. 
+                    Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente número de aficionados</b>, 
+                    que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
+                    de <b>experiencias</b> son una gran opción de dexconexión y se ofertan cada vez más, sobre todo en tiempos de estress y de no tener tiempo para nada. 
+                    Muchas son las opciones que ofrece este tipo de turismo...apuntarnos a cursos con monitores experimentados en 
+                    diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastronómico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia única, 
+                    o tiendas especializadas para la compra  de equipos y gadgets muy útiles para emprender la aventura de irnos de vacaciones en contacto con 
+                    parajes naturales, los <b>más bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las últimas novedades y te hablaremos de 
+                    nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>. 
                 </div>
             </div>
             <section class="row" id="imagenes2" >
                 <div class="col-md-3" id="blog1">
-                    <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
-                    <p>Material adecuado de escalada</p>
+                    <img src="../imagenes/material_escalada.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/material-adecuado-de-escalada/"><p>Material adecuado de escalada</p></a>
                     
                 </div>
                 <div class="col-md-3" id="blog2">
-                    <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
-                    <p>Mejor calzado de Senderismo</p>
+                    <img src="../imagenes/calzado_senderismo.jpg" alt="Experiencias agua" title="Agua"></img>
+                    <a href="https://www.riskadventureclub.com/blog/mejor-calzado-de-senderismo/"><p>Mejor calzado de Senderismo</p></a>
                 </div>
                 <div class="col-md-3" id="blog3">
-                    <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
-                    <p>Selección Bicicletas de Montaña 2020</p>
+                    <img src="../imagenes/mountain_bikes.jpg" alt="Experiencias aire" title="Aire"></img>
+                    <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"><p>Selección Bicicletas de Montaña 2020</p></a>
                 </div>
                 <div class="col-md-3" id="blog4">
-                    <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
-                    <p>Accesorios Outdoor más vendidos</p>
+                    <img src="../imagenes/accesorios_outdoor.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/accesorios-outdoor-mas-vendidos/"><p>Accesorios Outdoor más vendidos</p></a>
                 </div>
                 
             </section> 

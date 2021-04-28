@@ -337,21 +337,41 @@ li:hover {
  
 }
 
-#blog1 {
+#blog1{
   margin: auto;
   display:inline-block;
 }
+
+#blog1 p:hover{
+  background-color: #ba9e38;
+  
+}
+
 #blog2 {
   margin: auto;
   text-align: center;
 }
+#blog2 p:hover{
+  background-color: #ba9e38;
+  
+}
+
 #blog3 {
   margin: auto;
   text-align: center;
 }
+#blog3 p:hover{
+  background-color: #ba9e38;
+  
+}
+
 #blog4 {
   margin: auto;
   text-align: center;
+}
+#blog4 p:hover{
+  background-color: #ba9e38;
+  
 }
 
 #blog1 img {
