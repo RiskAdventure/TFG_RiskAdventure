@@ -171,7 +171,7 @@ li:hover {
 .button {
   width: 8vw;
   height: 2vw;
-  background-color: #8095a1;
+  background-color: #8091a5;
   border-radius: 7px;
   color: white;
   margin-bottom: 2vw;
@@ -289,7 +289,7 @@ li:hover {
 /*Botones*/
 #div2_1 div{
   padding: 1%;
-  background-color: #8095a1;  
+  background-color: #8091a5;  
   margin-left: 4%;
   font-size: 130%;
   border-radius: 7px;
@@ -311,7 +311,84 @@ li:hover {
 }
 
 
+#textoblog {
+  margin: auto !important;
+  text-align: center;
+}
+#tituloblog{
+  text-align: center;
+  color:#3F4A56;
+  font-weight: 800;
+  font-size: 700%;
+}
 
+#texto3{
+  margin: auto;
+  text-align: justify;
+  color:#3F4A56;
+  margin-top: 1.5vw;
+  font-size: 140%;
+}
+
+#imagenes2{
+  text-align: center;
+  margin-top: 2%;
+  display: inline-flex;
+ 
+}
+
+#blog1 {
+  margin: auto;
+  display:inline-block;
+}
+#blog2 {
+  margin: auto;
+  text-align: center;
+}
+#blog3 {
+  margin: auto;
+  text-align: center;
+}
+#blog4 {
+  margin: auto;
+  text-align: center;
+}
+
+#blog1 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+
+}
+#blog2 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#blog3 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#blog4 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+
+#imagenes2 p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3F4A56;
+}
 
 
 
