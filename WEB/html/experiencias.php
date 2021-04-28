@@ -20,7 +20,7 @@
     <!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/experienciass.css" type="text/css">
+    <link rel="stylesheet" href="../css/experiencia.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
 <body>
@@ -59,28 +59,113 @@
         </header>
         <!-- SECTION-->
        
-        <section class="row"  >
+        <section class="row" id="imagenes" >
           <div class="col-md-3" id="exp1">
-             <img src="../imagenes/exp_tierra.jpg" alt="Experiencias tierra" title="Tierra"></img>
-             <a href="tierra.php"><div class="boton" id="boton1"> TIERRA</div></a>
+             <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
+             <a href="tierra.php"><div class="button" id="boton1"> TIERRA</div></a>
           </div>
           <div class="col-md-3" id="exp2">
              <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
-             <a href="agua.php"><div class="boton" id="boton2"> AGUA</div></a>
+             <a href="agua.php"><div class="button" id="boton2"> AGUA</div></a>
           </div>
           <div class="col-md-3" id="exp3">
              <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
-             <a href="aire.php"><div class="boton" id="boton3"> AIRE</div></a>
+             <a href="aire.php"><div class="button" id="boton3"> AIRE</div></a>
           </div>
         </section>
+
         <!-- texto bajo imágenes-->
-        <section class="row">
+        <section class="row" id="texto1">
             <div class="col-md-12 " id="texto2">
-               <div>
-                 Encontrarás todo lo que necesitas para una experiencia única e inigualable, 
-                diferentes packs individual en grupo y para todas las edades... Deslízate hasta nuestro especial
-                PACKS & GRUPOS y encontrarás muchas más opciones... PAQUETES A MEDIDA, FINES DE SEMANA... 
-              </div>
+                <!-- texto central entre partners-->
+                <div>
+                    Sin riesgo no hay aventura, sumérgete<br>
+                    en una nueva sensación...
+                </div>
+            </div>
+            <!-- imagen sportiva-->
+            <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
+                <img src="../imagenes/la_sportiva.jpg">
+            </div>
+            <!-- imagen grill-->
+            <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
+                <img src="../imagenes/logo_grill.png">
+            </div>
+        </section>
+        <hr>
+
+        <section class="row">
+            <div class="col-md-3 col-xs-12" id="circ2">
+            <a href="tierra.php"><img src="../imagenes/mas_tierra.jpg" alt="Tierra"
+                    title="Experiencias Tierra"></img></a>
+            </div>
+            <div class="col-md-2 col-xs-12 nombre">TIERRA</div>
+            <div class="col-md-7 col-xs-12 descripcion">
+                <article class="row">
+                    <div class="col-md-12 col-xs-12  " id="div2_1">
+                        <a href="tierra.php" id="consulta"><div>TREKKING</div></a>
+                        <a href="tierra.php"><div>RAQUETAS</div></a>
+                        <a href="tierra.php"><div>SENDERISMO</div></a>
+                        <a href="tierra.php"><div>ESCALADA</div></a>
+                        <a href="tierra.php"><div>QUADS</div></a>
+                        <a href="tierra.php"><div>SUPERVIVENCIA</div></a>
+                        <a href="tierra.php"><div>ESPELEOLOGÍA</div></a>
+                        <a href="tierra.php"><div>MICOLOGÍA</div></a>
+                        <a href="tierra.php"><div>RÁPEL</div></a>
+                        <a href="tierra.php"><div>ALPINISMO</div></a>
+                        <p><a href="tierra.php" id="vermas">Ver más TIERRA...</p></a>
+                    </div>            
+            </article>
+            </div>
+        </section>
+        <hr>
+        <section class="row">
+            <div class="col-md-3 col-xs-12" id="circ2">
+            <a href="agua.php"><img src="../imagenes/mas_agua.jpg" alt="Agua"
+                    title="Experiencias Agua"></img></a>
+            </div>
+            <div class="col-md-2 col-xs-12 nombre">AGUA</div>
+            <div class="col-md-7 col-xs-12 descripcion">
+                <article class="row">
+                    <div class="col-md-12 col-xs-12  " id="div2_1">
+                        <a href="agua.php" id="consulta"><div>BARRANCOS</div></a>
+                        <a href="agua.php"><div>SURF</div></a>
+                        <a href="agua.php"><div>VELA</div></a>
+                        <a href="agua.php"><div>PIRAGUAS</div></a>
+                        <a href="agua.php"><div>BUCEO</div></a>
+                        <a href="agua.php"><div>ESQUÍ</div></a>
+                        <a href="agua.php"><div>FLYBOARD</div></a>
+                        <a href="agua.php"><div>RAFTING</div></a>
+                        <a href="agua.php"><div>PARASAILING</div></a>
+                        <a href="agua.php"><div>KITE SURF</div></a>
+                        <p><a href="agua.php" id="vermas">Ver más AGUA...</p></a>
+                    </div>            
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section class="row">
+            <div class="col-md-3 col-xs-12" id="circ2">
+            <a href="aire.php"><img src="../imagenes/mas_aire.jpg" alt="Aire"
+                    title="Experiencias Aire"></img></a>
+            </div>
+            <div class="col-md-2 col-xs-12 nombre">AIRE</div>
+            <div class="col-md-7 col-xs-12 descripcion">
+                <article class="row">
+                    <div class="col-md-12 col-xs-12  " id="div2_1">
+                        <a href="aire.php" id="consulta"><div>PARAPENTE</div></a>
+                        <a href="aire.php"><div>GLOBO</div></a>
+                        <a href="aire.php"><div>VUELO SIN MOTOR</div></a>
+                        <a href="aire.php"><div>ULTRALIGERO</div></a>
+                        <a href="aire.php"><div>ALADELTA</div></a>
+                        <a href="aire.php"><div>PARACAIDISMO</div></a>
+                        <a href="aire.php"><div>SALTO BASE</div></a>
+                        <a href="aire.php"><div>TUNEL VIENTO</div></a>
+                        <a href="aire.php"><div>WINGFLY</div></a>
+                        <a href="aire.php"><div>S.RIDING</div></a> 
+                        <p><a href="aire.php" id="vermas">Ver más AIRE...</p></a>                       
+                    </div>            
+                </article>
             </div>
         </section>
         

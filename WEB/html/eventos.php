@@ -161,7 +161,7 @@
                 <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa"
                     title="imagen la sportiva eventos empresa">
             </div>
-             <!-- imagen partner decathlon -->
+             <!-- imagen partner restaurant -->
              <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
                 <img src="../imagenes/logo_grill.png" alt="incentive day eventos empresa"
                     title="imagen decathlon eventos empresa">
