@@ -66,7 +66,7 @@
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="#consulta" id="consulta"><div>CONSULTA</div></a>
               
-              <a href=""><div>CONDICIONES</div></a>
+              <a href="https://cutt.ly/UvIKPOG"><div>CHAT on-line</div></a>
               <a href="politica_privacidad.php"><div>POLÍTICA</div></a>
               <a href="cookies.php"><div>COOKIES</div></a>
             </div>            
