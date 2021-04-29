@@ -53,7 +53,7 @@
         <?php
         define('WP_USE_THEMES', false);
         require_once($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-blog-header.php');
-        query_posts('showposts=7');
+        query_posts('showposts=4');
 
         echo '<ul>';
 
@@ -70,7 +70,7 @@
         <?php
         global $post;
 
-        $last_posts = get_posts(array('posts_per_page' => 3));
+        $last_posts = get_posts(array('posts_per_page' => 4));
 
         foreach ( $last_posts as $post ) :
         setup_postdata( $post );?>
