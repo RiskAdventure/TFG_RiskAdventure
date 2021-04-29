@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--juego caracteres del lengiaje-->
     <meta name="keywords"
-        content="Experiencias únicas, calidad, tierra, agua, mar , aire, ">
+        content="Experiencias únicas, calidad, tierra, agua, mar , aire, ...">
     <!-- palabras clave-->
     <meta name="description"
         content="Elige tu experiencia de Tierra, Agua o Aire y disfruta de una experiencia de aventura inigualable. Podrás elegir entre un montón de actividades donde está asegurada la diversión y la adrenalina">
