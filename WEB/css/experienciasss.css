@@ -125,16 +125,11 @@ li:hover {
 
 
               /*SECTION*/
-#imagenes{
-  text-align: center;
-  margin-top: 2%;
-  display: inline-flex;
- 
-}
+
 
 #exp1 {
   margin: auto;
-  display:inline-block;
+  text-align: center;
 }
 #exp2 {
   margin: auto;
@@ -336,14 +331,15 @@ li:hover {
 
 #imagenes2{
   text-align: center;
-  margin-top: 2%;
-  display: inline-flex;
+  margin-top: 34% !important;
+  
  
 }
 
 #blog1{
   margin: auto;
-  display:inline-block;
+  text-align: center;
+  margin-top: 1.5vw;
 }
 
 #blog1 p:hover{
@@ -354,6 +350,7 @@ li:hover {
 #blog2 {
   margin: auto;
   text-align: center;
+  margin-top: 1.5vw;
 }
 #blog2 p:hover{
   background-color: #ba9e38;
@@ -363,6 +360,7 @@ li:hover {
 #blog3 {
   margin: auto;
   text-align: center;
+  margin-top: 1.5vw;
 }
 #blog3 p:hover{
   background-color: #ba9e38;
@@ -372,6 +370,7 @@ li:hover {
 #blog4 {
   margin: auto;
   text-align: center;
+  margin-top: 1.5vw;
 }
 #blog4 p:hover{
   background-color: #ba9e38;
@@ -379,28 +378,29 @@ li:hover {
 }
 
 #blog1 img {
-  width: 350px;
+  width: 300px;
   height: 190px;
   text-align: center;
   margin-bottom: 1.5vw;
+  
 
 }
 #blog2 img {
-  width: 350px;
+  width: 300px;
   height: 190px;
   text-align: center;
   margin-bottom: 1.5vw;
   
 }
 #blog3 img {
-  width: 350px;
+  width: 300px;
   height: 190px;
   text-align: center;
   margin-bottom: 1.5vw;
   
 }
 #blog4 img {
-  width: 350px;
+  width: 300px;
   height: 190px;
   text-align: center;
   margin-bottom: 1.5vw;
@@ -409,7 +409,7 @@ li:hover {
 
 #imagenes2 p{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #3F4A56;
 }
