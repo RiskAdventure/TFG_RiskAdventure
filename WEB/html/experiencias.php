@@ -20,7 +20,7 @@
     <!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/experiencias.css" type="text/css">
+    <link rel="stylesheet" href="../css/experienciass.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
 <body>
@@ -73,26 +73,28 @@
              <a href="aire.php"><div class="button" id="boton3"> AIRE</div></a>
           </div>
         </section>
-
+        
         <!-- texto bajo imágenes-->
-        <section class="row" id="texto1">
-            <div class="col-md-12 " id="texto2">
-                <!-- texto central entre partners-->
-                <div>
-                    <h1>EXPERIENCIAS ÚNICAS</h1>
-                    Sin riesgo no hay aventura, sumérgete<br>
-                    en una nueva sensación...
+        <section>
+            <div class="container" id="texto1">
+                <div class="row mb-3" id="partners">
+                    <!-- imagen sportiva-->
+                    <div class="col-4" id="sportiva">
+                        <img src="../imagenes/la_sportiva.jpg">
+                    </div>
+                    <!-- texto central entre partners-->
+                    <div class="col-4" id="text1">
+                        <h1>EXPERIENCIAS ÚNICAS</h1>
+                        Sin riesgo no hay aventura, sumérgete<br>
+                        en una nueva sensación...
+                    </div>
+                    <!-- imagen grill-->
+                    <div class="col-4" id="grill">
+                        <img src="../imagenes/logo_grill.png">
+                    </div>
                 </div>
-            </div>
-            <!-- imagen sportiva-->
-            <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
-                <img src="../imagenes/la_sportiva.jpg">
-            </div>
-            <!-- imagen grill-->
-            <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
-                <img src="../imagenes/logo_grill.png">
-            </div>
-        </section>
+            </div>  
+        </section>  
         <hr>
         <!--PARTE CENTRAL VER MAS-->
         <section class="row">
