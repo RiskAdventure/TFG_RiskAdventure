@@ -187,25 +187,28 @@ li:hover {
 }
 /*texto bajo imágenes experiencias*/
 
-#texto1 div{
+#texto1{
   text-align: center;
 }
 
-#texto2 div {
-  margin: auto;
-  width: 62vw;
+#texto1 div{
   text-align: center;
-  margin-top: 1.5vw;
-  margin-bottom: 5vw;
-  font-size: 170%;
+  font-size: 140%;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+
+#texto1 h1{
   font-style: italic;
-  
 }
+
+
 #texto1 img{
-  width: 200px;
-  height: 100px;
-  display: inline-flex;
+  width: 250px;
+  height: 150px;
 }
+
 /*CONTINUAMOS SECTION----parte central--tarjetitas imágenes redondas--packs y grupos*/
 #circ1 {
   margin: auto;
