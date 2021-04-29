@@ -128,7 +128,7 @@ li:hover {
 /*Texto envianos tu consulta*/
 #div1_1{
   
-  font-size: 230%;
+
   text-transform: uppercase;
   color: rgb(66, 66, 66);
   font-weight:bolder;
@@ -140,7 +140,7 @@ li:hover {
 #div1_2{
   
   color: rgb(66, 66, 66);
-  font-size: 140%;
+
   text-align: center;
   margin-bottom: 8vw;
   
@@ -156,7 +156,7 @@ li:hover {
 /*Botones*/
 #div2_1 div{
   padding: 1%;
-  background-color: #8091a5;  
+
   margin-left: 4%;
   font-size: 130%;
   border-radius: 7px;
@@ -186,7 +186,7 @@ li:hover {
 #div3_2{
   
   color: rgb(66, 66, 66);
-  font-size: 145%;
+
   
   margin-bottom: 2.5vw;
 }
@@ -239,6 +239,7 @@ textarea{
 
 span{
   margin-left: 1%;
+
 }
 span a{
   text-decoration:2px #3F4A56 underline  !important ;
@@ -248,7 +249,7 @@ span a:hover{
   font-weight: bolder;
 }
 #enviar{
-  background-color: #8091a5;
+
   color: white;
   border: none;
   box-shadow: none;
@@ -882,7 +883,7 @@ span a {
   margin-right: 7%;
 }
 #enviar {
-  background-color: #8091a5;
+
   color: white;
   border: none;
   box-shadow: none;
