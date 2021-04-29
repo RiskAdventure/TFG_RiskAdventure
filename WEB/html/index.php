@@ -59,10 +59,10 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
-              <!--Cuerpo Carrusel con imágenes-->
+              <!--Cuerpo Carrusel con imágenes tamaño de las imagenes 1800x480-->
               <div class="carousel-inner">
                 <div class="item active">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg"></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_portada.jpg"></a>
                   <div class="carousel-caption">
                     <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
