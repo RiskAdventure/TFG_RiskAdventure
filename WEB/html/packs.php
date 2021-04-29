@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--juego caracteres del lengiaje-->
     <meta name="keywords"
-        content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, cookies,Soporte,Opiniones">
+        content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas, aventura, multiaventura, paquetes de aventura">
     <!-- palabras clave-->
     <meta name="description"
         content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos.">

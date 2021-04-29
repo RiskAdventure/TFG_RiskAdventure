@@ -171,7 +171,7 @@ li:hover {
 .button {
   width: 8vw;
   height: 2vw;
-  background-color: #8095a1;
+  background-color: #8091a5;
   border-radius: 7px;
   color: white;
   margin-bottom: 2vw;
@@ -186,25 +186,29 @@ li:hover {
   background-color: #ba9e38;
 }
 /*texto bajo imágenes experiencias*/
-#texto1 div{
+
+#texto1{
   text-align: center;
 }
 
-#texto2 div {
-  margin: auto;
-  width: 62vw;
+#texto1 div{
   text-align: center;
-  margin-top: 1.5vw;
-  margin-bottom: 5vw;
-  font-size: 170%;
+  font-size: 140%;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+
+#texto1 h1{
   font-style: italic;
-  
 }
+
+
 #texto1 img{
-  width: 200px;
-  height: 100px;
-  display: inline-flex;
+  width: 250px;
+  height: 150px;
 }
+
 /*CONTINUAMOS SECTION----parte central--tarjetitas imágenes redondas--packs y grupos*/
 #circ1 {
   margin: auto;
@@ -289,7 +293,7 @@ li:hover {
 /*Botones*/
 #div2_1 div{
   padding: 1%;
-  background-color: #8095a1;  
+  background-color: #8091a5;  
   margin-left: 4%;
   font-size: 130%;
   border-radius: 7px;
@@ -311,8 +315,243 @@ li:hover {
 }
 
 
+#textoblog {
+  margin: auto !important;
+  text-align: center;
+}
+#tituloblog{
+  text-align: center;
+  color:#3F4A56;
+  font-weight: 800;
+  font-size: 700%;
+}
 
+#texto3{
+  margin: auto;
+  text-align: justify;
+  color:#3F4A56;
+  margin-top: 1.5vw;
+  font-size: 140%;
+}
 
+#imagenes2{
+  text-align: center;
+  margin-top: 2%;
+  display: inline-flex;
+ 
+}
+
+#blog1{
+  margin: auto;
+  display:inline-block;
+}
+
+#blog1 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog2 {
+  margin: auto;
+  text-align: center;
+}
+#blog2 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog3 {
+  margin: auto;
+  text-align: center;
+}
+#blog3 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog4 {
+  margin: auto;
+  text-align: center;
+}
+#blog4 p:hover{
+  background-color: #ba9e38;
+  
+}
+
+#blog1 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+
+}
+#blog2 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#blog3 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+#blog4 img {
+  width: 350px;
+  height: 190px;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+}
+
+#imagenes2 p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3F4A56;
+}
+#boton_blog {
+  margin-top: 2%;
+  text-align: center;
+}
+.boton_blog_centro {
+  width: 12vw;
+  background-color: #8091a5;
+  border-radius: 7px;
+  color: white;
+  margin-bottom: 2vw;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.7vw;
+  padding-bottom: 0.4vw;
+  font-size: 1vw;
+}
+.boton_blog_centro:hover {
+  background-color: #ba9e38;
+}
+
+.bola {
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0.8%;
+  margin-top: 4%;
+  display: inline-block;
+}
+#bolitas {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+#bola1 {
+  width: 7px;
+  height: 7px;
+}
+#bola2 {
+  width: 8px;
+  height: 8px;
+}
+#bola3 {
+  width: 9px;
+  height: 9px;
+}
+#bola4 {
+  width: 10px;
+  height: 10px;
+}
+#bola5 {
+  width: 11px;
+  height: 11px;
+}
+#bola6 {
+  width: 12px;
+  height: 12px;
+}
+#bola7 {
+  width: 13px;
+  height: 13px;
+}
+#bola8 {
+  width: 14px;
+  height: 14px;
+}
+#bola9 {
+  width: 15px;
+  height: 15px;
+}
+#bola10 {
+  width: 16px;
+  height: 16px;
+}
+#bola11 {
+  width: 17px;
+  height: 17px;
+}
+#bola12 {
+  width: 18px;
+  height: 18px;
+}
+#bola13 {
+  width: 19px;
+  height: 19px;
+}
+#bola14 {
+  width: 20px;
+  height: 20px;
+}
+#bola15 {
+  width: 19px;
+  height: 19px;
+}
+#bola16 {
+  width: 18px;
+  height: 18px;
+}
+#bola17 {
+  width: 17px;
+  height: 17px;
+}
+#bola18 {
+  width: 16px;
+  height: 16px;
+}
+#bola19 {
+  width: 15px;
+  height: 15px;
+}
+#bola20 {
+  width: 14px;
+  height: 14px;
+}
+#bola21 {
+  width: 13px;
+  height: 13px;
+}
+#bola22 {
+  width: 12px;
+  height: 12px;
+}
+#bola23 {
+  width: 11px;
+  height: 11px;
+}
+#bola24 {
+  width: 10px;
+  height: 10px;
+}
+#bola25 {
+  width: 9px;
+  height: 9px;
+}
+#bola26 {
+  width: 8px;
+  height: 8px;
+}
+#bola27 {
+  width: 7px;
+  height: 7px;
+}
 
 
 

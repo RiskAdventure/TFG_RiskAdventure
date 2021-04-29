@@ -4,14 +4,14 @@
     <title>Home Risk Adventure</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Team Building,Incentive Day,Fin de semana,Escalada,Quads,Alpinismo,Montaña,Outdoor"><!-- palabras clave-->
-    <meta name="description" content="Risk Adventure ofrece experiencias únicas de calidad para todos los usuarios, donde encontrarás las mejores empresas de Multiaventura"><!-- descripción-->
+    <meta name="description" content="Risk Adventure buscador de experiencias únicas de calidad para todos los usuarios, donde encontrarás las mejores empresas de Multiaventura"><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/index.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/indexx.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
@@ -59,27 +59,27 @@
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
-              <!--Cuerpo Carrusel con imágenes-->
+              <!--Cuerpo Carrusel con imágenes tamaño de las imagenes 1800x480-->
               <div class="carousel-inner">
                 <div class="item active">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_avion.jpg"></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_portada.jpg"></a>
                   <div class="carousel-caption">
                     <h3>EXPERIENCIAS ÚNICAS</h3>
                     <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_montañas.jpg"></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_portada2.jpg"></a>
                   <div class="carousel-caption">
-                  <h3>EXPERIENCIAS ÚNICAS</h3>
-                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  <h3>SEGURAS</h3>
+                    <p>Te proporcionamos la mejor seguridad, 100% seguro 100% feliz...</p>
                   </div>
                 </div>
                 <div class="item">
-                  <a href="experiencias.php"><img src="../imagenes/carrusel_moto.jpg"></a>
+                  <a href="experiencias.php"><img src="../imagenes/carrusel_portada3.jpg"></a>
                   <div class="carousel-caption">
-                  <h3>EXPERIENCIAS ÚNICAS</h3>
-                    <p>Sin riesgo no hay aventura, sumérgete en una nueva sensación...</p>
+                  <h3>DE CALIDAD</h3>
+                    <p>No es solamente una aventura, es una experiencia de Calidad...</p>
                   </div>
                 </div>
                 <!-- Left and right controls -->

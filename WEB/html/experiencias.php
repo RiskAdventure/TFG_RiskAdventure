@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <!--juego caracteres del lengiaje-->
     <meta name="keywords"
-        content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, cookies,Soporte,Opiniones">
+        content="Experiencias únicas, calidad, tierra, agua, mar , aire, ...">
     <!-- palabras clave-->
     <meta name="description"
-        content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos.">
+        content="Elige tu experiencia de Tierra, Agua o Aire y disfruta de una experiencia de aventura inigualable. Podrás elegir entre un montón de actividades donde está asegurada la diversión y la adrenalina">
     <!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
@@ -20,7 +20,7 @@
     <!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/experiencia.css" type="text/css">
+    <link rel="stylesheet" href="../css/experienciass.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
 <body>
@@ -73,27 +73,30 @@
              <a href="aire.php"><div class="button" id="boton3"> AIRE</div></a>
           </div>
         </section>
-
+        
         <!-- texto bajo imágenes-->
-        <section class="row" id="texto1">
-            <div class="col-md-12 " id="texto2">
-                <!-- texto central entre partners-->
-                <div>
-                    Sin riesgo no hay aventura, sumérgete<br>
-                    en una nueva sensación...
+        <section>
+            <div class="container" id="texto1">
+                <div class="row mb-3" id="partners">
+                    <!-- imagen sportiva-->
+                    <div class="col-4" id="sportiva">
+                        <img src="../imagenes/la_sportiva.jpg">
+                    </div>
+                    <!-- texto central entre partners-->
+                    <div class="col-4" id="text1">
+                        <h1>EXPERIENCIAS ÚNICAS</h1>
+                        Sin riesgo no hay aventura, sumérgete<br>
+                        en una nueva sensación...
+                    </div>
+                    <!-- imagen grill-->
+                    <div class="col-4" id="grill">
+                        <img src="../imagenes/logo_grill.png">
+                    </div>
                 </div>
-            </div>
-            <!-- imagen sportiva-->
-            <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
-                <img src="../imagenes/la_sportiva.jpg">
-            </div>
-            <!-- imagen grill-->
-            <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
-                <img src="../imagenes/logo_grill.png">
-            </div>
-        </section>
+            </div>  
+        </section>  
         <hr>
-
+        <!--PARTE CENTRAL VER MAS-->
         <section class="row">
             <div class="col-md-3 col-xs-12" id="circ2">
             <a href="tierra.php"><img src="../imagenes/mas_tierra.jpg" alt="Tierra"
@@ -169,7 +172,88 @@
             </div>
         </section>
         
+        <!--FIN PARTE CENTRAL VER MAS-->
+        <hr>
+                                                   <!--CONTINUAMOS CON EL SECTION-->
+        <!-- parte INFERIOR enlace blog-->
+        <section class="row" >
+        <!-- imagen blog-->
             
+            <!-- texto enlace a blog-->
+            <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
+                <div id="tituloblog">Confiamos en los mejores</div>
+                <div id="texto3">Las <b>experiencias outdoor</b> cuentan con más fans cada vez. 
+                    Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente número de aficionados</b>, 
+                    que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
+                    de <b>experiencias</b> son una gran opción de dexconexión y se ofertan cada vez más, sobre todo en tiempos de estress y de no tener tiempo para nada. 
+                    Muchas son las opciones que ofrece este tipo de turismo...apuntarnos a cursos con monitores experimentados en 
+                    diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastronómico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia única, 
+                    o tiendas especializadas para la compra  de equipos y gadgets muy útiles para emprender la aventura de irnos de vacaciones en contacto con 
+                    parajes naturales, los <b>más bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las últimas novedades y te hablaremos de 
+                    nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>. 
+                </div>
+            </div>
+            <section class="row" id="imagenes2" >
+                <div class="col-md-3" id="blog1">
+                    <img src="../imagenes/material_escalada.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/material-adecuado-de-escalada/"><p>Material adecuado de escalada</p></a>
+                    
+                </div>
+                <div class="col-md-3" id="blog2">
+                    <img src="../imagenes/calzado_senderismo.jpg" alt="Experiencias agua" title="Agua"></img>
+                    <a href="https://www.riskadventureclub.com/blog/mejor-calzado-de-senderismo/"><p>Mejor calzado de Senderismo</p></a>
+                </div>
+                <div class="col-md-3" id="blog3">
+                    <img src="../imagenes/mountain_bikes.jpg" alt="Experiencias aire" title="Aire"></img>
+                    <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"><p>Selección Bicicletas de Montaña 2020</p></a>
+                </div>
+                <div class="col-md-3" id="blog4">
+                    <img src="../imagenes/accesorios_outdoor.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/accesorios-outdoor-mas-vendidos/"><p>Accesorios Outdoor más vendidos</p></a>
+                </div>
+                
+            </section> 
+
+            <!-- botón central inferior blog-->
+            <section class="row" >
+                <div class="col-md-12 " id="boton_blog" > 
+                <a href="blog.php"><div  class="boton_blog_centro"> IR AL BLOG</div></a>
+                </div>
+            </section> 
+        <!--fin parte INFERIOR-->
+        <!-- efecto bolitas----COMÚN-->  
+        <section class="row">
+          <div class="col-md-12" id="bolitas">
+            <div id="bola1" class="bola"></div>
+            <div id="bola2" class="bola"></div>
+            <div id="bola3" class="bola"></div>
+            <div id="bola4" class="bola"></div>
+            <div id="bola5" class="bola"></div>
+            <div id="bola6" class="bola"></div>
+            <div id="bola7" class="bola"></div>
+            <div id="bola8" class="bola"></div>
+            <div id="bola9" class="bola"></div>
+            <div id="bola10" class="bola"></div>
+            <div id="bola11" class="bola"></div>
+            <div id="bola12" class="bola"></div>
+            <div id="bola13" class="bola"></div>
+            <div id="bola14" class="bola"></div>
+            <div id="bola15" class="bola"></div>
+            <div id="bola16" class="bola"></div>
+            <div id="bola17" class="bola"></div>
+            <div id="bola18" class="bola"></div>
+            <div id="bola19" class="bola"></div>
+            <div id="bola20" class="bola"></div>
+            <div id="bola21" class="bola"></div>
+            <div id="bola22" class="bola"></div>
+            <div id="bola23" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola24" class="bola"></div>
+            <div id="bola25" class="bola"></div>
+            <div id="bola26" class="bola"></div>
+          </div>
+        </section> 
+        
         <!-- FOOTER-----COMÚN-->
         <footer class="row">
             <!-- Logo risk adventure negativo-->

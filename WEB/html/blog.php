@@ -3,8 +3,8 @@
   <head>
     <title>Blog Risk Adventure</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Nosotros,Contacto,Team Building,Incentive Day,Empresas,Paquete,Día,Fin de semana,Gastronomía,Alojamiento,Lili,Pilu,Raúl,Materiales,Clientes,Escalada,Quads,Alpinismo,Material,Calzado,Bicicletas,Montaña,Accesorio, Outdoor,Consulta, Chat, Online, cookies,Soporte,Opiniones"><!-- palabras clave-->
-    <meta name="description" content="Página web que contacta usuarios con empresas que ofrecen experiencias multiaventura de todo tipo para todos los públicos."><!-- descripción-->
+    <meta name="keywords" content="blog, artículos, multiaventura, material deportivo, alojamientos, gastronomía, restaurantes, recomendaciones, aventura"><!-- palabras clave-->
+    <meta name="description" content="Blog donde te contamos todas las experiencias de aventura, te recomendamos material deportivo, te hablamos de gastronomía y alojamiento para poder completar tu pack de multiaventura"><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -53,7 +53,7 @@
         <?php
         define('WP_USE_THEMES', false);
         require_once($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-blog-header.php');
-        query_posts('showposts=7');
+        query_posts('showposts=4');
 
         echo '<ul>';
 
@@ -70,7 +70,7 @@
         <?php
         global $post;
 
-        $last_posts = get_posts(array('posts_per_page' => 3));
+        $last_posts = get_posts(array('posts_per_page' => 4));
 
         foreach ( $last_posts as $post ) :
         setup_postdata( $post );?>
