@@ -3,25 +3,17 @@
 
 <head>
     <title>Nosotros Risk Adventure</title><!-- título-->
-    <meta charset="utf-8">
-    <!--juego caracteres del lengiaje-->
-    <meta name="keywords"
-        content="Multiaventura,Experiencias,Nosotros, contacto, aventureros, dudas, ayuda">
-    <!-- palabras clave-->
-    <meta name="description"
-        content="Somos Especialistas en Organizar Team Building para Empresas, Escapadas, Fines de Semana en la naturaleza. Multiaventura y Opción Alojamiento, Infinidad de Actividades. Vive una EXPERIENCIA ÚNICA">
-    <!-- descripción-->
+    <meta charset="utf-8"><!--juego caracteres del lengiaje-->
+    <meta name="keywords" content="Multiaventura,Experiencias,Nosotros, contacto, aventureros, dudas, ayuda"> <!-- palabras clave-->
+    <meta name="description" content="Somos Especialistas en Organizar Team Building para Empresas, Escapadas, Fines de Semana en la naturaleza. Multiaventura y Opción Alojamiento, Infinidad de Actividades. Vive una EXPERIENCIA ÚNICA"><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!--cdn para los iconos fontawesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- cdn para librería jquery-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/nosotros.css" type="text/css">
-    <!--Enlace externo a CSS-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
+    <link rel="stylesheet" href="../css/nosotros.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="icon" type="image/png" href="../imagenes/favicon_risk.png" sizes="64x64"><!--Favicon RISK-->
 </head>
 
 <body>

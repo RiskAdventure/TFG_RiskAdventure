@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/indexx.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="../imagenes/favicon_risk.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
 
