@@ -3,25 +3,17 @@
 
 <head>
     <title>Eventos Risk Adventure</title><!-- título-->
-    <meta charset="utf-8">
-    <!--juego caracteres del lengiaje-->
-    <meta name="keywords"
-        content="Eventos, team building, incentive day, incentivos, despedida, aniversario, empresas, equipos, empleados, jefes">
-    <!-- palabras clave-->
-    <meta name="description"
-        content="En Risk Adventure preparamos las mejores experiencias y eventos de empresa de todo tipo, Incentivos, Team Building, Cenas y comidas de empresa con actividades...">
-    <!-- descripción-->
+    <meta charset="utf-8"><!--juego caracteres del lengiaje-->
+    <meta name="keywords" content="Eventos, team building, incentive day, incentivos, despedida, aniversario, empresas, equipos, empleados, jefes"><!-- palabras clave-->
+    <meta name="description" content="En Risk Adventure preparamos las mejores experiencias y eventos de empresa de todo tipo, Incentivos, Team Building, Cenas y comidas de empresa con actividades..."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!--cdn para los iconos fontawesome-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- cdn para librería jquery-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/eventos.css" type="text/css">
-    <!--Enlace externo a CSS-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
+    <link rel="stylesheet" href="../css/eventos.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="icon" type="image/png" href="../imagenes/favicon_risk.png" sizes="64x64"><!--Favicon RISK-->
 </head>
 
 <body>
