@@ -20,7 +20,7 @@
     <!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/experienciass.css" type="text/css">
+    <link rel="stylesheet" href="../css/experienciasss.css" type="text/css">
     <!--Enlace externo a CSS-->
 </head>
 <body>
@@ -60,15 +60,15 @@
         <!-- SECTION-->
        
         <section class="row" id="imagenes" >
-          <div class="col-md-3" id="exp1">
+          <div class="col-md-4 col-xs-12 col-xm-12" id="exp1">
              <img src="../imagenes/exp_tierra2.jpg" alt="Experiencias tierra" title="Tierra"></img>
              <a href="tierra.php"><div class="button" id="boton1"> TIERRA</div></a>
           </div>
-          <div class="col-md-3" id="exp2">
+          <div class="col-md-4 col-xs-12 col-xm-12" id="exp2">
              <img src="../imagenes/exp_agua.jpg" alt="Experiencias agua" title="Agua"></img>
              <a href="agua.php"><div class="button" id="boton2"> AGUA</div></a>
           </div>
-          <div class="col-md-3" id="exp3">
+          <div class="col-md-4 col-xs-12 col-xm-12" id="exp3">
              <img src="../imagenes/exp_aire.jpg" alt="Experiencias aire" title="Aire"></img>
              <a href="aire.php"><div class="button" id="boton3"> AIRE</div></a>
           </div>
@@ -216,7 +216,7 @@
 
             <!-- botón central inferior blog-->
             <section class="row" >
-                <div class="col-md-12 " id="boton_blog" > 
+                <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
                 <a href="blog.php"><div  class="boton_blog_centro"> IR AL BLOG</div></a>
                 </div>
             </section> 
