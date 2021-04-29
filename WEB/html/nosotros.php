@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--juego caracteres del lengiaje-->
     <meta name="keywords"
-        content="Multiaventura,Experiencias,Nosotros,Escalada,Quads,Alpinismo,Material,Bicicletas,Montaña, Chat, Online, cookies,">
+        content="Multiaventura,Experiencias,Nosotros, contacto, aventureros, dudas, ayuda">
     <!-- palabras clave-->
     <meta name="description"
         content="Somos Especialistas en Organizar Team Building para Empresas, Escapadas, Fines de Semana en la naturaleza. Multiaventura y Opción Alojamiento, Infinidad de Actividades. Vive una EXPERIENCIA ÚNICA">
