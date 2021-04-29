@@ -71,14 +71,14 @@
                 <div class="item">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_portada2.jpg"></a>
                   <div class="carousel-caption">
-                  <h3>EXPERIENCIAS SEGURAS</h3>
+                  <h3>SEGURAS</h3>
                     <p>Te proporcionamos la mejor seguridad, 100% seguro 100% feliz...</p>
                   </div>
                 </div>
                 <div class="item">
                   <a href="experiencias.php"><img src="../imagenes/carrusel_portada3.jpg"></a>
                   <div class="carousel-caption">
-                  <h3>EXPERIENCIAS DE CALIDAD</h3>
+                  <h3>DE CALIDAD</h3>
                     <p>No es solamente una aventura, es una experiencia de Calidad...</p>
                   </div>
                 </div>
