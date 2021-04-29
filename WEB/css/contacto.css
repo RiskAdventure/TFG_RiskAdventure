@@ -1,4 +1,4 @@
-                                                         /*CONTAINER---COMÚN*/
+  /*CONTAINER---COMÚN*/
 .container {
   width: 80vw;
   background-size: contain;
@@ -128,7 +128,7 @@ li:hover {
 /*Texto envianos tu consulta*/
 #div1_1{
   
-
+  font-size: 230%;
   text-transform: uppercase;
   color: rgb(66, 66, 66);
   font-weight:bolder;
@@ -140,7 +140,7 @@ li:hover {
 #div1_2{
   
   color: rgb(66, 66, 66);
-
+  font-size: 140%;
   text-align: center;
   margin-bottom: 8vw;
   
@@ -156,7 +156,7 @@ li:hover {
 /*Botones*/
 #div2_1 div{
   padding: 1%;
-
+  background-color: #8091a5;  
   margin-left: 4%;
   font-size: 130%;
   border-radius: 7px;
@@ -171,7 +171,7 @@ li:hover {
 }
 /*Texto consulta y soporte*/
 #div3_1 {
- 
+  
   
   font-size: 240%;
   text-transform: uppercase;
@@ -186,13 +186,13 @@ li:hover {
 #div3_2{
   
   color: rgb(66, 66, 66);
-
+  font-size: 145%;
   
   margin-bottom: 2.5vw;
 }
 
 #div4_2{
- 
+  
   background: content-box;
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -239,7 +239,6 @@ textarea{
 
 span{
   margin-left: 1%;
-
 }
 span a{
   text-decoration:2px #3F4A56 underline  !important ;
@@ -249,7 +248,7 @@ span a:hover{
   font-weight: bolder;
 }
 #enviar{
-
+  background-color: #8091a5;
   color: white;
   border: none;
   box-shadow: none;
@@ -379,7 +378,7 @@ input[type=checkbox] {
 
 
 
-                           /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
+                            /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
 hr {
   display: none;
 }
@@ -669,7 +668,7 @@ a #restaurante {
     margin-right: 0px !important;
     padding-right: 0px !important;
   }
-                                 /*FOOTER---COMÚN*/
+                                  /*FOOTER---COMÚN*/
   #contacto_footer {
     font-size: 1.2vw;
   }
@@ -687,12 +686,12 @@ a #restaurante {
 /* De 1200 px hacia abajo */
 
 @media only screen and (max-width: 1200px) {
-                         /*CONTAINER------COMÚN*/
+                          /*CONTAINER------COMÚN*/
   .container {
     width: 86vw;
     background-size: contain;
   }
-                     /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
+                      /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
   #menu {
     width: 100% !important;
     padding: 0px !important;
@@ -883,7 +882,7 @@ span a {
   margin-right: 7%;
 }
 #enviar {
-
+  background-color: #8091a5;
   color: white;
   border: none;
   box-shadow: none;
@@ -895,7 +894,7 @@ span a {
   margin-bottom: 2%;
   margin-left: 38%;
 }
-                                             /*FOOTER -----COMÚN*/
+                                              /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
   }
@@ -944,7 +943,7 @@ span a {
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 500px) {
-                                     /*EFECTO BOLAS--------COMÚN*/
+                                      /*EFECTO BOLAS--------COMÚN*/
   .bola {
     width: 0px !important;
     height: 0px !important;
