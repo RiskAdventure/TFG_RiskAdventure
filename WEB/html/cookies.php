@@ -15,7 +15,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="js/cookies.js" type="text/javascript"></script>
     <link rel="stylesheet" href="../css/cookies.css" type="text/css"> <!--Enlace externo a CSS-->
-    <link rel="icon" type="image/png" href="../imagenes/favicon_risk.png" sizes="64x64"><!--Favicon RISK-->
+    <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
     <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
