@@ -101,7 +101,14 @@
                 </div>
                 
             </section> 
-        /*
+
+             <!-- botón central inferior blog-->
+             <section class="row" >
+                <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
+                <a href="blog.php"><div  class="boton_blog_centro"> IR AL BLOG</div></a>
+                </div>
+            </section>
+        
 
         <?php
         define('WP_USE_THEMES', false);
@@ -137,7 +144,7 @@
         <?php endforeach;
         wp_reset_postdata();
         ?>
-        */
+        
 
 
         
