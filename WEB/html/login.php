@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Login RA</title>
    <!--Made with love by Mutiullah Samim -->
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!--Bootsrap 4 CDN-->
@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="../css/logins.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
 <div class="container">
@@ -28,8 +28,9 @@
 				<h3>Sign In</h3>
 				<div class="d-flex justify-content-end social_icon">
 					<span><i class="fab fa-facebook-square"></i></span>
-					<span><i class="fab fa-google-plus-square"></i></span>
+					<span><i class="fab fa-whatsapp-square"></i></span>
 					<span><i class="fab fa-twitter-square"></i></span>
+          <span id="home"><img src="../imagenes/favicon_risk2.png"></span>
 				</div>
 			</div>
 			<div class="card-body">
@@ -49,34 +50,23 @@
 					</div>
           <div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
 						</div>
 						<input type="password" class="form-control" placeholder="password">
 					</div>
           <div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
 						</div>
 						<input type="password" class="form-control" placeholder="password">
 					</div>
           <div class="input-group form-group">
 						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
+							<span class="input-group-text"><i class="fas fa-id-card"></i></span>
 						</div>
 						<input type="password" class="form-control" placeholder="password">
 					</div>
-          <div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
-						</div>
-						<input type="password" class="form-control" placeholder="password">
-					</div>
-          <div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
-						</div>
-						<input type="password" class="form-control" placeholder="password">
-					</div>
+          
 					<div class="row align-items-center remember">
 						<input type="checkbox">Remember Me
 					</div>
