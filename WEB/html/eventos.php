@@ -54,7 +54,7 @@
                     <ul class="nav navbar-nav">
                       <li><a id="home" href="index.php">HOME</a></li>
                       <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                      <li class="active"><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
                       <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
                       <li><a id="blog" href="blog.php">BLOG</a></li>

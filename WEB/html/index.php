@@ -52,7 +52,7 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a id="home" href="index.php">HOME</a></li>
+                      <li><a id="home" href="index.php">HOME</a></li>
                       <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
                       <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
                       <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
