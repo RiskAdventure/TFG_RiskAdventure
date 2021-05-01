@@ -21,8 +21,8 @@
     <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
      nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
       de las media queries @-->
-    <div class="container">
-                                                  <!-- HEADER----COMUN-->
+      <div class="container">
+                                                      <!-- HEADER----COMUN-->
         <!-- iconos-->
         <header>
           <div class="row" id="icon">
@@ -32,23 +32,38 @@
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
-          <div class="row" id="logo_menu">
-          <!-- logo-->
-          <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
-            <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-            <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
-                <ul>
-                  <li ><a id="home" href="index.php">HOME</a></li>
-                  <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                  <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                  <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                  <li ><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                  <li ><a id="blog" href="blog.php">BLOG</a></li>
-                  <li ><a id="contacto" href="contacto.php">CONTACTO</a></li>
-                </ul>
+          
+         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+          <div class="row" id="nav"> 
+            <nav class="navbar navbar-default" role="navigation" id="menu">
+                  <!-- El logotipo y el icono que despliega el menú se agrupan
+                      para mostrarlos mejor en los dispositivos móviles -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Desplegar navegación</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque.png"/></a>
+                  </div>
+                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                  otro elemento que se pueda ocultar al minimizar la barra -->
+                  <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                      <li><a id="home" href="index.php">HOME</a></li>
+                      <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
+                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
+                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
+                      <li><a id="blog" href="blog.php">BLOG</a></li>
+                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                    </ul>
+                  </div>
             </nav>
           </div>
-        </header>                                        
+        </header>                                                  
                                                        <!-- SECTION-->
 
             <!-- SECTION-->
@@ -62,57 +77,53 @@
                     ----<br><br>
 
                 <b>Datos legales</b><br><br>
-                Risk Adventure tiene como objetivo ofrecer información gratuita. Los datos legales del sitio son los siguientes:<br>
+                Risk Adventure tiene como objetivo ofrecer información gratuita. Los datos legales del sitio son los siguientes:<br><br>
                 <b>Risk Adventure<br>
                 123, Avenida de Bolonia 28850, Madrid, EspañaCIF: B2222222<br>
                 Contacto vía email: info@riskadventureclub.com</b><br><br>
-                <b>Privacidad</b><br>
+                <b>Privacidad</b><br><br>
                 En Risk Adventure nos preocupamos de la privacidad de los usuarios. Además, cubrimos todas las exigencias legales al respecto.<br><br>
-                <b>Uso de los datos personales</b><br>
+                <b>Uso de los datos personales</b><br><br>
                 Los datos personales que se recaban en Risk Adventure se utilizan con el único fin de ofrecer una experiencia de usuario personalizada.<br>
-                Los usuarios envían sus datos personales para la creación de una cuenta. Luego mediante su cuenta pueden realizar personalizaciones <br>
+                Los usuarios envían sus datos personales para la creación de una cuenta. Luego mediante su cuenta pueden realizar personalizaciones
                 sobre intereses y gustos, que se utilizan para ofrecer puntualmente una mayor personalización de los contenidos del sitio.<br>
                 También se usan ocasionalmente para informar al usuario de las novedades ocurridas en el sitio, acerca de los temas que le interesan. <br>
                 Sin embargo, estas comunicaciones se pueden configurar por el propio usuario, indicando si se desea o no recibir.<br><br>
-                <b>Edición y borrado de los datos personales<b><br>
-                Por medio del panel de control del usuario se ofrecen las herramientas para editar la información personal del usuario, siempre que éste lo desee.<br>
-                En cualquier momento el usuario puede solicitar que se elimine toda su información personal, mediante el mismo panel de control en la opción <br>
+                <b>Edición y borrado de los datos personales</b><br><br>
+                Por medio del panel de control del usuario se ofrecen las herramientas para editar la información personal del usuario, siempre que éste lo desee.
+                En cualquier momento el usuario puede solicitar que se elimine toda su información personal, mediante el mismo panel de control en la opción
                 de eliminar cuenta.<br><br>
-                <b>Política de cookies</b><br>
+                <b>Política de cookies</b><br><br>
                 Risk Adventure, así como la amplia mayoría de sitios en la Web usa "cookies" para mejorar la experiencia de usuario. Este uso implica <br>
                 cookies propias y de terceros. (Recuerda que las cookies son archivos de texto plano, no mayores de 5Kb totalmente inofensivas para tu ordenador)<br><br>
-                <b>Colecta de datos</b><br>
-                Usamos cookies propias principalmente para personalizar la navegación. Básicamente se trata de recordar al usuario autenticado, con <br>
+                <b>Colecta de datos</b><br><br>
+                Usamos cookies propias principalmente para personalizar la navegación. Básicamente se trata de recordar al usuario autenticado, con
                 el que te has dado de alta, y así no tener que pedirte la clave más adelante en siguientes accesos.<br>
-                Nuestros partner de redes sociales (integrados en la web mediante los correspondientes botones de "me gusta", "+1", "Tuitear") <br>
+                Nuestros partner de redes sociales (integrados en la web mediante los correspondientes botones de "me gusta", "+1", "Tuitear")
                 también pueden colectar información de tu sistema. Esos datos son ellos los que los controlan y no permanecen en nuestros servidores. <br>
                 Generalmente almacenan información sobre el perfil del usuario, derivado de la navegación por las páginas que vas realizando.<br>
-                Así mismo también se almacenarán en tu sistema cookies de terceros, instaladas los anunciantes del sitio. Esta web se mantiene <br>
-                gracias a la publicidad y los anunciantes que tenemos, así como las redes de anuncios que utilizamos, usan las cookies para mostrar <br>
-                publicidad más acorde a tu perfil. Esas cookies de terceros no las controlamos nosotros tampoco, pero cuando aceptas que RiskAdventure.com use <br>
-                cookies también estás aceptando que se instalen las cookies de nuestros partner de publicidad.<br>
-                Los servicios de analítica de estadísticas de acceso a la web también usan Cookies para recordarte y saber más de ti y de las personas <br>
-                que nos visitan en general.<br><br>
-                <b>Compartición de datos</b><br>
+                Así mismo también se almacenarán en tu sistema cookies de terceros, instaladas los anunciantes del sitio. Esta web se mantiene
+                gracias a la publicidad y los anunciantes que tenemos, así como las redes de anuncios que utilizamos, usan las cookies para mostrar
+                publicidad más acorde a tu perfil. Esas cookies de terceros no las controlamos nosotros tampoco, pero cuando aceptas que RiskAdventure.com use cookies también estás aceptando que se instalen las cookies de nuestros partner de publicidad.<br>
+                Los servicios de analítica de estadísticas de acceso a la web también usan Cookies para recordarte y saber más de ti y de las personas que nos visitan en general.<br><br>
+                <b>Compartición de datos</b><br><br>
                 Compartimos información sobre el uso que hagas del sitio web con nuestros partners de redes sociales, publicidad y análisis web, <br>
-                quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de otros <br>
+                quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de otros
                 sitios web que visitas o de sus propios servicios.<br>
                  ----
                 </div>
             </div>
         </section>
 
-
-            
-            <!--COOKIES-->
-            <div id="overbox3">
-                <div id="infobox3">
-                    <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
-                    <a href="cookies.php">Más información</a>
-                    <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
-                </div>
-            </div>
-            <!--COOKIES-->
+       <!--COOKIES-->
+          <div id="overbox3">
+              <div id="infobox3">
+                  <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+                  <a href="cookies.php">Más información</a>
+                  <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
+              </div>
+          </div>
+        <!--COOKIES-->
         <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->

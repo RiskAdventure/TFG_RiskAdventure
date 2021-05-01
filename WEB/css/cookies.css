@@ -129,7 +129,7 @@ li:focus {
 #texto{
     font-size: 1.3vw;
       margin: auto;
-      text-align: left;
+      text-align: justify;
 }
 
 #privacidad #cookies {
@@ -141,7 +141,7 @@ li:hover {
 }
 
 #overbox3 {
-    position: fixed;
+    position:fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -155,12 +155,16 @@ li:hover {
     height: 58px;
     width: 100%;
     text-align:center;
-    background-color: #eeeeee;
+    background-color: #ba9e38;
 }
 #infobox3 p {
-    line-height:58px;
-    font-size:12px;
-    text-align:center;
+  line-height:58px;
+  font-size:13px;
+  text-align:center;
+  color:#2C2961;
+  font-family:arial;
+  font-weight:bold;
+  background-color: #ba9e38;
 }
 #infobox3 p a {
     margin-right:5px;
