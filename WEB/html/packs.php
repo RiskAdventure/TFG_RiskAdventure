@@ -35,8 +35,7 @@
             </div>
             <div class="row" id="logo_menu">
                 <!-- logo-->
-                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
-                        alt="logo risk adventure" title="logo risk adventure" /> </div>
+                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"/> </div>
                 <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
                 <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                     <ul>
@@ -150,8 +149,7 @@
                 <div class="grid-container">
                     <article id="3685" class="location-listing">
                         <div class="location-image">
-                            <a href="#"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"
-                                    alt="La Sportiva"> </a>
+                            <a href="#"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
                         </div>
                     </article>
                     <article id="3688" class="location-listing">
@@ -161,8 +159,7 @@
                     </article>
                     <article id="3691" class="location-listing">
                         <div class="location-image" id="columbia">
-                            <a href="#"><img width="300" height="169" src="../imagenes/columbia_packs.png"
-                                    alt="Columbia"> </a>
+                            <a href="#"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
                         </div>
                     </article>
                 </div>
@@ -236,7 +233,7 @@
         <footer class="row">
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8" id="adventure">
-                <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
+                <img src="../imagenes/footer_logo.png">
             </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer">

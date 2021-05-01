@@ -227,9 +227,7 @@
         <!-- FOOTER-----COMÚN-->
         <footer class="row">
             <!-- Logo risk adventure negativo-->
-            <div class="col-md-8 col-xs-8" id="adventure">
-                <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
-            </div>
+            <div class="col-md-8 col-xs-8" id="adventure"><img src="../imagenes/footer_logo.png"> </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer">
                 <p>CONTÁCTANOS</p>
