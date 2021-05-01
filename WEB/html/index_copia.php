@@ -33,8 +33,9 @@
               </div>
           </div>
           
-              <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-              <nav class="navbar navbar-default" role="navigation" id="menu1">
+         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+          <div class="row" id="nav"> 
+            <nav class="navbar navbar-default" role="navigation" id="menu">
                   <!-- El logotipo y el icono que despliega el menú se agrupan
                       para mostrarlos mejor en los dispositivos móviles -->
                   <div class="navbar-header">
@@ -79,7 +80,8 @@
                       <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
                     </ul>
                   </div>
-              </nav>
+            </nav>
+          </div>
         </header>                                                 
                                                        <!-- SECTION-->
         <!-- carrusel-->
