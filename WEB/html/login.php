@@ -17,11 +17,19 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link rel="stylesheet" type="text/css" href="../css/logins.css">
 </head>
 <body>
 <div class="container">
-  
+  <div class="row" id="logo">
+    <div class="col-md-1">
+      <a href="../html/index.php"><img src="../imagenes/favicon_risk.png"></a>
+    </div>
+    <div class="col-md-10" id="texto">
+      <p>login RISK ADVENTURE </p>
+    </div>
+  </div>
+    
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
@@ -30,7 +38,7 @@
 					<span><i class="fab fa-facebook-square"></i></span>
 					<span><i class="fab fa-whatsapp-square"></i></span>
 					<span><i class="fab fa-twitter-square"></i></span>
-          <span id="home"><img src="../imagenes/favicon_risk2.png"></span>
+          
 				</div>
 			</div>
 			<div class="card-body">
@@ -67,9 +75,7 @@
 						<input type="password" class="form-control" placeholder="password">
 					</div>
           
-					<div class="row align-items-center remember">
-						<input type="checkbox">Remember Me
-					</div>
+					
 					<div class="form-group">
 						<input type="submit" value="Login" class="btn float-right login_btn">
 					</div>
@@ -77,11 +83,9 @@
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Sign Up</a>
+					¿Aún no tienes una cuenta?<a href="#">Regístrate</a>
 				</div>
-				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
-				</div>
+				
 			</div>
 		</div>
 	</div>

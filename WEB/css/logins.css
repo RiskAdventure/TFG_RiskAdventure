@@ -14,7 +14,19 @@ font-family: 'Numans', sans-serif;
 height: 100%;
 align-content: center;
 }
-
+#logo{
+    border-bottom: 2px solid #ffffff11;
+}
+#logo div img{
+    width: 60px;
+    height: 60px;
+    
+    margin: 20px;
+}
+#logo div img:hover{
+    cursor:pointer;
+    transform: rotateY(180deg);
+}
 .card{
 height: auto;
 margin-top: auto;
@@ -29,16 +41,24 @@ margin-left: 10px;
 color: #FFC312;
 }
 .social_icon span img{
-    width: 55px  !important;
-    border-radius: 7px;
-    margin-left: 10px;
+    width:14px  !important;
+    margin-left: 20px !important;
     color: #FFC312;
-    
     }
 
 .social_icon span:hover{
 color: white;
 cursor: pointer;
+}
+.h-100{
+    height: 86% !important;
+}
+#texto{
+    text-align: center;
+    color:white;
+    padding-top: 35px;
+    font-size: 150% !important;
+    font-weight: bolder;
 }
 
 .card-header h3{
@@ -47,19 +67,10 @@ color: white;
 
 .social_icon{
 position: absolute;
-left: 5px;
+right: 20px;
 top: -45px;
 }
-.social_icon #home{
-    position: absolute;
-    left: 5px;
-    top: -45px;
-    
-    }
-    .social_icon #home:hover{
-        transform: rotateY(100deg);
-        
-        }
+
 .input-group-prepend span{
 width: 50px;
 background-color: #FFC312;
