@@ -28,6 +28,13 @@ font-size: 60px;
 margin-left: 10px;
 color: #FFC312;
 }
+.social_icon span img{
+    width: 55px  !important;
+    border-radius: 7px;
+    margin-left: 10px;
+    color: #FFC312;
+    
+    }
 
 .social_icon span:hover{
 color: white;
@@ -40,10 +47,19 @@ color: white;
 
 .social_icon{
 position: absolute;
-right: 20px;
+left: 5px;
 top: -45px;
 }
-
+.social_icon #home{
+    position: absolute;
+    left: 5px;
+    top: -45px;
+    
+    }
+    .social_icon #home:hover{
+        transform: rotateY(100deg);
+        
+        }
 .input-group-prepend span{
 width: 50px;
 background-color: #FFC312;
