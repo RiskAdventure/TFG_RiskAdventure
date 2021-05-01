@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/blog.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/blo.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
@@ -63,7 +63,51 @@
           </div>
         </header>                                                  
                                                        <!-- SECTION-->
+         <!-- parte INFERIOR enlace blog-->
+         <section class="row" >
+        <!-- imagen blog-->
+            
+            <!-- texto enlace a blog-->
+            <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
+                <div id="tituloblog">Confiamos en los mejores</div>
+                <div id="texto3">Las <b>experiencias outdoor</b> cuentan con más fans cada vez. 
+                    Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente número de aficionados</b>, 
+                    que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
+                    de <b>experiencias</b> son una gran opción de dexconexión y se ofertan cada vez más, sobre todo en tiempos de estress y de no tener tiempo para nada. 
+                    Muchas son las opciones que ofrece este tipo de turismo...apuntarnos a cursos con monitores experimentados en 
+                    diversos <b>deportes de aventura</b>, actividades de tipo cultural, gastronómico y rural asociadas a los alojamientos donde cerca puedes vivir una experiencia única, 
+                    o tiendas especializadas para la compra  de equipos y gadgets muy útiles para emprender la aventura de irnos de vacaciones en contacto con 
+                    parajes naturales, los <b>más bonitos que podamos imaginar</b>. En nuestro BLOG te mostraremos las últimas novedades y te hablaremos de 
+                    nuestros proveedores y empresas asociadas, de las experiencias de nueestros clientes y de los servicios que ofrecemos, siempre ofreciendo <b>CALIDAD</b>. 
+                </div>
+            </div>
+            <section class="row" id="imagenes2" >
+                <div class="col-md-3" id="blog1">
+                    <img src="../imagenes/material_escalada.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/material-adecuado-de-escalada/"><p>Material adecuado de escalada</p></a>
+                    
+                </div>
+                <div class="col-md-3" id="blog2">
+                    <img src="../imagenes/calzado_senderismo.jpg" alt="Experiencias agua" title="Agua"></img>
+                    <a href="https://www.riskadventureclub.com/blog/mejor-calzado-de-senderismo/"><p>Mejor calzado de Senderismo</p></a>
+                </div>
+                <div class="col-md-3" id="blog3">
+                    <img src="../imagenes/mountain_bikes.jpg" alt="Experiencias aire" title="Aire"></img>
+                    <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"><p>Selección Bicicletas de Montaña 2020</p></a>
+                </div>
+                <div class="col-md-3" id="blog4">
+                    <img src="../imagenes/accesorios_outdoor.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/accesorios-outdoor-mas-vendidos/"><p>Accesorios Outdoor más vendidos</p></a>
+                </div>
+                
+            </section> 
 
+             <!-- botón central inferior blog-->
+             <section class="row" >
+                <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
+                <a href="blog.php"><div  class="boton_blog_centro"> VER MÁS ARTÍCULOS</div></a>
+                </div>
+            </section>
         
 
         <?php
@@ -100,6 +144,7 @@
         <?php endforeach;
         wp_reset_postdata();
         ?>
+        
 
 
         
