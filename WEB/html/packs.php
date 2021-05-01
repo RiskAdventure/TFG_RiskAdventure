@@ -163,7 +163,7 @@
 
                 <div class="grid-container">
                     <article id="3685" class="location-listing">
-                        <div class="location-image">
+                        <div class="location-image" id="lasportiva">
                             <a href="#"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
                         </div>
                     </article>
@@ -206,7 +206,7 @@
             <div class="row">
                 <div class="col-md-1 d-none d-sm-block">
                     <p>
-                        <button class="btn btn-floating btn hidden-xs">3</button>
+                        <button class="btn btn-floating btn-default hidden-xs">3</button>
                     </p>
                 </div>
                 <div class="col-md-4 col-xs-12 textopacks">GASTRONOMÍA, ALOJAMIENTO Y MATERIAL</div>
