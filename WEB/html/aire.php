@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Experiencias Risk Adventure</title><!-- título-->
+    <title>Experiencias de Aire</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu experiencia de Tierra, Agua o Aire y disfruta de una experiencia de aventura inigualable. Podrás elegir entre un montón de actividades donde está asegurada la diversión y la adrenalina"><!-- descripción-->
+    <meta name="description" content="Elige tu  de Aire y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de aire."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
