@@ -76,27 +76,27 @@
                 <div> 
                     ----<br><br>
 
-                <b>Datos legales</b><br><br>
+                <b>DATOS LEGALES</b><br><br>
                 Risk Adventure tiene como objetivo ofrecer información gratuita. Los datos legales del sitio son los siguientes:<br><br>
                 <b>Risk Adventure<br>
                 123, Avenida de Bolonia 28850, Madrid, EspañaCIF: B2222222<br>
                 Contacto vía email: info@riskadventureclub.com</b><br><br>
-                <b>Privacidad</b><br><br>
+                <b>PRIVACIDAD</b><br><br>
                 En Risk Adventure nos preocupamos de la privacidad de los usuarios. Además, cubrimos todas las exigencias legales al respecto.<br><br>
-                <b>Uso de los datos personales</b><br><br>
+                <b>USO DE DATOS PERSONALES</b><br><br>
                 Los datos personales que se recaban en Risk Adventure se utilizan con el único fin de ofrecer una experiencia de usuario personalizada.<br>
                 Los usuarios envían sus datos personales para la creación de una cuenta. Luego mediante su cuenta pueden realizar personalizaciones
                 sobre intereses y gustos, que se utilizan para ofrecer puntualmente una mayor personalización de los contenidos del sitio.<br>
                 También se usan ocasionalmente para informar al usuario de las novedades ocurridas en el sitio, acerca de los temas que le interesan. <br>
                 Sin embargo, estas comunicaciones se pueden configurar por el propio usuario, indicando si se desea o no recibir.<br><br>
-                <b>Edición y borrado de los datos personales</b><br><br>
+                <b>EDICIÓN Y BORRADO DE DATOS PERSONALES</b><br><br>
                 Por medio del panel de control del usuario se ofrecen las herramientas para editar la información personal del usuario, siempre que éste lo desee.
                 En cualquier momento el usuario puede solicitar que se elimine toda su información personal, mediante el mismo panel de control en la opción
                 de eliminar cuenta.<br><br>
-                <b>Política de cookies</b><br><br>
+                <b>POLÍTICA DE COOKIES</b><br><br>
                 Risk Adventure, así como la amplia mayoría de sitios en la Web usa "cookies" para mejorar la experiencia de usuario. Este uso implica <br>
                 cookies propias y de terceros. (Recuerda que las cookies son archivos de texto plano, no mayores de 5Kb totalmente inofensivas para tu ordenador)<br><br>
-                <b>Colecta de datos</b><br><br>
+                <b>COLECTA DE DATOS</b><br><br>
                 Usamos cookies propias principalmente para personalizar la navegación. Básicamente se trata de recordar al usuario autenticado, con
                 el que te has dado de alta, y así no tener que pedirte la clave más adelante en siguientes accesos.<br>
                 Nuestros partner de redes sociales (integrados en la web mediante los correspondientes botones de "me gusta", "+1", "Tuitear")
@@ -106,7 +106,7 @@
                 gracias a la publicidad y los anunciantes que tenemos, así como las redes de anuncios que utilizamos, usan las cookies para mostrar
                 publicidad más acorde a tu perfil. Esas cookies de terceros no las controlamos nosotros tampoco, pero cuando aceptas que RiskAdventure.com use cookies también estás aceptando que se instalen las cookies de nuestros partner de publicidad.<br>
                 Los servicios de analítica de estadísticas de acceso a la web también usan Cookies para recordarte y saber más de ti y de las personas que nos visitan en general.<br><br>
-                <b>Compartición de datos</b><br><br>
+                <b>COMPARTICIÓN DE DATOS</b><br><br>
                 Compartimos información sobre el uso que hagas del sitio web con nuestros partners de redes sociales, publicidad y análisis web, <br>
                 quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso que haya hecho de otros
                 sitios web que visitas o de sus propios servicios.<br>
