@@ -35,8 +35,7 @@
             </div>
             <div class="row" id="logo_menu">
                 <!-- logo-->
-                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"
-                        alt="logo risk adventure" title="logo risk adventure" /> </div>
+                <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"><img src="../imagenes/header_logo.png" id="logo"/> </div>
                 <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
                 <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
                     <ul>
@@ -150,8 +149,7 @@
                 <div class="grid-container">
                     <article id="3685" class="location-listing">
                         <div class="location-image">
-                            <a href="#"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"
-                                    alt="La Sportiva"> </a>
+                            <a href="#"><img width="320" height="169" src="../imagenes/la_sportiva.jpg"  alt="La Sportiva"> </a>
                         </div>
                     </article>
                     <article id="3688" class="location-listing">
@@ -161,8 +159,7 @@
                     </article>
                     <article id="3691" class="location-listing">
                         <div class="location-image" id="columbia">
-                            <a href="#"><img width="300" height="169" src="../imagenes/columbia_packs.png"
-                                    alt="Columbia"> </a>
+                            <a href="#"><img width="300" height="169" src="../imagenes/columbia_packs.png" alt="Columbia"> </a>
                         </div>
                     </article>
                 </div>
@@ -236,7 +233,7 @@
         <footer class="row">
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8" id="adventure">
-                <img src="../imagenes/footer_logo.png" alt="logo ris adventure" title="logo risk adventure">
+                <img src="../imagenes/footer_logo.png">
             </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer">
@@ -256,32 +253,24 @@
                     <p>(+34)677 899 900</p>
                 </div>
             </div>
-            <!-- Logos publicitarios-->
-            <div class="col-md-12 col-xs-12" id="publi">
-                <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill"
-                        title="logo oneill" /></a>
-                <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"
-                        alt="logo columbia" title="logo columbia" /></a>
-                <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"
-                        alt="logo la escapada" title="logo la escapada" /></a>
-                <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"
-                        alt="logo la esportiva" title="logo la esportiva" /></a>
-                <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"
-                        alt="logo decathlon" title=" logo decathlon" /></a>
-                <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"
-                        alt="logo bardir restaurante" title="logo bardis restaurante" /></a>
-            </div>
+            <!-- Logos publicitarios-->  
+          <div class="col-md-12 col-xs-12" id="publi">
+              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
+              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
+              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
+              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"/></a>
+              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
+              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
+          </div>
             <!-- iconos redes sociales y texto copyright-->
-            <div class="col-md-12 col-xs-12" id="redes">
-                <p>Síguenos en:</p>
-                <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face"
-                        title="facebook"></i></a>
-                <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram"
-                        title="instagram"></i></a>
-                <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
-                <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
-                <p>2020 © Copyright</p>
-            </div>
+          <div class="col-md-12 col-xs-12" id="redes">
+              <p>Síguenos en:</p>
+              <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
+              <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
+              <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
+              <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
+              <p>2020 © Copyright</p>
+          </div>
             <hr>
             <!-- efecto bolitas---COMÚN-->
 
