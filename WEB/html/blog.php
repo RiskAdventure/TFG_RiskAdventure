@@ -69,7 +69,7 @@
             
             <!-- texto enlace a blog-->
             <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
-                <div id="tituloblog">Confiamos en los mejores</div>
+                <div id="tituloblog">Que te vamos a contar aquí...</div>
                 <div id="texto3">Las <b>experiencias outdoor</b> cuentan con más fans cada vez. 
                     Salir de acampada, hacer barrancos, practicar senderismo o escalar son deportes de naturaleza y aventura con un <b>creciente número de aficionados</b>, 
                     que huyen del turismo de ciudad o de aglomeraciones, y que desean encontrar <b>alternativas naturales</b>, en pleno contacto con el entorno natural y rural. Este tipo 
