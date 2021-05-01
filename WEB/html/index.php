@@ -4,7 +4,7 @@
     <title>Home Risk Adventure</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Eventos,Empresas,Despedidas,Grupos,Familias,Parejas,Tierra,Treeking,Raquetas,Agua,Surf,Esquí,Aire,Globo,Aladelta,Blog,Aventura,Multiaventura,Riesgo,Home,Experiencias,Eventos,Packs,Grupos,Team Building,Incentive Day,Fin de semana,Escalada,Quads,Alpinismo,Montaña,Outdoor"><!-- palabras clave-->
-    <meta name="description" content="Risk Adventure buscador y guía de experiencias únicas de calidad para todos los usuarios, donde encontrarás las mejores empresas de Multiaventura"><!-- descripción-->
+    <meta name="description" content="Risk Adventure buscador de experiencias únicas de calidad para todos los usuarios, donde encontrarás las mejores empresas de Multiaventura"><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,7 +13,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/indexx.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
 
@@ -21,7 +20,7 @@
      nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
       de las media queries @-->
 
-      <div class="container">
+    <div class="container">
                                                       <!-- HEADER----COMUN-->
         <!-- iconos-->
         <header>
@@ -32,38 +31,23 @@
                 <i class="fas fa-search" id="buscar" title="buscar"></i>
               </div>
           </div>
-          
-         <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-          <div class="row" id="nav"> 
-            <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menú se agrupan
-                      para mostrarlos mejor en los dispositivos móviles -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target=".navbar-ex1-collapse">
-                      <span class="sr-only">Desplegar navegación</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque.png"/></a>
-                  </div>
-                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-                  otro elemento que se pueda ocultar al minimizar la barra -->
-                  <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
-                      <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog.php">BLOG</a></li>
-                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
-                    </ul>
-                  </div>
+          <div class="row" id="logo_menu">
+          <!-- logo-->
+            <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
+            <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
+            <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
+                <ul>
+                  <li ><a id="home" href="index.php">HOME</a></li>
+                  <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
+                  <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                  <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
+                  <li ><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
+                  <li ><a id="blog" href="blog.php">BLOG</a></li>
+                  <li ><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                </ul>
             </nav>
           </div>
-        </header>                                                  
+        </header>                                                 
                                                        <!-- SECTION-->
         <!-- carrusel-->
         <section class="row" id="carru" >
@@ -288,7 +272,9 @@
                                                              <!-- FOOTER-----COMÚN-->
         <footer class="row" >
             <!-- Logo risk adventure negativo-->
-            <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
+            <div class="col-md-8 col-xs-8"  id="adventure">
+               <img src="../imagenes/footer_logo.png">
+            </div>
             <!-- sección de contáctanos-->
             <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
