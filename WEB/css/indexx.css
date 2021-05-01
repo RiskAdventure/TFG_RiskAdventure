@@ -98,6 +98,7 @@ ul {
   font-size: 0.95vw;
   padding: 0px;
 }
+
 li {
   background-image: linear-gradient(#ba9e38, #ba9e38);
   background-position: 0% 100%;
@@ -586,8 +587,6 @@ a #restaurante {
     padding: 0px !important;
     font-size: 1vw;
     margin-bottom: 10px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
   }
   #logo_menu {
     width: 80vw !important;
@@ -661,12 +660,9 @@ a #restaurante {
   #menu {
     width: 100% !important;
     padding: 0px !important;
-    text-align: center;
     font-size: 1.5vw;
     margin-bottom: 10px;
-    font-weight: bolder;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+
   }
 
   #logo {
