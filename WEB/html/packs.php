@@ -256,32 +256,24 @@
                     <p>(+34)677 899 900</p>
                 </div>
             </div>
-            <!-- Logos publicitarios-->
-            <div class="col-md-12 col-xs-12" id="publi">
-                <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill" alt="logo oneill"
-                        title="logo oneill" /></a>
-                <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"
-                        alt="logo columbia" title="logo columbia" /></a>
-                <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"
-                        alt="logo la escapada" title="logo la escapada" /></a>
-                <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"
-                        alt="logo la esportiva" title="logo la esportiva" /></a>
-                <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"
-                        alt="logo decathlon" title=" logo decathlon" /></a>
-                <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"
-                        alt="logo bardir restaurante" title="logo bardis restaurante" /></a>
-            </div>
+            <!-- Logos publicitarios-->  
+          <div class="col-md-12 col-xs-12" id="publi">
+              <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
+              <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
+              <a href="https://www.escapadarural.com/"><img src="../imagenes/footer_escapada_rural.jpg" id="escapada"/></a>
+              <a href="https://www.lasportiva.com/es"><img src="../imagenes/footer_la_esportiva.jpg" id="esportiva"/></a>
+              <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
+              <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
+          </div>
             <!-- iconos redes sociales y texto copyright-->
-            <div class="col-md-12 col-xs-12" id="redes">
-                <p>Síguenos en:</p>
-                <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face"
-                        title="facebook"></i></a>
-                <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram"
-                        title="instagram"></i></a>
-                <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
-                <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
-                <p>2020 © Copyright</p>
-            </div>
+          <div class="col-md-12 col-xs-12" id="redes">
+              <p>Síguenos en:</p>
+              <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
+              <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
+              <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
+              <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
+              <p>2020 © Copyright</p>
+          </div>
             <hr>
             <!-- efecto bolitas---COMÚN-->
 
