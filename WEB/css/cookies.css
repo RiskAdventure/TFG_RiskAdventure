@@ -310,9 +310,7 @@ a #restaurante {
   #menu {
     padding: 0px !important;
     font-size: 1vw;
-    margin-bottom: 10px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    margin-bottom: 10px;;
   }
   #logo_menu {
     width: 80vw !important;
@@ -352,12 +350,9 @@ a #restaurante {
   #menu {
     width: 100% !important;
     padding: 0px !important;
-    text-align: center;
     font-size: 1.5vw;
     margin-bottom: 10px;
-    font-weight: bolder;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+
   }
   #logo {
     width: 100%;
