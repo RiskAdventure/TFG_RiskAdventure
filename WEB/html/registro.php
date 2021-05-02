@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login RA</title>
+	<title>Registro RA</title>
    <!--Made with love by Mutiullah Samim -->
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!--Bootsrap 4 CDN-->
@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="../css/logins.css">
+	<link rel="stylesheet" type="text/css" href="../css/registro.css">
 </head>
 <body>
 <div class="container">
@@ -26,14 +26,14 @@
       <a href="../html/index.php"><img src="../imagenes/favicon_risk.png"></a>
     </div>
     <div class="col-md-10" id="texto">
-      <p>login RISK ADVENTURE </p>
+      <p>registro RISK ADVENTURE </p>
     </div>
   </div>
     
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
-				<h3>Sign In</h3>
+				<h3>Registro Usuario</h3>
 				<div class="d-flex justify-content-end social_icon">
 					<span><i class="fab fa-facebook-square"></i></span>
 					<span><i class="fab fa-whatsapp-square"></i></span>
@@ -56,20 +56,32 @@
 						</div>
 						<input type="password" class="form-control" placeholder="password">
 					</div>
-          
+          <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password">
+					</div>
+          <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password">
+					</div>
+          <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-id-card"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password">
+					</div>
           
 					
 					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
+						<input type="submit" value="Registrar" class="btn float-right login_btn">
 					</div>
 				</form>
 			</div>
-			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					¿Aún no tienes una cuenta?<a href="registro.php">Regístrate</a>
-				</div>
-				
-			</div>
+
 		</div>
 	</div>
          

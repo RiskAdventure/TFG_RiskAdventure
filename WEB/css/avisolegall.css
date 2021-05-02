@@ -1,4 +1,4 @@
-                                                         /*CONTAINER---COMÚN*/
+/*CONTAINER---COMÚN*/
 .container {
   width: 80vw;
   background-size: contain;
@@ -112,22 +112,42 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
-#carrito {
+
+#textoaviso{
+  margin: auto;
+ 
+  text-align: left;
   
-  cursor: pointer;
-  background-color: #ba9e38 !important;
-  color: white;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  font-size: 160%;
+  text-transform: uppercase;
+  color: rgb(66, 66, 66);
+  font-weight: 800;
+
+}
+#texto{
+  font-size: 1.3vw;
+    margin: auto;
+    text-align: left;
+  }
+
+#privacidad #aviso_legal {
+    font-weight: bolder;
+    color: #ba9e38 !important;
 }
 li:hover {
   cursor: pointer;
 }
 
-                                                /*FOOTER-------------COMÚN*/
+                                         /*FOOTER-------------COMÚN*/
 footer {
   background-color: rgb(69, 83, 88) !important;
   border: none;
   box-shadow: none;
   color: white;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 /*logo adventure negativo*/
 #adventure img {
@@ -155,11 +175,11 @@ footer {
   margin-top: 0.5vw;
   border-left: 4px solid #ba9e38;
   padding-left: 2vw;
-  font-size: 0.8vw;
+  font-size: 0.92vw;
   padding-top: 1.5vw;
 }
 #contacto_footer div {
-  line-height: 6px;
+  line-height: 15px;
 }
 #dire {
   margin-bottom: 4.2vw;
@@ -171,44 +191,44 @@ footer {
   color: #ba9e38;
   font-weight: bolder;
 }
-/*iconos publicitarios*/
+/*logos publicitarios*/
 #publi {
   text-align: center;
 }
 a #oneill {
   width: 7vw;
   height: 9vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #columbia {
   width: 10vw;
   height: 4vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #escapada {
   width: 9vw;
   height: 3vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #esportiva {
   width: 9vw;
   height: 5vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #decathlon {
   width: 10vw;
   height: 6vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #restaurante {
   width: 9vw;
   height: 6vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 /*texto e iconos de redes sociales*/
@@ -235,9 +255,21 @@ a #restaurante {
 }
 #redes {
   text-align: center;
+  margin-bottom: 22px;
 }
-
-/*enlaces finales de acceso a recursos privacidad, legal cookies*/
+/*menos separación superior e inferior en el efecto bolitas*/
+.bola_footer {
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0.8%;
+  margin-top: 1%;
+  display: inline-block;
+}
+#bolitas_footer {
+  text-align: center;
+  margin-bottom: 1vw;
+}
+/*enlaces finales de acceso a recursos privacidad, legal ayuda*/
 #privacidad {
   margin: auto;
   text-align: center;
@@ -262,7 +294,6 @@ a #restaurante {
     padding: 0px !important;
     font-size: 1vw;
     margin-bottom: 10px;
-
   }
   #logo_menu {
     width: 80vw !important;

@@ -323,39 +323,7 @@
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
               <p>2020 © Copyright</p>
           </div>
-          <hr>
-                                    <!-- efecto bolitas---COMÚN-->  
-                                    <hr>
-                                    <!-- efecto bolitas---COMÚN-->  
-          <div class="col-md-12 col-xs-12" id="bolitas_footer">
-            <div id="bola1" class="bola_footer"></div>
-            <div id="bola2" class="bola_footer"></div>
-            <div id="bola3" class="bola_footer"></div>
-            <div id="bola4" class="bola_footer"></div>
-            <div id="bola5" class="bola_footer"></div>
-            <div id="bola6" class="bola_footer"></div>
-            <div id="bola7" class="bola_footer"></div>
-            <div id="bola8" class="bola_footer"></div>
-            <div id="bola9" class="bola_footer"></div>
-            <div id="bola10" class="bola_footer"></div>
-            <div id="bola11" class="bola_footer"></div>
-            <div id="bola12" class="bola_footer"></div>
-            <div id="bola13" class="bola_footer"></div>
-            <div id="bola14" class="bola_footer"></div>
-            <div id="bola15" class="bola_footer"></div>
-            <div id="bola16" class="bola_footer"></div>
-            <div id="bola17" class="bola_footer"></div>
-            <div id="bola18" class="bola_footer"></div>
-            <div id="bola19" class="bola_footer"></div>
-            <div id="bola20" class="bola_footer"></div>
-            <div id="bola21" class="bola_footer"></div>
-            <div id="bola22" class="bola_footer"></div>
-            <div id="bola23" class="bola_footer"></div>
-            <div id="bola24" class="bola_footer"></div>
-            <div id="bola24" class="bola_footer"></div>
-            <div id="bola25" class="bola_footer"></div>
-            <div id="bola26" class="bola_footer"></div>
-          </div>
+          
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
         </footer>
