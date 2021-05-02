@@ -441,6 +441,8 @@ footer {
   border: none;
   box-shadow: none;
   color: white;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 /*logo adventure negativo*/
 #adventure img {
@@ -491,37 +493,37 @@ footer {
 a #oneill {
   width: 7vw;
   height: 9vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #columbia {
   width: 10vw;
   height: 4vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #escapada {
   width: 9vw;
   height: 3vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #esportiva {
   width: 9vw;
   height: 5vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #decathlon {
   width: 10vw;
   height: 6vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #restaurante {
   width: 9vw;
   height: 6vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 /*texto e iconos de redes sociales*/
@@ -548,6 +550,7 @@ a #restaurante {
 }
 #redes {
   text-align: center;
+  margin-bottom: 22px;
 }
 /*menos separación superior e inferior en el efecto bolitas*/
 .bola_footer {
