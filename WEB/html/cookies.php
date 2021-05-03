@@ -79,7 +79,8 @@
                 <b>DATOS LEGALES</b><br><br>
                 Risk Adventure tiene como objetivo ofrecer información gratuita. Los datos legales del sitio son los siguientes:<br><br>
                 <b>Risk Adventure<br>
-                123, Avenida de Bolonia 28850, Madrid, EspañaCIF: B2222222<br>
+                123, Avenida de Bolonia 28850, Madrid, España <br>
+                CIF: B2222222<br>
                 Contacto vía email: info@riskadventureclub.com</b><br><br>
                 <b>PRIVACIDAD</b><br><br>
                 En Risk Adventure nos preocupamos de la privacidad de los usuarios. Además, cubrimos todas las exigencias legales al respecto.<br><br>
