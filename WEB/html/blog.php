@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/bloG.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/blog.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
@@ -70,12 +70,17 @@
             <!-- texto enlace a blog-->
             <div class="col-md-12 col-xs-12 col-xm-12 " id="textoblog" > 
                 <div id="tituloblog">Que te vamos a contar aquí...</div>
-                <div id="texto3">Vamos a hablarte de experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,... de todo lo que puede acompañar a tu actividad.
-                    Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de Tierra, Agua y Aire. Vamos a hablarte de 
+                <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
+                    Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
                     cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
-                    y experiencias sean 100% cómodidad y seguridad. 
-                    También hablaran nuestros expertos
-                     
+                    y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
+                    Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
+                    cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
+                    También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
+                    sean seguras siempre.<br>
+                    Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
+                    demos más información,...puedes hacernos cualquier consulta.
+                    También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
                 </div>
             </div>
             <section class="row" id="imagenes2" >
