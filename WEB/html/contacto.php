@@ -133,14 +133,14 @@
           </article>
           <article class="row">
             <div class="col-md-5 col-xs-12  " id="div4_1" >
-              <form method="POST" action="controllerConsulta.php">
-                <input type="text" placeholder="Nombre" name="nombre" class="camposdorados"/><br><br>
-                <input type="email" placeholder="E-mail" name="email" class="camposdorados"/><br><br>
-                <input type="text" placeholder="Asunto" name="asunto" class="camposdorados"/><br><br>
+              <form method="POST" action="mailto:riskadventure@gmail.com">
+                <input type="text" placeholder="Nombre" name="nombre" class="camposdorados" required/><br><br>
+                <input type="email" placeholder="E-mail" name="email" class="camposdorados" required/><br><br>
+                <input type="text" placeholder="Asunto" name="asunto" class="camposdorados" required/><br><br>
                 
                 <textarea name="comentario" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
                 <div class="squaredFour">
-                  <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check"  />
+                  <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check" required  />
                   <label for="squaredFour"></label>
               </div>
                   <!-- Squared FOUR -->
@@ -327,7 +327,7 @@
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
         </footer>
-      <script type="text/javascript" src="../js/contacto.js"></script> <!--Enlace externo a archivo JS-->
+      <script type="text/javascript" src="../js/contactos.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
   </body>
 </html>
