@@ -39,7 +39,9 @@ background-color: rgba(0,0,0,0.5) !important;
 font-size: 60px;
 margin-left: 10px;
 color: #FFC312 !important;
+
 }
+
 .social_icon span img{
     width:14px  !important;
     margin-left: 20px !important;
@@ -63,12 +65,14 @@ cursor: pointer;
 
 .card-header h3{
 color: white;
+margin-top: 20px !important;
 }
 
 .social_icon{
 position: absolute;
 right: 20px;
 top: -45px;
+
 }
 
 .input-group-prepend span{

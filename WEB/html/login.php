@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="../css/logins.css">
+	<link rel="stylesheet" type="text/css" href="../css/loginx.css">
 </head>
 <body>
 <div class="container">
@@ -35,9 +35,9 @@
 			<div class="card-header">
 				<h3>Sign In</h3>
 				<div class="d-flex justify-content-end social_icon">
-					<span><i class="fab fa-facebook-square"></i></span>
-					<span><i class="fab fa-whatsapp-square"></i></span>
-					<span><i class="fab fa-twitter-square"></i></span>
+				<span><a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-square"></i></a></span>
+					<span><a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp-square"></i></a></span>
+					<span><a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter-square"></i></a></span>
           
 				</div>
 			</div>
