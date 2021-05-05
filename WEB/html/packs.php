@@ -66,7 +66,6 @@
           </div>
         </header>                                                  
         <!-- SECTION-->
-        <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card">
@@ -179,7 +178,6 @@
                     </article>
                 </div>
 
-                <div class="container">
                     <div class="row">
                         <div class="col-md-1 col-xs-1">
                             <!-- Create an icon wrapped by the fa-stack class -->
@@ -212,7 +210,6 @@
                 <div class="col-md-4 col-xs-12 textopacks">GASTRONOMÍA, ALOJAMIENTO Y MATERIAL</div>
                 
             </div>
-        </div>
         <section class="row">
                 <div class="col-md-12" id="bolitas">
                     <div id="bola1" class="bola"></div>
