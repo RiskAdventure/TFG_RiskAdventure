@@ -1,5 +1,5 @@
 'use strict'
-window.onload=function(){
+$(document).ready(function(){
 	/*Aplicamos efectos sobre el menú para subrayar los elementos al pasar por encima de ellos
             y que se marque en fijo el elemento del menú sobre el que estamos */
     //Variables
@@ -12,7 +12,13 @@ window.onload=function(){
     var packs=document.getElementById("packs");
     var blog=document.getElementById("blog");
     var contacto=document.getElementById("contacto");
-    var enviar=document.getElementById("enviar");
+    //var enviar=document.getElementById("enviar");
+    //jquery-->>variables para validar el formulario.Solo ver si está vacío o no
+    var nombre=$("#nombre");
+    var email=$("#email");
+    var asunto=$("#asunto");
+    var check=$("#squaredFour");
+    var enviar=$("#enviar");
     //Funciones
     function subrayaHome(){
         home.style.backgroundImage=" linear-gradient(#BA9E38,#BA9E38)";
@@ -106,8 +112,15 @@ window.onload=function(){
             blog.style.backgroundSize="0% 1px";  
     }
     function mensaje(){
-        
-        alert("Su consulta se ha enviado correctamente.");
+        if(nombre.val()!="" && email.val()!="" && asunto.val()!=""  ){
+            if($('#squaredFour').is(':checked') ){
+                alert("Su consulta se ha enviado correctamente.");
+                
+            }else{
+                alert("Tiene que aceptar la política de privacidad");
+            }
+            
+        }
 
     }
      //Aplicamos eventos 
@@ -118,7 +131,7 @@ window.onload=function(){
     blog.onclick=subrayaBlog;
     experiencias.onclick=subrayaExperiencias;
     contacto.onclick=subrayaContacto;
-    enviar.onclick=mensaje;
-}
+    enviar.click(mensaje);
+})
 
 
