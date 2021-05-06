@@ -12,6 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
     <link rel="stylesheet" href="../css/contacto.css" type="text/css"> <!--Enlace externo a CSS-->
+    <!--Cargado desde un archivo JQUERY descargado en nuestro proyecto-->
+    <script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
   </head>
   <body>
@@ -134,13 +136,13 @@
           <article class="row">
             <div class="col-md-5 col-xs-12  " id="div4_1" >
               <form method="POST" action="mailto:riskadventure@gmail.com">
-                <input type="text" placeholder="Nombre" name="nombre" class="camposdorados" required/><br><br>
-                <input type="email" placeholder="E-mail" name="email" class="camposdorados" required/><br><br>
-                <input type="text" placeholder="Asunto" name="asunto" class="camposdorados" required/><br><br>
+                <input type="text" placeholder="Nombre" name="nombre" id="nombre" class="camposdorados" required/><br><br>
+                <input type="email" placeholder="E-mail" name="email" id="email" class="camposdorados" required/><br><br>
+                <input type="text" placeholder="Asunto" name="asunto" id="asunto" class="camposdorados" required/><br><br>
                 
                 <textarea name="comentario" rows="10" cols="45" placeholder="Mensaje" ></textarea><br><br>
                 <div class="squaredFour">
-                  <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check" required  />
+                  <input type="checkbox" value="Se ha aceptado la política de privacidad" id="squaredFour" name="check" class="politica" required  />
                   <label for="squaredFour"></label>
               </div>
                   <!-- Squared FOUR -->
@@ -327,7 +329,7 @@
           <!--enlaces a aviso legal, política de privacidad y cookies--> 
           <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
         </footer>
-      <script type="text/javascript" src="../js/contactos.js"></script> <!--Enlace externo a archivo JS-->
+      <script type="text/javascript" src="../js/contactox.js"></script> <!--Enlace externo a archivo JS-->
     </div> 
   </body>
 </html>
