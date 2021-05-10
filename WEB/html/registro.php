@@ -60,19 +60,19 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="dirección" name="" required>
+						<input type="text" class="form-control" placeholder="dirección" name="" required>
 					</div>
           <div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-envelope-square"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="email" name="" required>
+						<input type="email" class="form-control" placeholder="email" name="" required>
 					</div>
           <div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-id-card"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="nombre completo" name="" required>
+						<input type="text" class="form-control" placeholder="nombre completo" name="" required>
 					</div>
           
 					
