@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/agua.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/tierra.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 <body>
@@ -65,7 +65,32 @@
         </header>
 
         <!-- SECTION-->
-       
+        <section class="row" id="imagenes" >
+          <div class="col-md-12 col-xs-12 col-xm-12" id="tierra">
+             <img src="../imagenes/mas_tierra.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
+             <a href="tierra.php"></a>
+          </div>
+
+        </section>
+
+        <section class="row justify-content-center">
+            <div id=textonosotros class="col-md-12">
+                <div>Quiénes Somos</div>
+            </div>
+            <div id="texto" class="col-md-12">
+                <div> En <b>Risk Adventure</b>, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar
+                    ofreciendo un servicio y una experiencia
+                    única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos
+                    técnicos...<br>
+                    RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esa aventura
+                    decidimos que cualquier aventurero
+                    necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales
+                    ofrecer una experiencia de calidad,
+                    única para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP.
+                    Somos los únicos que te garantizamos una <b>"EXPERIENCIA ÚNICA"</b>
+                </div>
+            </div>
+        </section>  
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">
