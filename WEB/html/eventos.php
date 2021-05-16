@@ -69,8 +69,7 @@
         <section class="row">
             <!-- imagen eventos team building-->
             <div class="col-md-7 col-xs-12 col-xm-12 eventosempresa">
-                <img src="../imagenes/eventos_teambuilding.jpg" alt="team building eventos empresa"
-                    title="imagen team building eventos empresa">
+                <img src="../imagenes/eventos_teambuilding.jpg" alt="team building eventos empresa">
             </div>
 
             <!-- texto team building-->
@@ -92,8 +91,7 @@
             </div>
             <!-- imagen partner escapada rural-->
             <div class="col-md-3 col-xs-12 col-xm-12" id="teamb">
-                <img src="../imagenes/footer_escapada_rural.jpg" alt="partner escapada rural eventos empresa"
-                    title="imagen escapada rural eventos empresa">
+                <img src="../imagenes/footer_escapada_rural.jpg" alt="partner escapada rural eventos empresa">
             </div>
             <!-- imagen partner decathlon -->
             <div class="col-md-2 col-xs-12 col-xm-12" id="decathlon">
@@ -131,20 +129,17 @@
             </div>
            <!-- imagen partner merrell-->
            <div class="col-md-3 col-xs-12 col-xm-12" id="merrell">
-                <img src="../imagenes/merrell.svg" alt="partner merrell eventos empresa"
-                    title="imagen merrell eventos empresa">
+                <img src="../imagenes/merrell.svg" alt="partner merrell eventos empresa">
             </div>
             <!-- imagen partner the north face -->
             <div class="col-md-2 col-xs-12 col-xm-12" id="north">
-                <img src="../imagenes/thenorthface.jpg" alt="incentive day eventos empresa"
-                    title="imagen the north face eventos empresa">
+                <img src="../imagenes/thenorthface.jpg" alt="incentive day eventos empresa">
             </div>
         </section>
         <section class="row">
             <!-- imagen eventos empresa  -->
             <div class="col-md-7 col-xs-12 col-xm-12 eventosempresa">
-                <img src="../imagenes/eventos_empresa.jpg" alt="eventos empresa"
-                    title="imagen eventos empresa">
+                <img src="../imagenes/eventos_empresa.jpg" alt="eventos empresa">
             </div>
 
             <!-- texto eventos empresa  -->
@@ -165,13 +160,11 @@
             </div>
             <!-- imagen partner la sportiva -->
             <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
-                <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa"
-                    title="imagen la sportiva eventos empresa">
+                <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa">
             </div>
              <!-- imagen partner restaurant -->
              <div class="col-md-2 col-xs-12 col-xm-12" id="grill">
-                <img src="../imagenes/logo_grill.png" alt="incentive day eventos empresa"
-                    title="imagen decathlon eventos empresa">
+                <img src="../imagenes/logo_grill.png" alt="incentive day eventos empresa">
             </div>
         </section>
         <!-- efecto bolitas----COMÚN-->
