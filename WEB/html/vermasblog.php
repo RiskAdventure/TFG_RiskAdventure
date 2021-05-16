@@ -64,39 +64,79 @@
         </header>                                                  
                                                        <!-- SECTION-->
          <!-- Mas artículos del blog-->
-        <section class="row" >
 
-            <div class="col-md-12 col-xs-12 col-xm-12 " id="textomasblog" > 
-                <div id="titulovermasblog">Nuestros Artículos</div>
-                
-            </div>
-                <section class="row" id="masblog" >
-                    <div class="col-md-12" id="blog1">
-                        <p>Material adecuado de escalada</p>
-                        <img src="../imagenes/material_escalada.jpg" alt="Artículo blog escalada"></img>
-                        <a href="https://www.riskadventureclub.com/blog/material-adecuado-de-escalada/"></a>
-                        
-                    </div>
-                    <div class="col-md-12" id="blog2">
-                        <p>Mejor calzado de Senderismo</p>
-                        <img src="../imagenes/calzado_senderismo.jpg" alt="Artículo blog senderismo"></img>
-                        <a href="https://www.riskadventureclub.com/blog/mejor-calzado-de-senderismo/"></a>
-                    </div>
-                    <div class="col-md-12" id="blog3">
-                        <p>Selección Bicicletas de Montaña 2020</p>
-                        <img src="../imagenes/mountain_bikes.jpg" alt="Artículo blog bicicletas"></img>
-                        <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"></a>
-                    </div>
-                    <div class="col-md-12" id="blog4">
-                        <p>Accesorios Outdoor más vendidos</p>
-                        <img src="../imagenes/accesorios_outdoor.jpg" alt="Artículo blog outdooor"></img>
-                        <a href="https://www.riskadventureclub.com/blog/accesorios-outdoor-mas-vendidos/"></a>
-                    </div>
-                    
-                </section> 
+      <section class="row" id="masblog" >
+          <div class="col-md-12" id="blog1">
+              <p>Material adecuado de escalada</p>
+              <img src="../imagenes/masmaterial_escalada.jpg" alt="Artículo blog escalada"></img>
+              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
+              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
+              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
+              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
+              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
+              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
+              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
+              sean seguras siempre.<br>
+              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
+              demos más información,...puedes hacernos cualquier consulta.
+              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
+              </div>   
+          </div>
+          <hr>
+          <div class="col-md-12" id="blog2">
+              <p>Mejor calzado de Senderismo</p>
+              <img src="../imagenes/mascalzado_senderismo.jpg" alt="Artículo blog senderismo"></img>
+              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
+              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
+              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
+              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
+              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
+              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
+              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
+              sean seguras siempre.<br>
+              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
+              demos más información,...puedes hacernos cualquier consulta.
+              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
+              </div>
+          </div>
+          <hr>
+          <div class="col-md-12" id="blog3">
+              <p>Selección Bicicletas de Montaña 2020</p>
+              <img src="../imagenes/masmountain_bikes.jpg" alt="Artículo blog bicicletas"></img>
+              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
+              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
+              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
+              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
+              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
+              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
+              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
+              sean seguras siempre.<br>
+              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
+              demos más información,...puedes hacernos cualquier consulta.
+              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
+              </div>
+          </div>
+          <hr>
+          <div class="col-md-12" id="blog4">
+              <p>Accesorios Outdoor más vendidos</p>
+              <img src="../imagenes/masaccesorios_outdoor.jpg" alt="Artículo blog outdooor"></img>
+              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
+              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
+              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
+              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
+              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
+              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
+              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
+              sean seguras siempre.<br>
+              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
+              demos más información,...puedes hacernos cualquier consulta.
+              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
+              </div>
+          </div>
+          <hr>
+          
+      </section>        
 
-        </section>          
-      
         
        <!-- FOOTER-----COMÚN-->
         <footer class="row" >
