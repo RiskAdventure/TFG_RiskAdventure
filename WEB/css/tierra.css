@@ -138,7 +138,22 @@
       }
 
 
-
+      #textotierra{
+        margin: auto;
+        text-align: center;
+        color:#3F4A56;
+        margin-top: 1.5vw;
+        font-size: 240%;
+        font-weight: 800;
+      
+      }
+      #texto{
+        margin: auto;
+        text-align: center;
+        color:#3F4A56;
+        margin-top: 1.5vw;
+        font-size: 140%;
+      }
 
 
 

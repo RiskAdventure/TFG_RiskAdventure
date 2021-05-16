@@ -67,27 +67,19 @@
         <!-- SECTION-->
         <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="tierra">
-             <img src="../imagenes/mas_tierra.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
+             <img src="../imagenes/mastierra.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
              <a href="tierra.php"></a>
           </div>
 
         </section>
 
         <section class="row justify-content-center">
-            <div id=textonosotros class="col-md-12">
-                <div>Quiénes Somos</div>
+            <div id=textotierra class="col-md-12">
+                <div>EXPERIENCIAS DE TIERRA</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> En <b>Risk Adventure</b>, desde nuestros orígenes hemos tenido una obsesión , sorprender y emocionar
-                    ofreciendo un servicio y una experiencia
-                    única, exprimiendo las emociones, la adrenalina, la diversión, con los mejores equipos
-                    técnicos...<br>
-                    RISK ADVENTURE nació tras una tredipante aventura de 3 amigos, tras las dificultades de esa aventura
-                    decidimos que cualquier aventurero
-                    necesitaba un servicio completo, seguro y de calidad y estaba en nuestras manos como profesionales
-                    ofrecer una experiencia de calidad,
-                    única para que todos tuvieran la oportunidad de disfrutar 100% de un servicio TOP.
-                    Somos los únicos que te garantizamos una <b>"EXPERIENCIA ÚNICA"</b>
+                <div> Experiencias de <b>aventura en Tierra</b> ,Montes, pistas, montañas, senderos, vías,... todas las
+                  actividades del entorno de tierra. Disfruta y céntrate en nuestras experiencias de tierra.
                 </div>
             </div>
         </section>  
