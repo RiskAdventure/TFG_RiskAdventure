@@ -5,7 +5,7 @@
     <title>Experiencias de Aire</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu  de Aire y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de aire."><!-- descripción-->
+    <meta name="description" content="Elige tu experiencia  de Aire y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de aire."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -65,6 +65,36 @@
         </header>
 
         <!-- SECTION-->
+        <section class="row" id="imagenes" >
+          <div class="col-md-12 col-xs-12 col-xm-12" id="aire">
+             <img src="../imagenes/mas_wind.jpg" alt="Más experiencias Aire" title="Más Aire"></img>
+             <a href="aire.php"></a>
+          </div>
+
+        </section>
+
+        <section class="row justify-content-center">
+            <div id=textoaire class="col-md-12">
+                <div>EXPERIENCIAS DE AIRE</div>
+            </div>
+            <div id="texto" class="col-md-12">
+                <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los pájaros,... todas las actividades que te harán
+                  sentirte en libertar... Sientete como un pájaro con nuestras experiencias en el Aire.
+                </div>
+            </div>
+        </section>  
+
+        <hr>
+
+
+        <hr>
+
+        <article class="row">
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
+              <a href="agua.php"><div>IR A AGUA</div></a>
+            </div>            
+        </article>
        
        
         <!-- efecto bolitas----COMÚN-->  

@@ -5,14 +5,14 @@
     <title>Experiencias de Tierra</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu  de Tierra y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de tierra."><!-- descripción-->
+    <meta name="description" content="Elige tu experiencia de Tierra y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de tierra."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/agua.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/tierra.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
 <body>
@@ -65,7 +65,36 @@
         </header>
 
         <!-- SECTION-->
-       
+        <section class="row" id="imagenes" >
+          <div class="col-md-12 col-xs-12 col-xm-12" id="tierra">
+             <img src="../imagenes/mas_sand.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
+             <a href="tierra.php"></a>
+          </div>
+
+        </section>
+
+        <section class="row justify-content-center">
+            <div id=textotierra class="col-md-12">
+                <div>EXPERIENCIAS DE TIERRA</div>
+            </div>
+            <div id="texto" class="col-md-12">
+                <div> Experiencias de <b>aventura en Tierra</b> , montes, pistas, montañas, senderos, vías,... todas las
+                  actividades del entorno de tierra. Disfruta y céntrate en nuestras experiencias de tierra.
+                </div>
+            </div>
+        </section>  
+
+        <hr>
+
+
+        <hr>
+
+        <article class="row">
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a href="agua.php" id="consulta"><div>IR A AGUA</div></a>
+              <a href="aire.php"><div>IR A AIRE</div></a>
+            </div>            
+        </article>
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">
