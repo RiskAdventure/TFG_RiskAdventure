@@ -67,7 +67,7 @@
         <!-- SECTION-->
         <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="tierra">
-             <img src="../imagenes/mastierra.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
+             <img src="../imagenes/mas_tierra.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
              <a href="tierra.php"></a>
           </div>
 
@@ -78,11 +78,23 @@
                 <div>EXPERIENCIAS DE TIERRA</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> Experiencias de <b>aventura en Tierra</b> ,Montes, pistas, montañas, senderos, vías,... todas las
+                <div> Experiencias de <b>aventura en Tierra</b> , montes, pistas, montañas, senderos, vías,... todas las
                   actividades del entorno de tierra. Disfruta y céntrate en nuestras experiencias de tierra.
                 </div>
             </div>
         </section>  
+
+        <hr>
+
+
+        <hr>
+
+        <article class="row">
+            <div class="col-md-12 col-xs-12  " id="div2_1">
+              <a href="agua.php" id="consulta"><div>IR A AGUA</div></a>
+              <a href="aire.php"><div>IR A AIRE</div></a>
+            </div>            
+          </article>
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">
