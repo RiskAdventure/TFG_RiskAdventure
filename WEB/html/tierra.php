@@ -5,7 +5,7 @@
     <title>Experiencias de Tierra</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
     <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu  de Tierra y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de tierra."><!-- descripción-->
+    <meta name="description" content="Elige tu experiencia de Tierra y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de tierra."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -67,7 +67,7 @@
         <!-- SECTION-->
         <section class="row" id="imagenes" >
           <div class="col-md-12 col-xs-12 col-xm-12" id="tierra">
-             <img src="../imagenes/mas_tierra.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
+             <img src="../imagenes/mas_sand.jpg" alt="Más experiencias Tierra" title="Más Tierra"></img>
              <a href="tierra.php"></a>
           </div>
 
@@ -94,7 +94,7 @@
               <a href="agua.php" id="consulta"><div>IR A AGUA</div></a>
               <a href="aire.php"><div>IR A AIRE</div></a>
             </div>            
-          </article>
+        </article>
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">
