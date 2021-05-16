@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Experiencias de Aire</title><!-- título-->
-    <meta charset="utf-8"><!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu experiencia  de Aire y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de aire."><!-- descripción-->
+  <head>
+    <title>Blog Risk Adventure</title><!-- título-->
+    <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
+    <meta name="keywords" content="blog, artículos, multiaventura, material deportivo, alojamientos, gastronomía, restaurantes, recomendaciones, aventura"><!-- palabras clave-->
+    <meta name="description" content="Blog donde te contamos todas las experiencias de aventura, te recomendamos material deportivo, te hablamos de gastronomía y alojamiento para poder completar tu pack de multiaventura"><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/wind.css" type="text/css"><!--Enlace externo a CSS-->
-    <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
-</head>
-<body>
+    <link rel="stylesheet" href="../css/masblog.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
+  </head>
+  <body>
 
     <!-- va todo el documento dentro de una caja con clase container que mediante Bootstrap nos permitirá hacer
      nuestra página responsive y que se adapte a diferentes tamaños de pantalla. Para ello nos serviremos también
@@ -62,97 +61,64 @@
                   </div>
             </nav>
           </div>
-        </header>
+        </header>                                                  
+                                                       <!-- SECTION-->
+         <!-- Mas artículos del blog-->
+        <section class="row" >
 
-        <!-- SECTION-->
-        <section class="row" id="imagenes" >
-          <div class="col-md-12 col-xs-12 col-xm-12" id="aire">
-             <img src="../imagenes/mas_wind.jpg" alt="Más experiencias Aire" title="Más Aire"></img>
-             <a href="aire.php"></a>
-          </div>
-
-        </section>
-
-        <section class="row justify-content-center">
-            <div id=textoaire class="col-md-12">
-                <div>EXPERIENCIAS DE AIRE</div>
+            <div class="col-md-12 col-xs-12 col-xm-12 " id="textomasblog" > 
+                <div id="titulovermasblog">Nuestros Artículos</div>
+                
             </div>
-            <div id="texto" class="col-md-12">
-                <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los pájaros,... todas las actividades que te harán
-                  sentirte en libertar... Sientete como un pájaro con nuestras experiencias en el Aire.
-                </div>
-            </div>
-        </section>  
+                <section class="row" id="masblog" >
+                    <div class="col-md-12" id="blog1">
+                        <p>Material adecuado de escalada</p>
+                        <img src="../imagenes/material_escalada.jpg" alt="Artículo blog escalada"></img>
+                        <a href="https://www.riskadventureclub.com/blog/material-adecuado-de-escalada/"></a>
+                        
+                    </div>
+                    <div class="col-md-12" id="blog2">
+                        <p>Mejor calzado de Senderismo</p>
+                        <img src="../imagenes/calzado_senderismo.jpg" alt="Artículo blog senderismo"></img>
+                        <a href="https://www.riskadventureclub.com/blog/mejor-calzado-de-senderismo/"></a>
+                    </div>
+                    <div class="col-md-12" id="blog3">
+                        <p>Selección Bicicletas de Montaña 2020</p>
+                        <img src="../imagenes/mountain_bikes.jpg" alt="Artículo blog bicicletas"></img>
+                        <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"></a>
+                    </div>
+                    <div class="col-md-12" id="blog4">
+                        <p>Accesorios Outdoor más vendidos</p>
+                        <img src="../imagenes/accesorios_outdoor.jpg" alt="Artículo blog outdooor"></img>
+                        <a href="https://www.riskadventureclub.com/blog/accesorios-outdoor-mas-vendidos/"></a>
+                    </div>
+                    
+                </section> 
 
-        <hr>
-
-
-        <hr>
-
-        <article class="row">
-            <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
-              <a href="agua.php"><div>IR A AGUA</div></a>
-            </div>            
-        </article>
-       
-       
-        <!-- efecto bolitas----COMÚN-->  
-        <section class="row">
-          <div class="col-md-12" id="bolitas">
-            <div id="bola1" class="bola"></div>
-            <div id="bola2" class="bola"></div>
-            <div id="bola3" class="bola"></div>
-            <div id="bola4" class="bola"></div>
-            <div id="bola5" class="bola"></div>
-            <div id="bola6" class="bola"></div>
-            <div id="bola7" class="bola"></div>
-            <div id="bola8" class="bola"></div>
-            <div id="bola9" class="bola"></div>
-            <div id="bola10" class="bola"></div>
-            <div id="bola11" class="bola"></div>
-            <div id="bola12" class="bola"></div>
-            <div id="bola13" class="bola"></div>
-            <div id="bola14" class="bola"></div>
-            <div id="bola15" class="bola"></div>
-            <div id="bola16" class="bola"></div>
-            <div id="bola17" class="bola"></div>
-            <div id="bola18" class="bola"></div>
-            <div id="bola19" class="bola"></div>
-            <div id="bola20" class="bola"></div>
-            <div id="bola21" class="bola"></div>
-            <div id="bola22" class="bola"></div>
-            <div id="bola23" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola24" class="bola"></div>
-            <div id="bola25" class="bola"></div>
-            <div id="bola26" class="bola"></div>
-          </div>
-        </section> 
+        </section>          
+      
         
-        <!-- FOOTER-----COMÚN-->
-        <footer class="row">
+       <!-- FOOTER-----COMÚN-->
+        <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
             <!-- sección de contáctanos-->
-            <div class="col-md-2 col-xs-2  " id="texto_footer">
-                <p>CONTÁCTANOS</p>
-            </div>
+            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONTÁCTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
-                <div id="dire">
-                    <p class="texto_contacto">Dirección :</p>
-                    <p>123 Avenida de Bolonia, Madrid</p>
-                </div>
-                <div id="email">
-                    <p class="texto_contacto">Email :</p>
-                    <p>info@riskadventureclub.com</p>
-                </div>
-                <div>
-                    <p class="texto_contacto">Teléfono :</p>
-                    <p>(+34)677 899 900</p>
-                </div>
+            <div id="dire">
+                <p class="texto_contacto">Dirección :</p>
+                <p>123 Avenida de Bolonia, Madrid</p>
+              </div>
+              <div id="email">
+                <p class="texto_contacto">Email :</p>
+                <p>info@riskadventureclub.com</p>
+              </div>
+              <div>
+                <p class="texto_contacto">Teléfono :</p>
+                <p>(+34)677 899 900</p>
+              </div>
             </div>
-            <!-- Logos publicitarios-->  
+          <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
               <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
               <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
@@ -161,7 +127,7 @@
               <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
               <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
-            <!-- iconos redes sociales y texto copyright-->
+          <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
               <p>Síguenos en:</p>
               <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
@@ -170,17 +136,13 @@
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
               <p>2020 © Copyright</p>
           </div>
-            <hr>
-            <!-- efecto bolitas---COMÚN-->
-
-            <!--enlaces a aviso legal, política de privacidad y cookies-->
-            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso
-                    Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> |
-                <a href="cookies.php" id="cookies"> Cookies</a></div>
+          <hr>
+                                    <!-- efecto bolitas---COMÚN-->  
+          
+          <!--enlaces a aviso legal, política de privacidad y cookies--> 
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> | <a href="cookies.php" id="cookies"> Cookies</a></div>
         </footer>
-        <script type="text/javascript" src="../js/experiencias.js"></script>
-        <!--Enlace externo a archivo JS-->
-    </div>
-</body>
-
+      <script type="text/javascript" src="../js/blog.js"></script> <!--Enlace externo a archivo JS-->
+    </div> 
+  </body>
 </html>
