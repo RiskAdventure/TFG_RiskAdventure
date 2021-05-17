@@ -36,50 +36,16 @@
          <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
           <div class="row" id="nav"> 
             <nav class="navbar navbar-default" role="navigation" id="menu">
-                  <!-- El logotipo y el icono que despliega el menú se agrupan
-                      para mostrarlos mejor en los dispositivos móviles -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target=".navbar-ex1-collapse">
-                      <span class="sr-only">Desplegar navegación</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index_copia.php"><img src="../imagenes/header_logo_peque.png"/></a>
-                  </div>
-                  <!-- Agrupar los enlaces de navegación, los formularios y cualquier
-                  otro elemento que se pueda ocultar al minimizar la barra -->
-                  <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a id="home" href="index_copia.php">HOME</a></li>
-                      <li class="dropdown">
-                        <a id="experiencias" href="experiencias.php" class="dropdown-toggle" data-toggle="dropdown">
-                          EXPERIENCIAS <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="tierra.php">TIERRA</a></li>
-                          <li><a href="agua.php">AGUA</a></li>
-                          <li><a href="aire.php">AIRE</a></li>
-                        </ul>
-                      </li>
-                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                      <li class="dropdown">
-                        <a id="packs" href="packs.php" class="dropdown-toggle" data-toggle="dropdown">
-                          PACKS & GRUPOS <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="packs.php">DESPEDIDAS</a></li>
-                          <li><a href="packs.php">GRUPOS</a></li>
-                          <li><a href="packs.php">FAMILIAS</a></li>
-                          <li><a href="packs.php">PAREJAS</a></li>
-                        </ul>
-                      </li>
-                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog.php">BLOG</a></li>
-                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
-                    </ul>
-                  </div>
+                  <ul>
+                    <li><a href="#"></a>HOME</li>
+                    <li><a href="#"></a>EXPERIENCIAS</li>
+                    <li><a href="#"></a>EVENTOS EMPRESAS</li>
+                    <li><a href="#"></a>PACKS & GRUPOS</li>
+                    <li><a href="#"></a>NOSOTROS</li>
+                    <li><a href="#"></a>BLOG</li>
+                    <li><a href="#"></a>CONTACTO</li>
+
+                  </ul>
             </nav>
           </div>
         </header>      
