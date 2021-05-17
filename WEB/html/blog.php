@@ -63,6 +63,7 @@
           </div>
         </header>                                                  
                                                        <!-- SECTION-->
+                                                       
          <!-- parte INFERIOR enlace blog-->
          <section class="row" >
         <!-- imagen blog-->
@@ -98,8 +99,8 @@
                     <a href="https://www.riskadventureclub.com/blog/seleccion-bicicletas-de-montana-2020/"><p>Selección Bicicletas de Montaña 2020</p></a>
                 </div>
                 <div class="col-md-3" id="blog4">
-                    <img src="../imagenes/accesorios_outdoor.jpg" alt="Experiencias tierra" title="Tierra"></img>
-                    <a href="https://www.riskadventureclub.com/blog/accesorios-outdoor-mas-vendidos/"><p>Accesorios Outdoor más vendidos</p></a>
+                    <img src="../imagenes/5amigos.jpg" alt="Experiencias tierra" title="Tierra"></img>
+                    <a href="https://www.riskadventureclub.com/blog/hola-mundo/"><p>5 aventureros, 5 compañeros...</p></a>
                 </div>
                 
             </section> 
