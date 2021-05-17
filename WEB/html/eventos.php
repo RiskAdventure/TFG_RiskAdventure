@@ -78,17 +78,18 @@
                 <div class="texto3">¿Necesitas que los compañeros hagan un equipo de verdad?
                     ¿Quieres alcanzar los objetivos de la empresa antes de lo previsto? 
                     ¿Prefieres la solución antes del problema?
-                    Ponte en contacto con nosotros y elaboraremos una experiencia a medida...
+                    Ponte en contacto con nosotros y elaboraremos una experiencia a medida...<br><br>
+                    <div>
+                        <a href="contacto.php">
+                            <div class="boton_pack"> CONTÁCTANOS</div>
+                        </a>
+                    </div>  
                 </div>
             </div>
         </section>
         <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12 col-xs-12" id="boton_listo">
-                <a href="contacto.php">
-                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
-                </a>
-            </div>
+            
             <!-- imagen partner escapada rural-->
             <div class="col-md-3 col-xs-12 col-xm-12" id="teamb">
                 <img src="../imagenes/footer_escapada_rural.jpg" alt="partner escapada rural eventos empresa">
@@ -115,18 +116,19 @@
                     os habéis propuesto alcanzar. Debes mantener el interés, la implicación y el compromiso de tu equipo
                     de trabajo.
                     Por eso te organizamos un día para poner todo esto en práctica, reforzarlo y llevarlo a cabo en el
-                    día a día en la empresa....
+                    día a día en la empresa....<br><br>
+                    <div>
+                        <a href="contacto.php">
+                            <div class="boton_pack"> CONTÁCTANOS</div>
+                        </a>
+                    </div>
                 </div>
             </div>
             
         </section>
         <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12" id="boton_evento">
-                <a href="contacto.php">
-                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
-                </a>
-            </div>
+            
            <!-- imagen partner merrell-->
            <div class="col-md-3 col-xs-12 col-xm-12" id="merrell">
                 <img src="../imagenes/merrell.svg" alt="partner merrell eventos empresa">
@@ -147,17 +149,19 @@
                 <div class="evento">Eventos de Empresa</div>
                 <div class="texto3">Conectamos tus necesidades con nuestras ideas, entendemos que todos somos diferentes y que existe un tipo de mensaje para cada persona.
                    Nuestra experiencia con cientos de clientes nos avalan. Jornadas para los mas intrépidos, actividades de aventura y team building con la posibilidad de diseñar un evento totalmente personalizado.
-                   ¿Te atreves?.
+                   ¿Te atreves?.<br><br>
+                   <div>
+                        <a href="contacto.php">
+                            <div class="boton_pack"> CONTÁCTANOS</div>
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </section>
         <!-- botones ver más y contacto-->
         <section class="row">
-            <div class="col-md-12" id="boton_incentive">
-                <a href="contacto.php">
-                    <div class="boton_pack" id="contact"> CONTÁCTANOS</div>
-                </a>
-            </div>
+            
             <!-- imagen partner la sportiva -->
             <div class="col-md-7 col-xs-12 col-xm-12" id="sportiva">
                 <img src="../imagenes/la_sportiva.jpg" alt="eventos empresa">
