@@ -86,7 +86,7 @@
             <section class="row" id="imagenes2" >
                 <div class="col-md-3" id="blog1">
                     <img src="../imagenes/material_escalada.jpg" alt="Experiencias tierra" title="Tierra"></img>
-                    <a href="https://www.riskadventureclub.com/blog/material-adecuado-de-escalada/"><p>Material adecuado de escalada</p></a>
+                    <a href="../blog/index.php"><p>Material adecuado de escalada</p></a>
                     
                 </div>
                 <div class="col-md-3" id="blog2">
@@ -107,7 +107,7 @@
              <!-- botón central inferior blog-->
              <section class="row" >
                 <div class="col-md-12 col-xs-12 col-xm-12 " id="boton_blog" > 
-                <a href="blog.php"><div  class="boton_blog_centro"> VER MÁS ARTÍCULOS</div></a>
+                <a href="vermasblog.php"><div  class="boton_blog_centro"> VER MÁS ARTÍCULOS</div></a>
                 </div>
             </section>
         
