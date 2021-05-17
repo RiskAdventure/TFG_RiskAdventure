@@ -8,13 +8,14 @@
 header {
   position: -webkit-sticky;
   position: sticky;
-  border-bottom: 1px solid #ba9e3857;
+  /*border-bottom: 1px solid #ba9e3857;*/
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.98);
   top: 0;
   width: 100%;
-  margin-bottom: 2vw;
+  margin-bottom: 10%;
 }
+
 
 #icon {
   margin-right: 0px;
@@ -57,17 +58,15 @@ header {
   background-color: #ba9e38;
   color: white;
 }
-/*logo del header*/
-.navbar-bran{
-  width: 80%;
-  height: 80%;
-}
+
+
 /* MENÚ NAV INTEGRADO EN EL HEADER */
 a {
   text-decoration: none !important;
   padding-bottom: 4px;
   color: rgb(66, 66, 66);
   transition: 0.3s;
+  font-size: 16px;
 }
 
 a:hover {
@@ -573,12 +572,15 @@ a #restaurante {
 /* Entre 1200px y 1630 px*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1630px) {
-                                            /*menú ------------común*/
+  
+  
+  /*menú ------------común*/
   #menu {
     padding: 0px !important;
     font-size: 1vw;
     margin-bottom: 10px;
   }
+  
   
   #home {
     margin-left: 0px !important;
@@ -628,10 +630,7 @@ a #restaurante {
 
 @media only screen and (min-width: 736px) and (max-width: 991px) {
   /*logo del header*/
-.navbar-bran{
-  width: 190px;
-  height: 80px;
-}
+
 
   /*SECTION*/
 
@@ -661,12 +660,6 @@ a #restaurante {
 
   }
 
-  #logo {
-    width: 100%;
-  }
-  #logo1 {
-    width: 100%;
-  }
 
   #home {
     margin-left: 0px !important;
