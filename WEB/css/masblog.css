@@ -125,7 +125,7 @@ cursor: pointer;
 
 
 #textomasblog {
-margin: auto !important;
+margin: auto;
 text-align: center;
 }
 #titulovermasblog{
@@ -136,16 +136,16 @@ font-size: 200%;
 }
 
 #texto3{
-    margin: auto;
-    text-align: justify;
-    color:#3F4A56;
-    margin-top: 1.5vw;
-    font-size: 140%;
+margin: auto;
+text-align: justify;
+color:#3F4A56;
+margin-top: 1.5vw;
+font-size: 140%;
 }
 
 #masblog{
 text-align: center;
-margin-top: 34% !important;
+margin-top: 2%;
 
 
 }
