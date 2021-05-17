@@ -11,9 +11,10 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/indexx.css" type="text/css"> <!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/index_copia.css" type="text/css"> <!--Enlace externo a CSS-->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
+    <link rel="stylesheet" href="fonts.css">
   </head>
   <body>
 
@@ -34,20 +35,20 @@
           </div>
           
          <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-          <div class="row" id="nav"> 
-            <nav class="navbar navbar-default" role="navigation" id="menu">
+        
+            <nav>
                   <ul>
-                    <li><a href="#"></a>HOME</li>
-                    <li><a href="#"></a>EXPERIENCIAS</li>
-                    <li><a href="#"></a>EVENTOS EMPRESAS</li>
-                    <li><a href="#"></a>PACKS & GRUPOS</li>
-                    <li><a href="#"></a>NOSOTROS</li>
-                    <li><a href="#"></a>BLOG</li>
-                    <li><a href="#"></a>CONTACTO</li>
+                    <li><a href="#"><span class="icon-home"></span></a>HOME</li>
+                    <li><a href="#"><span class="icon-rocket"></span></a>EXPERIENCIAS</li>
+                    <li><a href="#"><span class="icon-briefcase"></span></a>EVENTOS EMPRESAS</li>
+                    <li><a href="#"><span class="icon-users"></span></a>PACKS & GRUPOS</li>
+                    <li><a href="#"><span class="icon-accesibility"></span></a>NOSOTROS</li>
+                    <li><a href="#"><span class="icon-phone"></span></a>CONTACTO</li>
+                    <li><a href="#"><span class="icon-pencil"></span></a>BLOG</li>
 
                   </ul>
             </nav>
-          </div>
+         
         </header>      
         
                                                    
