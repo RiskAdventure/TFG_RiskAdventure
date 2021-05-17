@@ -63,80 +63,93 @@
           </div>
         </header>                                                  
                                                        <!-- SECTION-->
+        <section class="row justify-content-center">                                               
          <!-- Mas artículos del blog-->
 
-      <section class="row" id="masblog" >
-          <div class="col-md-12" id="blog1">
-              <p>Material adecuado de escalada</p>
-              <img src="../imagenes/masmaterial_escalada.jpg" alt="Artículo blog escalada"></img>
-              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
-              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
-              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
-              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
-              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
-              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
-              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
-              sean seguras siempre.<br>
-              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
-              demos más información,...puedes hacernos cualquier consulta.
-              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
-              </div>   
-          </div>
-          <hr>
-          <div class="col-md-12" id="blog2">
-              <p>Mejor calzado de Senderismo</p>
-              <img src="../imagenes/mascalzado_senderismo.jpg" alt="Artículo blog senderismo"></img>
-              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
-              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
-              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
-              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
-              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
-              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
-              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
-              sean seguras siempre.<br>
-              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
-              demos más información,...puedes hacernos cualquier consulta.
-              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
-              </div>
-          </div>
-          <hr>
-          <div class="col-md-12" id="blog3">
-              <p>Selección Bicicletas de Montaña 2020</p>
-              <img src="../imagenes/masmountain_bikes.jpg" alt="Artículo blog bicicletas"></img>
-              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
-              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
-              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
-              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
-              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
-              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
-              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
-              sean seguras siempre.<br>
-              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
-              demos más información,...puedes hacernos cualquier consulta.
-              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
-              </div>
-          </div>
-          <hr>
-          <div class="col-md-12" id="blog4">
-              <p>Accesorios Outdoor más vendidos</p>
-              <img src="../imagenes/masaccesorios_outdoor.jpg" alt="Artículo blog outdooor"></img>
-              <div id="texto3">Vamos a hablarte de <b>experiencias, de anécdotas, de proveedores, de seguridad, de calidad, de turismo,...</b> de todo lo que puede acompañar a tu actividad.
-              Todas las experiencias tienen algo que contar. En nuestra secciones del Blog, te hablaremos sobre nuestras experiencias de <b>Tierra, Agua y Aire</b>. Vamos a hablarte de 
-              cada uno de los servicios que ofrecen nuestras Empresas de Multiaventura, también vamos a hablarte de los productos que te ofrecen nuestros partners para que tus escapadas
-              y experiencias sean <b>100% cómodidad y seguridad</b>. <br>
-              Nuestros expertos te darán recomendaciones de como afrontar mejor las aventuras y disfrutar en todo momento de lo que estás haciendo, sin que tengas que preocuparte de otra 
-              cosa que no sea <b>adentrarte en la aventura y poner a prueba todos los sentidos</b>.
-              También, preocupados por tu seguridad te darán recomendaciones de las cosas que debes y no debes hacer, porque nuestra precoupación es que las experiencias que detallamos
-              sean seguras siempre.<br>
-              Podrás ponerte en contacto con nuestro Centro de Atención al Aventurero para consultar cualquier duda que tengas o si quieres que hablemos de algo especial en el blog, o que te 
-              demos más información,...puedes hacernos cualquier consulta.
-              También daremos <b>"Charlas de Expertos"</b> todos los meses de las que te avisaremos en el blog para que puedas estar pendiente, si te suscribes, te mandaremos un recordatorio.
-              </div>
-          </div>
-          <hr>
-          
-      </section>        
+            <section class="row" id="masblog" >
+                <div class="col-md-12" id="blog1">
+                    <p>Material adecuado de escalada</p>
+                    <img src="../imagenes/masmaterial_escalada.jpg" alt="Artículo blog escalada"></img>
+                    <div id="texto3">En la actualidad, para muchas personas, la escalada deportiva es el punto de partida hacia la montaña técnica. <br>
+                    Este deporte de aventura supone un riesgo, ya que en cierto modo desafía a la gravedad. Llegar a la cima ya sea en una montaña o en un rocódromo nos hará vivir experiencias emocionantes, sin embargo, para ello deberemos ir bien equipados. <br>
+                    <b>Pies de gato</b><br>
+                    Este es el tipo de calzado que nos permitirá mantenernos sujetos a la roca. Debemos de saber que es necesario que 
+                    se ajusten perfectamente a nuestro pie sin que nos llegue a apretar demasiado. <br>
+                    <b>Cuerdas para escalada</b><br>
+                    Cada tipo de cuerda tiene un uso, para los principiantes se recomienda una cuerda que tenga un diámetro de entre 
+                    10 y 10.5 mm. Es importante que la cuerda se pueda estirar, si escalamos en roca, se recomiendan unos 50 metros ya 
+                    que por la fricción y porque estaremos en una etapa de iniciación es probable que la cuerda se desgaste más rápidamente. <br>
+                    <b>Arnés</b> <br>
+                    Es un elemento esencial de seguridad, sin embargo, además sirve para llevar y transportar nuestro material. Por parte 
+                    de Risk Adventure, recomendamos la Black Diamond Momentum para hombre y la BD Primrose para mujer, ya que son muy asequibles en cuanto al precio y bastante cómodas. <br>
+                    <b>Mosquetones</b><br>
+                    Para practicar escalada, necesitaremos un mosquetón para poder realizar los descensos. Uno de los tipos más usados 
+                    es el X de forma oval, sobre todo para los que se están iniciando.<br>
+                    <b>Casco de escalada</b><br>
+                    El casco es el instrumento más básico, nos protege tanto de caídas de piedras como en el caso de golpes. En Risk 
+                    Adventure, recomendamos el casco Black Diamond Half Dome, ajustable y con mucha ventilación. <br>
 
+                        </div>   
+                </div>
+                <hr>
+                <div class="col-md-12" id="blog2">
+                    <p>Mejor calzado de Senderismo</p>
+                    <img src="../imagenes/mascalzado_senderismo.jpg" alt="Artículo blog senderismo"></img>
+                    <div id="texto3">Es importante analizar que factores son importantes a la hora de elegir las mejores zapatillas de trekking. <br>
+                        Una de las cosas que debemos tener en cuenta a la hora de comprar una zapatilla de trekking es elegir con buen criterio 
+                        el tipo de suela. Esta debería estar hecha por materiales más o menos rígidos, para reforzar su agarre.<br>
+                        Una de las ventajas de las zapatillas de trekking es que normalmente son más ligeras y confortables que las botas de montaña,
+                        pero a su vez, pierden algo de sujeción en la zona del tobillo. <br>
+                        Desde <b>Risk Adventure</b>, recomendamos que el arco de la zapatilla, es decir, la parte superior, sea de nubuck, cuero, malla o 
+                        materiales sintéticos y que, sobre todo, para que sea impermeable, se le añada una membrana como Gore-Tex. <br>
+                        <b>¿Cómo sabemos si debemos elegir zapatilla de trekking o bota de montaña?</b><br>
+                        En senderismo ligero, con poco desnivel, con buenas condiciones climatológicas es recomendable usar zapatillas de trekking, 
+                        sin embargo, en caminatas largas, condiciones meteorológicas adversas, terreno irregular de montaña, mochila con peso, será preferible el uso de botas de montaña.  <br>
+                        Algunos de los modelos que recomendamos son las Timberland Euro Sprint, unas zapatillas de trekking para todas las rutas de 
+                        montaña, la Sportiva TX4 Mid GTX, la cual es muy versátil que nos servirá tanto para practicar senderismo como para la alta 
+                        montaña y las Merrell Moab 2 Mid Gore-Tex diseñadas con doble suela, la cual le aporta muchas características técnicas, al 
+                        no ser ni muy cálidas ni demasiado frías se pueden adaptar a cualquier estación.<br>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-12" id="blog3">
+                    <p>Selección Bicicletas de Montaña 2020</p>
+                    <img src="../imagenes/masmountain_bikes.jpg" alt="Artículo blog bicicletas"></img>
+                    <div id="texto3">Hoy en día, hay dos elementos que generan cierta incertidumbre entre quienes buscan su primera bicicleta de montaña. La primera cuestión es el tipo de suspensión. Esto nos llevará a realizarnos la pregunta de si es preferible una suspensión rígida o una bicicleta que proporcione una doble suspensión.<br> 
+                        Por otra parte, ¿es mejor una bicicleta donde el tamaño de las ruedas sea de mayor diámetro?<br>
+                        Las bicicletas de montaña que se caracterizan por tener un sistema de amortiguación más rígido están pensadas para ir a una gran velocidad por zonas sin asfaltar y sin grandes desniveles. <br>
+                        Suelen ser <b>bastante ligeras</b> y con respecto al precio, también suelen ser más baratas, ya que su fabricación es muy sencilla, al no tener suspensión trasera hace que nos ahorremos bastantes dolores de cabeza en averías y mantenimiento. <br>
+                        Sin embargo, para hacer sendas técnicas, grandes desniveles y rutas largas no son aconsejables. <br>
+                        Si hablamos de las bicicletas con doble amortiguación, hablamos de confortabilidad. <br>
+                        Estas bicicletas están hechas para absorber las <b>irregularidades del terreno</b>, son mucho más cómodas, pero por el contrario, su peso es mayor en comparación al de una bicicleta rígida. <br>
+                        Por otra parte, nos encontramos con la elección del tipo de rueda. <br>
+                        Hace unos años dudábamos en montar en ruedas de 26” o 29”. Sin embargo, se ha ido dejando paso al tamaño 29” o incluso de 27,5’’.<br>
+                        <b>¿Qué nos aportan?</b><br>
+                        Una rueda más pequeña nos facilitará una mayor aceleración, sin embargo, si optamos por una rueda más grande, nos proporcionará mayor estabilidad sobre terrenos abruptos. <br>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-12" id="blog4">
+                    <p>5 aventureros, 5 amigos...</p>
+                    <img src="../imagenes/5amigosblog.jpg" alt="Artículo blog amigos"></img>
+                    <div id="texto3"><b>5 aventureros</b> fueron suficientes para hacer crecer un sueño, algo que volaba en la imaginación...sin un destino fijo, ... unos trabajos del FP y un proyecto fin de grado fueron suficientes para hacerlo realidad.<br>
+                        Nació con <b>dos aventureras y un pirata del sur</b>, nuestro querido <b>Javi</b>, la alegría, la aventura y la sabiduría.<br>
+                        <b>Lili</b>, nuestra joven aventurera, con un expíritu brillante y un empeño sin igual.<br>
+                        Y <b>Pilu</b>, servidora, la cabeza pensante aventurera y entusiasta de un proyecto que después de llevar años en mente, se hacía realidad.<br>
+                        Con <b>Vero</b> nuestra aventurera detective, construimos el plan de viabilidad de la empresa,... gran plan, la base principal y soporte de toda aventura.<br>
+                        Y <b>Raúl</b>, última pieza de este puzzle, aventurero en ejecución de este plan que empezaba a tomar forma con su tremenda dedicación.<br>
+                        Cada uno aportando su granito de arena hacíamos un sueño realidad, entusiasmados construyéndolo poco a poco y cada vez teniendo más ganas de que viera la luz,... y con la ilusión de que no se quede simplemente en un proyecto.<br>
+                        Nuestros nombres, abreviados tienen 4 letras como RISK, por eso nos arriesgamos y nos lanzamos a la aventura.<br>
+                        <b>¿Tendremos Risk Adventure para largo?</b><br><br>
+
+                    </div>
+                </div>
+                <hr>
+                
+            </section>        
+        </section>
         
        <!-- FOOTER-----COMÚN-->
         <footer class="row" >
