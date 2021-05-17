@@ -89,6 +89,9 @@
                     El casco es el instrumento más básico, nos protege tanto de caídas de piedras como en el caso de golpes. En Risk 
                     Adventure, recomendamos el casco Black Diamond Half Dome, ajustable y con mucha ventilación. <br>
 
+                    Recuerda llevar un buen grupo para tener al mejor compañero de sujección, no dejes de pasar por nuestras<a href=packs.php> actividades en grupo.</a>
+                                     
+
                         </div>   
                 </div>
                 <hr>
@@ -109,6 +112,7 @@
                         montaña, la Sportiva TX4 Mid GTX, la cual es muy versátil que nos servirá tanto para practicar senderismo como para la alta 
                         montaña y las Merrell Moab 2 Mid Gore-Tex diseñadas con doble suela, la cual le aporta muchas características técnicas, al 
                         no ser ni muy cálidas ni demasiado frías se pueden adaptar a cualquier estación.<br>
+                        Y si no te apetece hacer una ruta, podrás elegir entre nuestras <a href="aire.php">actividades de Aire</a> o nuestras <a href="agua.php">actividades de Agua</a>
 
                     </div>
                 </div>
@@ -127,7 +131,7 @@
                         Hace unos años dudábamos en montar en ruedas de 26” o 29”. Sin embargo, se ha ido dejando paso al tamaño 29” o incluso de 27,5’’.<br>
                         <b>¿Qué nos aportan?</b><br>
                         Una rueda más pequeña nos facilitará una mayor aceleración, sin embargo, si optamos por una rueda más grande, nos proporcionará mayor estabilidad sobre terrenos abruptos. <br>
-
+                        Podrás disfrutar de esta u otras actividades en nuestras<a href="tierra.php"> actividades de Tierra</a>.
                     </div>
                 </div>
                 <hr>
