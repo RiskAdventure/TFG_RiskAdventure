@@ -8,7 +8,7 @@
 header {
   position: -webkit-sticky;
   position: sticky;
-  /*border-bottom: 1px solid #ba9e3857;*/
+  border-bottom: 1px solid #ba9e3857;
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.98);
   top: 0;
@@ -100,6 +100,13 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
+
+.navbar-default .navbar-collapse {
+  border-color: inherit; 
+  border-top: none;
+}
+
+/*CONTENIDO*/
 #blog {
   background-image: linear-gradient(#ba9e38, #ba9e38);
   background-position: 0% 100%;
