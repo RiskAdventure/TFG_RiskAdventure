@@ -1,24 +1,22 @@
-/*CONTAINER---COMÚN*/
+                                                         /*CONTAINER---COMÚN*/
 .container {
   width: 80vw;
   background-size: contain;
 }
-/*HEADER-----COMÚN*/
+                                                        /*HEADER-----COMÚN*/
 /*iconos del header*/
 header {
   position: -webkit-sticky;
   position: sticky;
-  border-bottom: 1px solid #ba9e3857;
+  /*border-bottom: 1px solid #ba9e3857;*/
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.98);
   top: 0;
   width: 100%;
-  margin-bottom: 2vw;
+  margin-bottom: 10%;
 }
-#logo_menu {
-  margin-right: 0px;
-  margin-left: 0px;
-}
+
+
 #icon {
   margin-right: 0px;
   margin-left: 0px;
@@ -60,28 +58,17 @@ header {
   background-color: #ba9e38;
   color: white;
 }
-/*logo del header*/
-#logo {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-}
-#logo1 {
-  background-color: white;
-  border: none;
-  box-shadow: none;
-  margin-bottom: 2%;
-}
+
+
 /* MENÚ NAV INTEGRADO EN EL HEADER */
 a {
   text-decoration: none !important;
   padding-bottom: 4px;
   color: rgb(66, 66, 66);
   transition: 0.3s;
+  font-size: 16px;
 }
-#logo_menu {
-  width: 80vw;
-}
+
 a:hover {
   color: rgb(66, 66, 66);
 }
@@ -98,6 +85,7 @@ ul {
   font-size: 0.95vw;
   padding: 0px;
 }
+
 li {
   background-image: linear-gradient(#ba9e38, #ba9e38);
   background-position: 0% 100%;
@@ -112,7 +100,7 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
-#eventos {
+#packs {
   background-image: linear-gradient(#ba9e38, #ba9e38);
   background-position: 0% 100%;
   background-repeat: no-repeat;
@@ -122,203 +110,109 @@ li:focus {
 li:hover {
   cursor: pointer;
 }
-/*botones parte central,tarjetitas,packs y grupos*/
-.boton {
-  width: 8vw;
-  height: 2vw;
-  background-color: #8091a5;
-  border-radius: 7px;
-  color: white;
-  margin-bottom: 2vw;
-  margin: auto;
+
+/*PACKS*/
+
+#packs {
+  background-image: linear-gradient(#ba9e38, #ba9e38);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  transition: background-size 0.3s;
+}
+li:hover {
+  cursor: pointer;
+}
+.card {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.16), 0 2px 0px 0 rgba(0, 0, 0, 0.12);
+}
+.card .card-image {
+  position: relative;
+  overflow: hidden;
   text-align: center;
-  padding-top: 0.4vw;
-  font-size: 1vw;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
-.boton:hover {
-  background-color: #ba9e38;
-}
-#boton_packs {
+
+.card {
+  width: 400px;
+  margin-top: 10px;
+  padding-top: 1px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-color: #ba9e38;
+  border-style: solid;
+  background-clip: padding-box;
+  min-height:370px;
   text-align: center;
+  background-color: rgb(69, 83, 88);
+  margin-left: 10vw;
 }
-.boton_pack {
-  width: 12vw;
-  background-color: #8091a5;
-  border-radius: 7px;
-  color: white;
-  margin-bottom: 2vw;
-  display: inline-block;
-  text-align: center;
-  padding-top: 0.7vw;
-  padding-bottom: 0.4vw;
-  font-size: 1vw;
-}
-.boton_pack:hover {
-  background-color: #ba9e38;
-}
-/*texto bajo imágenes circulares*/
-#texto2 div {
-  margin: auto;
-  width: 62vw;
-  text-align: center;
-  margin-top: 1.5vw;
-  margin-bottom: 5vw;
-  font-size: 1.3vw;
-}
-/*Parte ver más y contáctanos----imagen*/
-.eventosempresa img {
-  width: 45vw;
-  height: 25vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-left: 0px !important;
-  text-align: center;
-  display: inline-block;
-  margin-bottom: 2vw;
-  margin-right: 2vw !important;
-}
-.eventosempresa {
-  margin: auto !important;
-  text-align: center;
-}
-#teamb img {
-  width: 30vw;
-  height: 9vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-left: 0px !important;
-  text-align: left;
-  display: inline-block;
-  margin-right: 0vw !important;
-  margin-top: 4vw;
-}
-#teamb {
-  margin: auto !important;
-  text-align: center;
-}
-#decathlon img {
-  width: 30vw;
-  height: 17vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-left: 25vw;
-  text-align: left;
-  margin-right: 0vw !important;
-}
-#decathlon {
-  margin: auto !important;
-  text-align: center;
-}
-#merrell img {
-  width: 40vw;
-  height: 17vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: left;
-  margin-right: 0vw !important;
+
+.card .card-color{
   
-}
-#merrell {
-  margin: auto !important;
+  background-color: #ba9e38;
+  width:auto;
+  min-height:50px;
   text-align: center;
-}
-#north img {
-  width: 25vw;
-  height: 9vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: left;
-  margin-left: 27vw;
-  margin-right: 0vw !important;
-  margin-top: 3vw;
-  margin-bottom: 2vw;
-  
-}
-#north {
-  margin: auto !important;
-  text-align: left;
-}
-#sportiva img {
-  width: 30vw;
-  height: 15vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: left;
-  margin-right: 0vw !important;
-}
-#sportiva {
-  margin: auto !important;
-  text-align: center;
-}
-#grill img {
-  width: 30vw;
-  height: 10vw;
-  background: no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: left;
-  margin-right: 0vw !important;
-  margin-top: 4vw;
-}
-#grill {
-  margin: auto !important;
-  text-align: center;
+  margin-bottom: 1vw;
+  border-color: white;
+  border-style: solid;
+ 
 }
 
-
-/*botones ver más y contacto*/
-
-.evento {
-  font-size: 200%;
-  line-height: 3.5vw;
-  margin-bottom: 2vw;
+.card span.card-title {
+  color: rgb(69, 83, 88);
+  font-size: 24px;
+  font-weight: 800;
   text-transform: uppercase;
-  font-weight: 700;
-}
-/*texto sección contacto y ver más*/
-.texto3 {
-  font-size: 160%;
-  text-align: center;
-  font-style: italic;
+  z-index: 1;
+ 
 }
 
-#boton_listo {
+.card .card-image img {
+  border-radius: 2px 2px 0 0;
+  background-clip: padding-box;
+  position: relative;
+  z-index: 1;
   text-align: center;
-  margin-top: 2vw;
 }
-#contact {
-  margin-left: 48vw;
-  padding: 0.6vw !important;
-  width: 9vw !important;
+
+.card .card-image span.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
 }
-#boton_incentive {
+
+.card .card-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
   text-align: center;
-  margin-top: 2vw;
+  color: white;
 }
-#boton_evento {
-  text-align: center;
-  margin-top: 2vw;
+
+.card .card-content p {
+  margin: 0;
+  color: inherit;
 }
+
+.card .card-content span.card-title {
+  line-height: 48px;
+  background-color: #ba9e38;
+}
+
+.card .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px;
+
+}
+
 /*EFECTO BOLAS Y LINEA HR--------COMÚN*/
 hr {
   display: none;
@@ -442,6 +336,62 @@ hr {
   width: 7px;
   height: 7px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+
+.btn-floating {
+  border-radius: 80%;
+  display: inline-block;
+  height: 70px;
+  line-height: 40px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  width: 70px;
+  border-style: solid;
+  border-color: #ba9e38;
+  border-width: 3px;
+  z-index: 1;
+  font-weight: 800;
+  font-size: 200%;
+  color:#ba9e38;
+  margin-bottom: 2vw;
+  text-decoration: underline 6px;
+}
+.textopacks{
+  text-align: center;
+  font-weight: 800;
+  font-size: 150%;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+
+
+}
+.boton {
+  margin-left: 15vw;
+  background-color: #8091a5;
+  color: white;
+  text-align: center;
+  padding-top: 1vw;
+  font-size: 1vw;
+  width: 20vw;
+  height: 5vw;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5vw;
+}
+.boton:hover {
+  background-color: #ba9e38;
+}
 
                                         /*FOOTER-------------COMÚN*/
 footer {
@@ -449,8 +399,8 @@ footer {
   border: none;
   box-shadow: none;
   color: white;
-  margin-right: 0px !important;
-  margin-left: 0px !important;
+  margin-right: 15px !important;
+  margin-left: -15px !important;
 }
 /*logo adventure negativo*/
 #adventure img {
@@ -588,11 +538,11 @@ a #restaurante {
   font-weight: bolder;
   color: #ba9e38 !important;
 }
-/*MEDIA QUERIES*/
+                                                        /*MEDIA QUERIES*/
 /* Entre 1200px y 1630 px*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1630px) {
-  /*menú ------------común*/
+                                /*menú ------------común*/
   #menu {
     padding: 0px !important;
     font-size: 1vw;
@@ -609,7 +559,7 @@ a #restaurante {
     margin-right: 0px !important;
     padding-right: 0px !important;
   }
-  /*FOOTER---COMÚN*/
+                                 /*FOOTER---COMÚN*/
   #contacto_footer {
     font-size: 1.2vw;
   }
@@ -627,16 +577,15 @@ a #restaurante {
 /* De 1200 px hacia abajo */
 
 @media only screen and (max-width: 1200px) {
-  /*CONTAINER------COMÚN*/
+                         /*CONTAINER------COMÚN*/
   .container {
     width: 86vw;
     background-size: contain;
   }
-  /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
+                     /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
   #menu {
     width: 100% !important;
     padding: 0px !important;
-    text-align: center;
     font-size: 1.5vw;
     margin-bottom: 10px;
   }
@@ -659,7 +608,7 @@ a #restaurante {
   li {
     margin-left: 6px !important;
   }
-  /*FOOTER------COMÚN-----*/
+                                        /*FOOTER------COMÚN-----*/
   #texto_footer {
     text-align: right;
     margin-right: 15px;
@@ -677,7 +626,7 @@ a #restaurante {
 /* Entre 360px y 737px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 737px) {
-  /*menú-NAV----COMÚN-------*/
+                                        /*menú-NAV----COMÚN-------*/
   #menu {
     font-size: 1.5vw;
   }
@@ -686,7 +635,129 @@ a #restaurante {
     padding-bottom: 0px;
     bottom: 0px !important;
   }
-  /*FOOTER -----COMÚN*/
+  
+  /*EFECTO BOLAS--------COMÚN*/
+  .bola {
+    background-color: #ba9e38;
+    border-radius: 100%;
+    margin-right: 0.8%;
+    margin-top: 4%;
+    display: inline-block;
+  }
+  #bolitas {
+    text-align: center;
+    margin-bottom: 3vw;
+  }
+  #bola1 {
+    width: 7px;
+    height: 7px;
+    margin-left: 4vw;
+  }
+  #bola2 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola3 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola4 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola5 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola6 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola7 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola8 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola9 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola10 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola11 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola12 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola13 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola14 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola15 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola16 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola17 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola18 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola19 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola20 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola21 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola22 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola23 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola24 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola25 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola26 {
+    width: 7px;
+    height: 7px;
+  }
+  #bola27 {
+    width: 7px;
+    height: 7px;
+  }
+                                             /*FOOTER -----COMÚN*/
   #email p {
     margin: 0px;
   }
@@ -730,11 +801,63 @@ a #restaurante {
   #dire {
     margin-bottom: 4.2vw;
   }
+  #lasportiva{
+    margin-left: 15vw;
+  }
+  #columbia{
+    margin-left: 20vw;
+  }
+  #salomon{
+    margin-left: 17vw;
+  }
+  .textopacks{
+    text-align: center;
+    font-weight: 800;
+    font-size: 150%;
+    margin-top: 1vw;
+    padding-right: 10%;
+    
+}
+.card{
+  margin-left: 10vw;
 }
 
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 500px) {
+
+          /*EFECTO BOLAS--------COMÚN*/
+  .bola {
+  width: 0px !important;
+  height: 0px !important;
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  display: inline-block;
+}
+#bola1 {
+  width: 0px !important;
+  height: 0px !important;
+  margin-left: 0px !important;
+}
+.bola_footer {
+  width: 0px !important;
+  height: 0px !important;
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  display: inline-block;
+}
+#bolitas_footer {
+  text-align: center;
+  margin-bottom: -8vw;
+}
+#bolitas {
+  text-align: center;
+  margin-bottom: -5vw;
+}
   /*FOOTER------COMÚN*/
   hr {
     display: block;
@@ -755,205 +878,6 @@ a #restaurante {
     margin-top: 3vw;
     margin-left: 24px;
   }
-}
-/* Entre 360px y 737px (tamaño pequeño para móviles) */
-
-@media only screen and (min-width: 360px) and (max-width: 737px) {
-  /*menú-NAV----COMÚN-------*/
-#menu {
-font-size: 1.5vw;
-}
-ol {
-margin-bottom: 0px;
-padding-bottom: 0px;
-bottom: 0px !important;
-}
-          /*SECTION*/
-/*carrusel*/
-.item img {
-width: 100%;
-height: 90px;
-max-height: 90px;
-}
-.item {
-font-size: 2.5vw;
-}
-.carousel-indicators li {
-width: 6px;
-height: 6px;
-}
-.carousel-indicators .active {
-width: 6px;
-height: 6px;
-}
-.carousel-caption {
-bottom: 10px;
-padding-bottom: 0px;
-}
-.item h3 {
-font-size: 2vw;
-}
-  /*EFECTO BOLAS--------COMÚN*/
-.bola {
-background-color: #ba9e38;
-border-radius: 100%;
-margin-right: 0.8%;
-margin-top: 4%;
-display: inline-block;
-}
-#bolitas {
-text-align: center;
-margin-bottom: 3vw;
-}
-#bola1 {
-width: 7px;
-height: 7px;
-margin-left: 4vw;
-}
-#bola2 {
-width: 7px;
-height: 7px;
-}
-#bola3 {
-width: 7px;
-height: 7px;
-}
-#bola4 {
-width: 7px;
-height: 7px;
-}
-#bola5 {
-width: 7px;
-height: 7px;
-}
-#bola6 {
-width: 7px;
-height: 7px;
-}
-#bola7 {
-width: 7px;
-height: 7px;
-}
-#bola8 {
-width: 7px;
-height: 7px;
-}
-#bola9 {
-width: 7px;
-height: 7px;
-}
-#bola10 {
-width: 7px;
-height: 7px;
-}
-#bola11 {
-width: 7px;
-height: 7px;
-}
-#bola12 {
-width: 7px;
-height: 7px;
-}
-#bola13 {
-width: 7px;
-height: 7px;
-}
-#bola14 {
-width: 7px;
-height: 7px;
-}
-#bola15 {
-width: 7px;
-height: 7px;
-}
-#bola16 {
-width: 7px;
-height: 7px;
-}
-#bola17 {
-width: 7px;
-height: 7px;
-}
-#bola18 {
-width: 7px;
-height: 7px;
-}
-#bola19 {
-width: 7px;
-height: 7px;
-}
-#bola20 {
-width: 7px;
-height: 7px;
-}
-#bola21 {
-width: 7px;
-height: 7px;
-}
-#bola22 {
-width: 7px;
-height: 7px;
-}
-#bola23 {
-width: 7px;
-height: 7px;
-}
-#bola24 {
-width: 7px;
-height: 7px;
-}
-#bola25 {
-width: 7px;
-height: 7px;
-}
-#bola26 {
-width: 7px;
-height: 7px;
-}
-#bola27 {
-width: 7px;
-height: 7px;
-}
-
-      /*CONTINUACIÓN SECTION*/
-/*texto central*/
-#texto div {
-margin: auto;
-width: 60vw;
-text-align: center;
-font-size: 12px;
-}
-/*botones centrales*/
-.boton {
-width: 16vw;
-border-radius: 5px;
-text-align: center;
-font-size: 2.5vw;
-}
-/*texto y botones centrales*/
-#texto2 {
-font-size: 12px;
-}
-#boton5 {
-width: 36vw;
-}
-.texto3 {
-font-size: 12px;
-}
-#ver {
-width: 18vw !important;
-}
-#contact {
-margin-left: 1vw;
-padding: 0.6vw !important;
-width: 29vw !important;
-margin-right: 0px;
-font-size: 13px;
-width: 29vw !important;
-}
-#boton_listo {
-text-align: center;
-margin-top: 4vw;
-margin-bottom: 4vw;
+ 
 }
 }

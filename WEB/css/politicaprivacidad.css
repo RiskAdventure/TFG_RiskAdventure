@@ -1,7 +1,7 @@
-                                                         /*CONTAINER---COMÚN*/
+/*CONTAINER---COMÚN*/
 .container {
-  width: 80vw;
-  background-size: contain;
+width: 80vw;
+background-size: contain;
 }
                                                         /*HEADER-----COMÚN*/
 /*iconos del header*/
@@ -100,160 +100,48 @@ li:hover,
 li:focus {
   background-size: 100% 2px;
 }
-#blog {
-  background-image: linear-gradient(#ba9e38, #ba9e38);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 2px;
-  transition: background-size 0.3s;
-}
+
 li:hover {
   cursor: pointer;
 }
 
-/*BLOG*/
-#blog {
-  background-image: linear-gradient(#ba9e38, #ba9e38);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 2px;
-  transition: background-size 0.3s;
+/*TEXTO*/
+
+#textopolitica{
+    margin: auto;
+   
+    text-align: left;
+    
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    font-size: 160%;
+    text-transform: uppercase;
+    color: rgb(66, 66, 66);
+    font-weight: 800;
+  
+  }
+  #texto{
+    font-size: 1.3vw;
+      margin: auto;
+      text-align: left;
+    }
+
+#privacidad #politica_privacidad {
+    font-weight: bolder;
+    color: #ba9e38 !important;
 }
 li:hover {
-  cursor: pointer;
+cursor: pointer;
 }
 
-
-#textoblog {
-  margin: auto !important;
-  text-align: center;
-}
-#tituloblog{
-  text-align: center;
-  color:#3F4A56;
-  font-weight: 800;
-  font-size: 700%;
-}
-
-#texto3{
-  margin: auto;
-  text-align: justify;
-  color:#3F4A56;
-  margin-top: 1.5vw;
-  font-size: 140%;
-}
-
-#imagenes2{
-  text-align: center;
-  margin-top: 34% !important;
-  
- 
-}
-
-#blog1{
-  margin: auto;
-  text-align: center;
-  margin-top: 1.5vw;
-}
-
-#blog1 p:hover{
-  background-color: #ba9e38;
-  
-}
-
-#blog2 {
-  margin: auto;
-  text-align: center;
-  margin-top: 1.5vw;
-}
-#blog2 p:hover{
-  background-color: #ba9e38;
-  
-}
-
-#blog3 {
-  margin: auto;
-  text-align: center;
-  margin-top: 1.5vw;
-}
-#blog3 p:hover{
-  background-color: #ba9e38;
-  
-}
-
-#blog4 {
-  margin: auto;
-  text-align: center;
-  margin-top: 1.5vw;
-}
-#blog4 p:hover{
-  background-color: #ba9e38;
-  
-}
-
-#blog1 img {
-  width: 300px;
-  height: 190px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-
-}
-#blog2 img {
-  width: 300px;
-  height: 190px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
-#blog3 img {
-  width: 300px;
-  height: 190px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
-#blog4 img {
-  width: 300px;
-  height: 190px;
-  text-align: center;
-  margin-bottom: 1.5vw;
-  
-}
-
-#imagenes2 p{
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-  color: #3F4A56;
-}
-#boton_blog {
-  margin-top: 2%;
-  text-align: center;
-}
-.boton_blog_centro {
-  width: 12vw;
-  background-color: #8091a5;
-  border-radius: 7px;
-  color: white;
-  margin-bottom: 2vw;
-  display: inline-block;
-  text-align: center;
-  padding-top: 0.7vw;
-  padding-bottom: 0.4vw;
-  font-size: 1vw;
-}
-.boton_blog_centro:hover {
-  background-color: #ba9e38;
-}
-
-
-                                                /*FOOTER-------------COMÚN*/
+                                        /*FOOTER-------------COMÚN*/
 footer {
   background-color: rgb(69, 83, 88) !important;
   border: none;
   box-shadow: none;
   color: white;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 /*logo adventure negativo*/
 #adventure img {
@@ -281,11 +169,11 @@ footer {
   margin-top: 0.5vw;
   border-left: 4px solid #ba9e38;
   padding-left: 2vw;
-  font-size: 0.8vw;
+  font-size: 0.92vw;
   padding-top: 1.5vw;
 }
 #contacto_footer div {
-  line-height: 6px;
+  line-height: 15px;
 }
 #dire {
   margin-bottom: 4.2vw;
@@ -297,44 +185,44 @@ footer {
   color: #ba9e38;
   font-weight: bolder;
 }
-/*iconos publicitarios*/
+/*logos publicitarios*/
 #publi {
   text-align: center;
 }
 a #oneill {
   width: 7vw;
   height: 9vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #columbia {
   width: 10vw;
   height: 4vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #escapada {
   width: 9vw;
   height: 3vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #esportiva {
   width: 9vw;
   height: 5vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #decathlon {
   width: 10vw;
   height: 6vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 a #restaurante {
   width: 9vw;
   height: 6vw;
-  margin-right: 1vw;
+  margin-right: 2vw;
   padding: 0px !important;
 }
 /*texto e iconos de redes sociales*/
@@ -361,9 +249,21 @@ a #restaurante {
 }
 #redes {
   text-align: center;
+  margin-bottom: 22px;
 }
-
-/*enlaces finales de acceso a recursos privacidad, legal cookies*/
+/*menos separación superior e inferior en el efecto bolitas*/
+.bola_footer {
+  background-color: #ba9e38;
+  border-radius: 100%;
+  margin-right: 0.8%;
+  margin-top: 1%;
+  display: inline-block;
+}
+#bolitas_footer {
+  text-align: center;
+  margin-bottom: 1vw;
+}
+/*enlaces finales de acceso a recursos privacidad, legal ayuda*/
 #privacidad {
   margin: auto;
   text-align: center;
@@ -384,128 +284,128 @@ a #restaurante {
 
 @media only screen and (min-width: 1200px) and (max-width: 1630px) {
                                 /*menú ------------común*/
-  #menu {
+#menu {
     padding: 0px !important;
     font-size: 1vw;
     margin-bottom: 10px;
-  }
-  #logo_menu {
+}
+#logo_menu {
     width: 80vw !important;
-  }
-  #home {
+}
+#home {
     margin-left: 0px !important;
-  }
-  ul {
+}
+ul {
     padding: 0px !important;
     margin-right: 0px !important;
     padding-right: 0px !important;
-  }
-                                 /*FOOTER---COMÚN*/
-  #contacto_footer {
+}
+                                /*FOOTER---COMÚN*/
+#contacto_footer {
     font-size: 1.2vw;
-  }
-  #texto_footer {
+}
+#texto_footer {
     text-align: right;
     margin-right: 12px;
     margin-top: 5vw;
     margin-left: 32px;
-  }
-  #texto_footer p {
+}
+#texto_footer p {
     font-size: 1.2vw !important;
-  }
+}
 }
 
 /* De 1200 px hacia abajo */
 
 @media only screen and (max-width: 1200px) {
-                         /*CONTAINER------COMÚN*/
-  .container {
+                        /*CONTAINER------COMÚN*/
+.container {
     width: 86vw;
     background-size: contain;
-  }
-                     /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
-  #menu {
+}
+                    /*MENÚ NAV INTEGRADO EN HEADER---------COMÚN*/
+#menu {
     width: 100% !important;
     padding: 0px !important;
     font-size: 1.5vw;
     margin-bottom: 10px;
-  }
-  #logo {
+}
+#logo {
     width: 100%;
-  }
-  #logo1 {
+}
+#logo1 {
     width: 100%;
-  }
-  #home {
+}
+#home {
     margin-left: 0px !important;
-  }
-  ul {
+}
+ul {
     padding: 0px !important;
-  }
-  #iconos i {
+}
+#iconos i {
     font-size: 2vw;
     padding: 1vw;
-  }
-  li {
+}
+li {
     margin-left: 6px !important;
-  }
+}
                                         /*FOOTER------COMÚN-----*/
-  #texto_footer {
+#texto_footer {
     text-align: right;
     margin-right: 15px;
     margin-top: 5vw;
     margin-left: 40px;
-  }
-  #texto_footer p {
+}
+#texto_footer p {
     font-size: 1.3vw !important;
-  }
-  #contacto_footer {
+}
+#contacto_footer {
     font-size: 12px !important;
-  }
+}
 }
 
 /* Entre 360px y 737px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 737px) {
                                         /*menú-NAV----COMÚN-------*/
-  #menu {
+#menu {
     font-size: 1.5vw;
-  }
-  ol {
+}
+ol {
     margin-bottom: 0px;
     padding-bottom: 0px;
     bottom: 0px !important;
-  }
-                                             /*FOOTER -----COMÚN*/
-  #email p {
+}
+                                            /*FOOTER -----COMÚN*/
+#email p {
     margin: 0px;
-  }
-  #dire p {
+}
+#dire p {
     margin: 0px;
-  }
-  #contacto_footer div p {
+}
+#contacto_footer div p {
     margin: 0px;
-  }
-  #adventure {
+}
+#adventure {
     margin-left: 0px;
     margin-top: 10vw;
     width: 38vw;
     padding: 0px !important;
-  }
-  #adventure img {
+}
+#adventure img {
     width: 100%;
     height: 12%;
-  }
-  #texto_footer {
+}
+#texto_footer {
     text-align: right;
     margin-right: 17px;
     margin-top: 3vw;
     margin-left: 52px;
-  }
-  #texto_footer p {
+}
+#texto_footer p {
     font-size: 10px !important;
-  }
-  #contacto_footer {
+}
+#contacto_footer {
     font-size: 10px !important;
     margin-left: 69px;
     margin-top: 0.5vw;
@@ -513,24 +413,24 @@ a #restaurante {
     padding-left: 2vw;
     font-size: 0.8vw;
     padding-top: 1.5vw;
-  }
-  #contacto_footer div {
+}
+#contacto_footer div {
     line-height: 11px;
-  }
-  #dire {
+}
+#dire {
     margin-bottom: 4.2vw;
-  }
+}
 }
 
 /* Entre 360px y 500px (tamaño pequeño para móviles) */
 
 @media only screen and (min-width: 360px) and (max-width: 500px) {
                                         /*FOOTER------COMÚN*/
-  hr {
+hr {
     display: block;
     background-color: #ba9e38;
-  }
-  #contacto_footer {
+}
+#contacto_footer {
     font-size: 10px !important;
     margin-left: 40px;
     margin-top: 0.5vw;
@@ -538,11 +438,11 @@ a #restaurante {
     padding-left: 2vw;
     font-size: 0.8vw;
     padding-top: 1.5vw;
-  }
-  #texto_footer {
+}
+#texto_footer {
     text-align: right;
     margin-right: 17px;
     margin-top: 3vw;
     margin-left: 24px;
-  }
+}
 }

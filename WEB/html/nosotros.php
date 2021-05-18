@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/nosotross.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/nosotros.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png" sizes="64x64"><!--Favicon RISK-->
 </head>
 
@@ -46,7 +46,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque.png"/></a>
+                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque2.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
@@ -153,7 +153,7 @@
             </div>
             <div class="col-md-2 col-xs-12 nombre">PILAR</div>
             <div class="col-md-7 col-xs-12 descripcion">
-                <b>Licenciada por la FADA</b>con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos...
+                <b>Licenciada por la FADA</b> con más de 30000 vuelos realizados y títulada en paracaidísmo con 2000 saltos...
                 Ha estado más tiempo en el cielo que en la tierra...
                 Se encarga de la coordinación de los deportes aéreos de riesgo a Nivel Nacional colaborando con el
                 escuadrón de <b>Zapadores Paracaidistas del Ejercito Español</b> para sus formaciones.
