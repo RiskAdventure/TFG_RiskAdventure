@@ -121,11 +121,15 @@ cursor: pointer;
 
 
 /*CONTENIDO*/
-
+.row{
+    margin-right: 0; 
+    margin-left: 0;
+}
 
 #textomasblog {
 margin: auto;
 text-align: center;
+width: 90%;
 }
 #titulovermasblog{
 text-align: center;
@@ -144,15 +148,17 @@ font-size: 140%;
 
 #masblog{
 text-align: center;
-margin-top: 2%;
+
 
 
 }
 
 #blog1{
+
 margin: auto;
 text-align: center;
-margin-top: 1.5vw;
+margin-top: 1vw;
+
 }
 #blog1 p{
 text-align: center;
@@ -163,6 +169,7 @@ color: #3F4A56;
 
 
 #blog2 {
+
 margin: auto;
 text-align: center;
 margin-top: 1.5vw;
@@ -176,6 +183,7 @@ color: #3F4A56;
 }
 
 #blog3 {
+
 margin: auto;
 text-align: center;
 margin-top: 1.5vw;
@@ -188,6 +196,7 @@ color: #3F4A56;
 }
 
 #blog4 {
+
 margin: auto;
 text-align: center;
 margin-top: 1.5vw;
@@ -200,26 +209,26 @@ color: #3F4A56;
 }
 
 #blog1 img {
-width: 100%;
+width: 90%;
 text-align: center;
 margin-bottom: 1.5vw;
 
 }
 
 #blog2 img {
-width: 100%;
+width: 90%;
 text-align: center;
 margin-bottom: 1.5vw;
 }
 
 #blog3 img {
-width: 100%;
+width: 90%;
 text-align: center;
 margin-bottom: 1.5vw;
 
 }
 #blog4 img {
-width: 100%;
+width: 90%;
 text-align: center;
 margin-bottom: 1.5vw;
 

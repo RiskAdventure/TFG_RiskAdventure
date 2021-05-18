@@ -101,34 +101,24 @@ li:focus {
   background-size: 100% 2px;
 }
 
+
+
+#blog {
+  background-image: linear-gradient(#ba9e38, #ba9e38);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  transition: background-size 0.3s;
+}
+li:hover {
+  cursor: pointer;
+}
+
 .navbar-default .navbar-collapse {
   border-color: inherit; 
   border-top: none;
 }
-
-/*CONTENIDO*/
-#blog {
-  background-image: linear-gradient(#ba9e38, #ba9e38);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 2px;
-  transition: background-size 0.3s;
-}
-li:hover {
-  cursor: pointer;
-}
-
 /*BLOG*/
-#blog {
-  background-image: linear-gradient(#ba9e38, #ba9e38);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 2px;
-  transition: background-size 0.3s;
-}
-li:hover {
-  cursor: pointer;
-}
 
 
 #textoblog {
