@@ -93,6 +93,7 @@
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
               <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
+              <a href="ofertas.php"><div>OFERTAS</div></a>
               <a href="agua.php"><div>IR A AGUA</div></a>
             </div>            
         </article>

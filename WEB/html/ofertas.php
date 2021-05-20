@@ -55,13 +55,13 @@
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home.php" href="index">HOME</a></li>
-                      <li><a id="experiencias.php" href="experiencias">EXPERIENCIAS</a></li>
-                      <li><a id="eventos.php" href="eventos">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs.php" href="packs">PACKS &amp; GRUPOS</a></li>
-                      <li><a id="sobre.php" href="nosotros">NOSOTROS</a></li>
-                      <li><a id="blog.php" href="blog">BLOG</a></li>
-                      <li><a id="contacto.php" href="contacto">CONTACTO</a></li>
+                      <li><a id="home" href="home.php">HOME</a></li>
+                      <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
+                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs" href="packs.php">PACKS &amp; GRUPOS</a></li>
+                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
+                      <li><a id="blog" href="blog.php">BLOG</a></li>
+                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
                     </ul>
                   </div>
             </nav>
