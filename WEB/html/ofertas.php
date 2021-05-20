@@ -1,18 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Experiencias de Aire</title><!-- título-->
+    <title>Ofertas</title><!-- título-->
     <meta charset="utf-8"><!--juego caracteres del lengiaje-->
-    <meta name="keywords" content="Experiencias únicas, calidad, tierra, agua, mar , aire, ..."><!-- palabras clave-->
-    <meta name="description" content="Elige tu experiencia  de Aire y disfruta de una experiencia de aventura inigualable. Elige la actividad y la provincia donde deseas realizar tu actividad. Actividades multiaventura de aire."><!-- descripción-->
+    <meta name="keywords" content="Artículos, blog, experiencias, lectura, recomendaciones"><!-- palabras clave-->
+    <meta name="description" content="Más artículos de nuestra guía de experiencias, podrás buscar entre un montón de experiencias únicas de multiaventura, deporte en entornos rurales y de ciudad."><!-- descripción-->
     <meta name="author" content="Raúl Montero, Pilar Bermejo, Lidia Martínez"><!-- autores-->
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- escla visualización-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script><!--cdn para los iconos fontawesome-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- cdn para librería jquery-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><!--cdn para framework bootstrap-->
-    <link rel="stylesheet" href="../css/aire.css" type="text/css"><!--Enlace externo a CSS-->
+    <link rel="stylesheet" href="../css/ofertas.css" type="text/css"><!--Enlace externo a CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="../imagenes/favicon_risk2.png"><!--Favicon RISK-->
 </head>
@@ -41,24 +44,24 @@
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-ex1-collapse">
-                      <span class="sr-only">Desplegar navegación</span>
+                      <span class="sr-only">Desplegar navegaci&oacute;n</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="../imagenes/header_logo_peque2.png"/></a>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque.png"/></a>
                   </div>
                   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
                   otro elemento que se pueda ocultar al minimizar la barra -->
                   <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                      <li><a id="home" href="index.php">HOME</a></li>
-                      <li><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                      <li><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                      <li><a id="blog" href="blog.php">BLOG</a></li>
-                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                      <li><a id="home.php" href="index">HOME</a></li>
+                      <li><a id="experiencias.php" href="experiencias">EXPERIENCIAS</a></li>
+                      <li><a id="eventos.php" href="eventos">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs.php" href="packs">PACKS &amp; GRUPOS</a></li>
+                      <li><a id="sobre.php" href="nosotros">NOSOTROS</a></li>
+                      <li><a id="blog.php" href="blog">BLOG</a></li>
+                      <li><a id="contacto.php" href="contacto">CONTACTO</a></li>
                     </ul>
                   </div>
             </nav>
@@ -66,21 +69,22 @@
         </header>
 
         <!-- SECTION-->
+       <!-- SECTION-->
         <section class="row" id="imagenes" >
-          <div class="col-md-12 col-xs-12 col-xm-12" id="aire">
-             <img src="../imagenes/mas_wind.jpg" alt="Más experiencias Aire" title="Más Aire"></img>
-             <a href="aire.php"></a>
+          <div class="col-md-12 col-xs-12 col-xm-12" id="ofertas">
+             <img src="../imagenes/ofertas.jpg"></img>
+             <a href="ofertas.php"></a>
           </div>
 
         </section>
 
         <section class="row justify-content-center">
-            <div id=textoaire class="col-md-12">
-                <div>EXPERIENCIAS DE AIRE</div>
+            <div id=textoofertas class="col-md-12">
+                <div>OFERTAS</div>
             </div>
             <div id="texto" class="col-md-12">
-                <div> Experiencias de <b>aventura en Aire</b>, vientos, nubes los pájaros,... todas las actividades que te harán
-                  sentirte en libertar... Sientete como un pájaro con nuestras experiencias en el Aire.
+                <div>  Podr&aacute;s elegir las mejores <b> Ofertas </b> y 
+                disfrutar de una experiencia &uacute;nica, tu eliges la mejor opci&oacute;n, tu eliges el resto, tu eliges tu Risk Adventure.
                 </div>
             </div>
         </section>  
@@ -92,11 +96,11 @@
 
         <article class="row">
             <div class="col-md-12 col-xs-12  " id="div2_1">
-              <a href="tierra.php" id="consulta"><div>IR A TIERRA</div></a>
-              <a href="agua.php"><div>IR A AGUA</div></a>
+              <a href="tierra.php" id="consulta"><div>VER TIERRA</div></a>
+              <a href="agua.php"><div>VER AGUA</div></a>
+              <a href="aire.php"><div>VER AIRE</div></a>
             </div>            
         </article>
-       
        
         <!-- efecto bolitas----COMÚN-->  
         <section class="row">
@@ -132,28 +136,26 @@
         </section> 
         
         <!-- FOOTER-----COMÚN-->
-        <footer class="row">
+        <footer class="row" >
             <!-- Logo risk adventure negativo-->
             <div class="col-md-8 col-xs-8"  id="adventure"><img src="../imagenes/footer_logo.png"></div>
             <!-- sección de contáctanos-->
-            <div class="col-md-2 col-xs-2  " id="texto_footer">
-                <p>CONTÁCTANOS</p>
-            </div>
+            <div class="col-md-2 col-xs-2  " id="texto_footer"><p>CONT&Aacute;CTANOS</p></div>
             <div class="col-md-4 col-xs-4 " id="contacto_footer">
-                <div id="dire">
-                    <p class="texto_contacto">Dirección :</p>
-                    <p>123 Avenida de Bolonia, Madrid</p>
-                </div>
-                <div id="email">
-                    <p class="texto_contacto">Email :</p>
-                    <p>info@riskadventureclub.com</p>
-                </div>
-                <div>
-                    <p class="texto_contacto">Teléfono :</p>
-                    <p>(+34)677 899 900</p>
-                </div>
+            <div id="dire">
+                <p class="texto_contacto">Direcci&oacute;n :</p>
+                <p>123 Avenida de Bolonia, Madrid</p>
+              </div>
+              <div id="email">
+                <p class="texto_contacto">Email :</p>
+                <p>info@riskadventureclub.com</p>
+              </div>
+              <div>
+                <p class="texto_contacto">Tel&eacute;fono :</p>
+                <p>(+34)677 899 900</p>
+              </div>
             </div>
-            <!-- Logos publicitarios-->  
+          <!-- Logos publicitarios-->  
           <div class="col-md-12 col-xs-12" id="publi">
               <a href="https://eu.oneill.com/"><img src="../imagenes/footer_oneill.png" id="oneill"/></a>
               <a href="https://www.columbia.com/"><img src="../imagenes/footer_columbias.jpg" id="columbia"/></a>
@@ -162,24 +164,20 @@
               <a href="https://www.decathlon.es/es/"><img src="../imagenes/footer_decathlon.png" id="decathlon"/></a>
               <a href="http://www.bardis.com/"><img src="../imagenes/footer_restaurante.jpg" id="restaurante"/></a>
           </div>
-            <!-- iconos redes sociales y texto copyright-->
+          <!-- iconos redes sociales y texto copyright-->
           <div class="col-md-12 col-xs-12" id="redes">
-              <p>Síguenos en:</p>
+              <p>S&iacute;guenos en:</p>
               <a href="https://m.facebook.com/adventurerisk/"><i class="fab fa-facebook-f" id="face" title="facebook"></i></a>
               <a href="https://www.instagram.com/riskadventure/"><i class="fab fa-instagram" title="instagram"></i></a>
               <a href="https://cutt.ly/UvIKPOG"><i class="fab fa-whatsapp" title="whatsapp"></i></a>
               <a href="https://twitter.com/adventurerisk"><i class="fab fa-twitter" title="twitter"></i></a>
-              <p>2020 © Copyright</p>
+              <p>2020 &copy; Copyright</p>
           </div>
-            <hr>
-            <!-- efecto bolitas---COMÚN-->
-
-            <!--enlaces a aviso legal, política de privacidad y cookies-->
-            <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal.php" id="aviso_legal">Aviso
-                    Legal</a> | <a href="politica_privacidad.php" id="politica_privacidad">Política de privacidad</a> |
-                <a href="cookies.php" id="cookies"> Cookies</a></div>
+          
+          <!--enlaces a aviso legal, política de privacidad y cookies--> 
+          <div class="col-md-12 col-xs-12 " id="privacidad"> <a href="aviso_legal" id="aviso_legal">Aviso Legal</a> | <a href="politica_privacidad" id="politica_privacidad">Pol&iacute;tica de privacidad</a> | <a href="cookies" id="cookies"> Cookies</a></div>
         </footer>
-        <script type="text/javascript" src="../js/experiencias.js"></script>
+        <script type="text/javascript" src="../js/blog.js"></script>
         <!--Enlace externo a archivo JS-->
     </div>
 </body>
