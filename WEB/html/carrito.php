@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Carrito Risk Adventure</title><!-- título-->
+    <title>Carrito</title><!-- título-->
     <meta charset="utf-8"> <!--juego caracteres del lengiaje-->
     <meta name="keywords" content="carrito, compra, productos"><!-- palabras clave-->
     <meta name="description" content="Risk adventure te ofrece los mejores paquetes de aventura, con un solo clic podrás comprar tu aventura y empezar a disfrutar"><!-- descripción-->
@@ -34,20 +34,58 @@
           <div class="row" id="logo_menu">
           <!-- logo-->
           <div class="col-md-4 col-xs-12 col-xm-12 " id="logo1"> <a href="index.php"><img src="../imagenes/header_logo.png" id="logo"/> </div>
-            <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÚN-->
-            <nav class="col-md-8 col-xs-12 col-xm-12 " id="menu">
-                <ul>
-                  <li ><a id="home" href="index.php">HOME</a></li>
-                  <li ><a id="experiencias" href="experiencias.php">EXPERIENCIAS</a></li>
-                  <li ><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
-                  <li ><a id="packs" href="packs.php">PACKS & GRUPOS</a></li>
-                  <li ><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
-                  <li ><a id="blog" href="blog.php">BLOG</a></li>
-                  <li ><a id="contacto" href="contacto.php">CONTACTO</a></li>
-                </ul>
+            <!-- menu ------------NAV INTEGRADO EN EL HEADER---COMÃN-->
+         <div class="row" id="nav"> 
+            <nav class="navbar navbar-default" role="navigation" id="menu">
+                  <!-- El logotipo y el icono que despliega el menÃº se agrupan
+                      para mostrarlos mejor en los dispositivos mÃ³viles -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Desplegar navegaci&oacute;n</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index"><img src="../imagenes/header_logo_peque2.png"/></a>
+                  </div>
+                  <!-- Agrupar los enlaces de navegaciÃ³n, los formularios y cualquier
+                  otro elemento que se pueda ocultar al minimizar la barra -->
+                  <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                      <li><a id="home" href="index.php">HOME</a></li>
+                      <li class="dropdown">
+				        <a href="experiencias.php" class="dropdown-toggle" data-toggle="dropdown">
+				          EXPERIENCIAS<b class="caret"></b>
+				        </a>
+				        <ul class="dropdown-menu">
+				          <li><a href="experiencias.php">EXPERIENCIAS</a></li>
+				          <li class="divider"></li>
+				          <li><a href="tierra.php">TIERRA</a></li>
+				          <li><a href="agua.php">AGUA</a></li>
+				          <li><a href="aire.php">AIRE</a></li>
+				          <li class="divider"></li>
+				          <li><a href="ofertas.php">OFERTAS</a></li>
+				          <li class="divider"></li>
+				        </ul>
+				      </li>
+                      <li><a id="eventos" href="eventos.php">EVENTOS EMPRESA</a></li>
+                      <li><a id="packs" href="packs.php">PACKS &amp; GRUPOS</a></li>
+                      <li><a id="sobre" href="nosotros.php">NOSOTROS</a></li>
+                      <li class="dropdown">
+				        <a href="blog" class="dropdown-toggle" data-toggle="dropdown">
+				          BLOG<b class="caret"></b>
+				        </a>
+				        <ul class="dropdown-menu">
+				        	<li><a href="blog.php">BLOG</a></li>
+				          <li><a href="vermasblog.php">ARTÍCULOS</a></li>
+				          </ul>
+                      <li><a id="contacto" href="contacto.php">CONTACTO</a></li>
+                    </ul>
+                  </div>
             </nav>
           </div>
-        </header>                                        
+        </header>                                       
                                                        <!-- SECTION-->
                   <hr>                                     
                   <h2>Bienvenido/a a su carrito</h2>
